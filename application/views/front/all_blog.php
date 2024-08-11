@@ -14,7 +14,7 @@
   <div class="main-content">
 
     <!-- Section: inner-header -->
-    <section class="inner-header divider parallax layer-overlay overlay-dark-7" style='background-image: url("<?php echo front_css(); ?>images/bg/bg6.jpg"); background-position: 50% 45px;height: 300px;'>
+    <section class="inner-header divider parallax layer-overlay overlay-dark-7" style='background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("<?php echo front_css(); ?>images/bg/bg6.jpg"); background-position: 50% 45px;height: 300px;'>
       <div class="container pt-60 pb-60">
         <!-- Section Content -->
         <div class="section-content">
@@ -43,7 +43,7 @@
                     </div>
                   </div>
                   <div class="entry-content border-1px p-20 pr-10">
-                    <div class="entry-meta media mt-0 no-bg no-border">
+                    <div class="entry-meta media mt-0 no-bg no-border entry-meta-flex">
                       <div class="entry-date media-left text-center flip bg-theme-colored pt-5 pr-15 pb-5 pl-15">
                         <ul>
                           <li class="font-16 font-weight-600" style="color:blue"><?php echo date('d', strtotime($all_blog->created_at)); ?></li>

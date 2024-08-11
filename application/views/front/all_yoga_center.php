@@ -14,7 +14,7 @@
   <!-- Start main-content -->
   <div class="main-content">
     <!-- Section: inner-header -->
-    <section class="inner-header divider parallax layer-overlay overlay-dark-7" style='background-image: url("<?php echo front_css(); ?>images/bg/bg6.jpg"); background-position: 50% 45px;height: 300px;'>
+    <section class="inner-header divider parallax layer-overlay overlay-dark-7" style='background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("<?php echo front_css(); ?>images/bg/bg6.jpg"); background-position: 50% 45px;height: 300px;'>
       <div class="container pt-60 pb-60">
         <!-- Section Content -->
         <div class="section-content">
@@ -32,12 +32,12 @@
     </section>
     <?php if($all_center):?>
     <!-- Section: Upcoming Events -->
-    <section id="upcoming-events"  data-bg-img="images/bg/bg1.jpg">
+    <section id="upcoming-events" class="yoga-center"  data-bg-img="images/bg/bg1.jpg">
       <div class="container pb-50 pt-80" style="padding-top: 30px !important;">
         <div class="section-content">
           <div class="row">
             <?php foreach ($all_center as $key => $center):?>
-                   <div class="col-xs-12 col-sm-6 col-md-6 sm-text-center mb-30 mb-sm-30">
+                   <div class="yoga-center-details col-xs-12 col-sm-6 col-md-6 sm-text-center mb-30 mb-sm-30">
                 <div class="schedule-box maxwidth500 bg-light mb-30">
                   <div class="thumb">
                     <img class="img-fullwidth" alt="YogIntar Diva" src="<?php echo base_url(); ?><?php echo $center->center_image; ?>" style="height:300px;">
@@ -86,12 +86,12 @@
         </div>
         <div class="section-content">          
           <div class="row">
-            <div class="col-md-5">
+            <div class="col-md-5 text-center">
               <img src="<?php echo base_url(); ?>assets/coming_soon.png">
             </div>
             <div class="col-md-7">
               <div class="mb-40">
-                <h1 class="text-uppercase text-center font-38 mt-0"><span class="text-theme-colored">MORE YOGA CENTER</span> COMING SOON</h1>
+                <h1 class="text-uppercase text-center mt-0" style="font-size: 2rem;"><span class="text-theme-colored">MORE YOGA CENTER</span> COMING SOON</h1>
               </div>
               <!-- Contact Form -->
               <form id="multi-step-form" name="contact_form" class="contact-form-transparent"  method="post">

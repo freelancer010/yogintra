@@ -165,16 +165,16 @@
       </div>
     </section>
 
-    <section class="divider" style="background-image: url(<?php echo base_url(); ?>assets/parallax-decor.png);background-position: center center;background-size: auto;">
+    <section class="divider" style="background-image: url(<?php echo base_url(); ?>assets/parallax-decor.png);background-position: center center;background-size: cover;">
       <div class="container">
         <div class="row">
           <div class="col-sm-8">
             <div class="section-title">
               <div class="row">
                 <div class="col-md-12">
-                  <!-- <div class="section-4-title text-uppercase line-bottom-double-line-centered mt-0">A BRIEF DESCRIPTION OF THE TYPES OF YOGA SERVICES</div> -->
+                  <div class="section-4-title text-uppercase line-bottom-double-line-centered mt-0">A BRIEF DESCRIPTION OF THE TYPES OF YOGA SERVICES</div>
 
-                  <h1 style="font-family: 'Philosopher', 'Sans-serif' !important; font-size: 35px;color: #000;">A BRIEF DESCRIPTION OF THE TYPES OF YOGA SERVICES </h1>
+                  <!-- <h1 style="font-family: 'Philosopher', 'Sans-serif' !important; font-size: 35px;color: #000;">A BRIEF DESCRIPTION OF THE TYPES OF YOGA SERVICES </h1> -->
 
                   <p>We at YogIntra provide various services to the nature of the clients. Wish how you would like to spend your time here we can talk and come to a conclusion.</p>
                 </div>

@@ -25,7 +25,7 @@
   <div class="main-content">
   
     <!-- Section: inner-header -->
-    <section class="inner-header divider parallax layer-overlay overlay-dark-7" style='background-image: url("<?php echo base_url(); ?><?php echo $blog->blog_image?>"); background-position: 50% 55px;height: 300px;'>
+    <section class="inner-header divider parallax layer-overlay overlay-dark-7" style='background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("<?php echo base_url(); ?><?php echo $blog->blog_image?>"); background-position: 50% 55px;height: 300px;'>
       <div class="container pt-60 pb-60">
         <!-- Section Content -->
         <div class="section-content">

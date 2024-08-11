@@ -14,7 +14,7 @@
   <!-- Start main-content -->
   <div class="main-content">
     <!-- Section: inner-header -->
-    <section class="inner-header divider parallax layer-overlay overlay-dark-7" style='background-image: url("<?php echo front_css(); ?>images/bg/bg8.jpg"); background-position: 50% -47px;height: 300px;'>
+    <section class="inner-header divider parallax layer-overlay overlay-dark-7" style='background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("<?php echo front_css(); ?>images/bg/bg8.jpg"); background-position: 50% -47px;height: 300px;'>
       <div class="container pt-60 pb-60">
         <!-- Section Content -->
         <div class="section-content">

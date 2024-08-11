@@ -3409,7 +3409,8 @@ form .error {
 }
 .portfolio-filter a.active,
 .portfolio-filter a:hover {
-  color: #fff;
+  /* color: #fff; */
+  border: #222 1px solid;
 }
 @media only screen and (max-width: 479px) {
   .portfolio-filter a {
@@ -4011,6 +4012,26 @@ form .error {
 }
 .fullwidth-carousel.blog-fullwidth-carousel .owl-controls .owl-nav > div {
   background: none;
+}
+@media only screen and (max-width: 992px) {
+  .fullwidth-carousel .carousel-item .sub_heading, 
+  .fullwidth-carousel .carousel-item .outline-border {
+    width: calc(100% - 36%);
+  }
+}
+@media only screen and (max-width: 767px) {
+  .fullwidth-carousel .carousel-item .sub_heading, 
+  .fullwidth-carousel .carousel-item .outline-border {
+    width: calc(100% - 25%);
+    margin-top: 10%;
+  }
+}
+@media only screen and (max-width: 468px) {
+  .fullwidth-carousel .carousel-item .sub_heading, 
+  .fullwidth-carousel .carousel-item .outline-border {
+    width: calc(100% - 6%);
+    margin-top: 0%;
+  }
 }
 /* -------- Twitter Feed Carousel ---------- */
 .owl-dots-bottom-right .owl-dots {
@@ -5165,6 +5186,10 @@ ul.product_list_widget li .star-rating {
 .post .entry-meta.meta-absolute i {
   display: block;
   font-size: 28px;
+}
+.entry-meta-flex {
+  display: flex;
+  align-items: center;
 }
 .post .entry-header .entry-date {
   position: absolute;
