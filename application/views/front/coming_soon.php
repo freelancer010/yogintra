@@ -43,7 +43,7 @@
         <div class="section-content">          
           <div class="row">
             <div class="col-md-5">
-              <img src="<?php echo base_url(); ?>assets/coming_soon.png">
+              <img src="<?php echo base_url(); ?>assets/coming_soon.png" alt="coming soon">
             </div>
             <div class="col-md-7">
               <div class="mb-40">

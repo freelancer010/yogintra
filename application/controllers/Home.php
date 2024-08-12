@@ -462,7 +462,7 @@ class Home extends CI_Controller
 				$option .= '<div class="col-xs-12 col-sm-6 col-md-3 sm-text-center mb-30 mb-sm-30">
 					<div class="team-members text-center maxwidth400" onclick="open_modal(' . $i . ')">
 						<div class="team-thumb">
-							<img class="img-fullwidth" id="imageresource_' . $i . '" style="height: 200px;width: auto" alt="" src="' . $profileImage . '">
+							<img class="img-fullwidth" id="imageresource_' . $i . '" style="height: 200px;width: auto" alt="team thumb" src="' . $profileImage . '">
 						</div>
 						<div class="team-details">
 							<div class="p-10 " style="background-color: #01AEB7 ;">

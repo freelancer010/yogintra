@@ -44,7 +44,7 @@
         <div class="section-content">          
           <div class="row">
             <div class="col-md-5 text-center">
-              <img src="<?php echo base_url(); ?>assets/coming_soon.png">
+              <img src="<?php echo base_url(); ?>assets/coming_soon.png" alt="become a trainer">
             </div>
             <div class="col-md-7">
               <!-- Contact Form -->

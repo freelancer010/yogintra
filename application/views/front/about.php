@@ -456,7 +456,7 @@
          <div class="section-title">
             <div class="row">
                <div class="col-md-4">
-                  <img src="<?php echo base_url(); ?>assets/Square-Logo-with-Name-2-povy7zr4loqk9maa9hbtvdrc77dpfngjngf3wrmp40.png" />
+                  <img src="<?php echo base_url(); ?>assets/Square-Logo-with-Name-2-povy7zr4loqk9maa9hbtvdrc77dpfngjngf3wrmp40.png" alt="about yogintra" />
                </div>
                <div class="col-md-8 text-xs-center">
                   <h2 class="mt-40 text-xs-center">About YogIntra:</h2>

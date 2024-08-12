@@ -40,7 +40,7 @@
             <?php foreach ($all_event as $key => $event):?>
               <div class="col-xs-12 col-sm-6 col-md-6 sm-text-center mb-30 mb-sm-30">
  <div class="schedule-box bg-light  mb-30" style="height:480px;border-bottom: 1px solid #bbb;">                  <div class="thumb">
-                    <img class="img-fullwidth" alt="" src="<?php echo base_url(); ?><?php echo $event->image; ?>" style="height:300px;">
+                    <img class="img-fullwidth" alt="<?php echo $event->title; ?>" src="<?php echo base_url(); ?><?php echo $event->image; ?>" style="height:300px;">
                     
                     
                     <div class="overlay">
@@ -80,7 +80,7 @@
         <div class="section-content">          
           <div class="row">
             <div class="col-md-5 text-center">
-              <img src="<?php echo base_url(); ?>assets/coming_soon.png">
+              <img src="<?php echo base_url(); ?>assets/coming_soon.png" alt="More retreat coming soon">
             </div>
             <div class="col-md-7">
               <div class="mb-40">
