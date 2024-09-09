@@ -165,7 +165,7 @@
       </div>
     </section>
 
-    <section class="divider" style="background-image: url(<?php echo base_url(); ?>assets/parallax-decor.png);background-position: center center;background-size: cover;">
+    <section class="divider" style="background-image: url(<?php echo base_url(); ?>assets/parallax-decor.png);background-position: left;background-size: cover;">
       <div class="container">
         <div class="row">
           <div class="col-sm-8">
@@ -175,7 +175,6 @@
                   <div class="section-4-title text-uppercase line-bottom-double-line-centered mt-0">A BRIEF DESCRIPTION OF THE TYPES OF YOGA SERVICES</div>
 
                   <!-- <h1 style="font-family: 'Philosopher', 'Sans-serif' !important; font-size: 35px;color: #000;">A BRIEF DESCRIPTION OF THE TYPES OF YOGA SERVICES </h1> -->
-
                   <p>We at YogIntra provide various services to the nature of the clients. Wish how you would like to spend your time here we can talk and come to a conclusion.</p>
                 </div>
               </div>
@@ -204,6 +203,13 @@
                     <h4 class="mb-5">Workshop</h4>
                     <a href="<?php echo base_url(); ?>workshop" class="btn btn-success">Visit Now</a>
                   </div>
+
+                  <div class="col-xs-12 col-sm-6 col-md-3 mb-sm-40 wow fadeInLeft mt-20 animated" data-wow-duration="1s" data-wow-delay="0.3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s;">
+                    <img class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?>uploads/yog_center.jpg" alt="Yoga Center">
+                    <h4 class="mb-5">Yoga Center</h4>
+                    <a href="<?php echo base_url(); ?>yoga_center" class="btn btn-success">Visit Now</a>
+                  </div>
+
               </div>
             </div>
           </div>
@@ -301,7 +307,7 @@
     </section>
     
     <!--start testimonial Section-->
-    <section class="divider" style='background-image: url("<?php //echo front_css(); ?>images/bg/bg12.jpg");'>
+    <section class="divider" style='background-image: url("<?php //echo front_css(); ?>images/bg/bg12.jpg");display:none;'>
       <div class="container pt-0">
         <!-- <div class="section-title text-center">
           <div class="row">
@@ -389,14 +395,19 @@
         </div> 
       </div>
     </section>
-    <section class="">
-    <div class="container">
-        <div class="row">
-          
-    <div class='sk-ww-google-reviews' data-embed-id='25389280'></div><script src='https://widgets.sociablekit.com/google-reviews/widget.js' async defer></script>
-     
-    </div>
-</section>
+    <section class="" style="background: #e4e4e433">
+      <div class="container">
+          <div class="row">
+            
+      <div class='sk-ww-google-reviews' data-embed-id='25389280'></div><script src='https://widgets.sociablekit.com/google-reviews/widget.js' async defer></script>
+      
+      </div>
+      <style>
+        a.sk-google-reviews-badge-info {
+          display: none !important;
+        }
+      </style>
+  </section>
     <section class="bg-lighter">
       <div class="container">
         <div class="row">

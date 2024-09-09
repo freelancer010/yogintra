@@ -8896,3 +8896,19 @@ a.btn,.btn-primary{
       /* margin-left: -10%; */
     }
 }
+
+.elipse-text{
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Number of lines to show */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.blue-text {
+  color: blue;
+}
+
+.swiper-slide {
+  background: #e4e4e433;
+}

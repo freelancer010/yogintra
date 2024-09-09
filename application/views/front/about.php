@@ -486,7 +486,7 @@
             <div class="row">
                <!----------------------------Section-->
                <!-- <ARTICLE> WRAPS EVERYTHING -->
-               <article>
+               <article class="vision-mission">
                   <div class="box1" data-bg-img="<?php echo base_url(); ?>assets/greenfloralbg-image1.jpg">
                      <div class="text-box1">
                         <h3 class="yog-ttl wht">OUR VISION</h3>
@@ -527,10 +527,12 @@
                   article {
                      width: 100%;
                      margin-top: 8vh;
-                     display: grid;
+                     /* display: grid;
                      grid-template-columns: repeat(7, 1fr);
                      grid-template-rows: repeat(5, 1fr);
-                     grid-auto-rows: 50vh, auto;
+                     grid-auto-rows: 50vh, auto; */
+                     display: flex;
+                     padding-bottom: 60px;
                   }
 
                   /* GENERAL SETTINGS */
