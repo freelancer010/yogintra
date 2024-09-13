@@ -1739,3 +1739,28 @@
 .pl-xxs-190 {padding-left: 190px !important}
 .pl-xxs-200 {padding-left: 200px !important}
 }
+
+@media (max-width:430px) {
+    .footer-locate-us{
+        display: flex; 
+        justify-content: space-between; 
+        flex-wrap: wrap; 
+        width: 100%;
+    }
+}
+
+.locate-us-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-locate-us li{
+    display: inline-block; 
+    margin-right: 10px;
+}
+
+.footer-locate-us{
+    list-style: none; 
+    padding: 0; 
+    margin: 0;
+}
