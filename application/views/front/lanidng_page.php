@@ -440,7 +440,7 @@
               <div class="col-md-8">
                 <div class="home-content">
                  <!--  <div>
-                    <img src="<?php echo base_url(); ?><?php echo $app_setting->app_sticky_logo?>">
+                    <img src="<?php echo base_url(); ?><?php echo $app_setting->app_sticky_logo?>" alt="image">
                   </div> -->
                   <h1 class="text-white text-uppercase font-54"><?php echo $page_data->page_image_title; ?></h1>
                 <h5 class="text-white font-weight-400"><?php echo $page_data->page_image_description; ?></h5>

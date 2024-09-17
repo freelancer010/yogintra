@@ -49,7 +49,7 @@
                 <div class="box-hover-effect thumb-cross-effect">
                   <div class="effect-wrapper">
                     <div class="thumb">
-                      <img class="img-fullwidth" src="<?php echo base_url(); ?><?php echo $service_data->service_image; ?>" alt="<?php echo $service_data->service_name; ?>">
+                      <img class="img-fullwidth" src="<?php echo base_url(); ?><?php echo $service_data->service_image; ?>" alt="<?php echo $service_data->service_name; ?> Image">
                     </div>
     
                     <div class="text-holder text-holder-top-right">

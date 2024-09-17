@@ -28,7 +28,7 @@ $event = $this->db->get('event')->row();
                     <tr>
                         <td style="text-align:center;">
                             <a href="<?php echo base_url(); ?>" title="logo" target="_blank">
-                                <img width="190" src="<?php echo base_url(); ?><?php echo $app_setting->app_sticky_logo; ?>" title="logo" alt="<?php echo $app_setting->app_name; ?>">
+                                <img width="190" src="<?php echo base_url(); ?><?php echo $app_setting->app_sticky_logo; ?>" title="logo" alt="<?php echo $app_setting->app_name; ?> Image">
                             </a>
                         </td>
                     </tr>

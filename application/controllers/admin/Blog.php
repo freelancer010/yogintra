@@ -103,7 +103,7 @@ class Blog extends Admin_Core_Controller {
 
         if (!empty($post)) {
         $subject = $post->title;
-        $message = "<a href='" . $link . "'><img src='" . base_url() . $post->image_big . "' alt='' style='max-width: 100%; height: auto;'></a><br><br>" . $post->content;
+        $message = "<a href='" . $link . "'><img src='" . base_url() . $post->image_big . "' alt='image' style='max-width: 100%; height: auto;'></a><br><br>" . $post->content;
         $user_id = '4444';
         $content = array(
             "en" => $subject,
@@ -151,7 +151,7 @@ class Blog extends Admin_Core_Controller {
         
         if (!empty($post)) {
             $subject = $post->title;
-            $message = "<a href='" . $link . "'><img src='" . base_url() . $post->image_big . "' alt='' style='max-width: 100%; height: auto;'></a><br><br>" . $post->content;
+            $message = "<a href='" . $link . "'><img src='" . base_url() . $post->image_big . "' alt='image' style='max-width: 100%; height: auto;'></a><br><br>" . $post->content;
             $this->load->model("email_model");
 
             $data['subscribers'] = $this->newsletter_model->get_subscribers();

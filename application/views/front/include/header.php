@@ -10,10 +10,10 @@
 <link href="<?php echo base_url(); ?><?php echo $app_setting->fevicon; ?>" rel="apple-touch-icon" sizes="144x144">
 
 <!-- Stylesheet -->
-<link href="<?php echo front_css(); ?>css/bootstrap.min.css" rel="stylesheet" type="text/css">
-<link href="<?php echo front_css(); ?>css/jquery-ui.min.css" rel="stylesheet" type="text/css">
-<link href="<?php echo front_css(); ?>css/animate.css" rel="stylesheet" type="text/css">
-<link href="<?php echo front_css(); ?>css/css-plugin-collections.css" rel="stylesheet"/>
+<link defer href="<?php echo front_css(); ?>css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link defer href="<?php echo front_css(); ?>css/jquery-ui.min.css" rel="stylesheet" type="text/css">
+<link defer href="<?php echo front_css(); ?>css/animate.css" rel="stylesheet" type="text/css">
+<link defer href="<?php echo front_css(); ?>css/css-plugin-collections.css" rel="stylesheet"/>
 <!-- CSS | menuzord megamenu skins -->
 <link href="<?php echo front_css(); ?>css/menuzord-megamenu.css" rel="stylesheet"/>
 <link id="menuzord-menu-skins" href="<?php echo front_css(); ?>css/menuzord-skins/menuzord-bottom-trace.css" rel="stylesheet"/>
@@ -37,21 +37,21 @@
 <link href="<?php echo front_css(); ?>css/colors/theme-skin-color-set1.css" rel="stylesheet" type="text/css">
 
 <!-- external javascripts -->
-<script src="<?php echo front_css(); ?>js/jquery-2.2.4.min.js"></script>
-<script src="<?php echo front_css(); ?>js/jquery-ui.min.js"></script>
-<script src="<?php echo front_css(); ?>js/bootstrap.min.js"></script>
+<script defer async src="<?php echo front_css(); ?>js/jquery-2.2.4.min.js"></script>
+<script defer async src="<?php echo front_css(); ?>js/jquery-ui.min.js"></script>
+<script defer async src="<?php echo front_css(); ?>js/bootstrap.min.js"></script>
 <!-- JS | jquery plugin collection for this theme -->
-<script src="<?php echo front_css(); ?>js/jquery-plugin-collection.js"></script>
+<script defer async src="<?php echo front_css(); ?>js/jquery-plugin-collection.js"></script>
 
 <!-- Revolution Slider 5.x SCRIPTS -->
-<script src="<?php echo front_css(); ?>js/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
-<script src="<?php echo front_css(); ?>js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
+<script defer async src="<?php echo front_css(); ?>js/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
+<script defer async src="<?php echo front_css(); ?>js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <script defer async src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script defer async src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 </head>
@@ -101,7 +101,7 @@
         <div class="container ipad_header">
           <nav id="menuzord-right" class="menuzord orange no-bg menuzord-responsive"><a href="javascript:void(0)" class="" style="display: none;"><em></em><em></em><em></em></a>
             <a class="menuzord-brand switchable-logo pull-left flip mb-10" href="<?php echo base_url(); ?>">
-              <img class="logo-default" src="<?php echo base_url(); ?><?php echo $app_setting->app_sticky_logo; ?>" alt="YogIntra Logo">
+              <img class="logo-default" width="205px" height="70px" src="<?php echo base_url(); ?><?php echo $app_setting->app_sticky_logo; ?>" alt="YogIntra Logo">
               <img class="logo-scrolled-to-fixed" src="<?php echo base_url(); ?><?php echo $app_setting->app_sticky_logo; ?>" alt="YogIntra Logo">
             </a>
             <ul class="menuzord-menu menuzord-right menuzord-indented scrollable" style="max-height: 400px;">

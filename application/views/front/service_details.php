@@ -56,7 +56,7 @@
                         <div class="row">
                             <div class="am-service-header">
                                 <div class="am-service-image">
-                                    <img class="" src="<?php echo base_url(); ?><?php echo $service->service_image; ?>" alt="">
+                                    <img class="" src="<?php echo base_url(); ?><?php echo $service->service_image; ?>" alt="Image">
                                 </div>
                                 <div class="am-service-data">
                                     <h2 class="text-theme-colored line-bottom text-theme-colored mb-5"><?php echo $service->service_name; ?></h2>

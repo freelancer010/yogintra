@@ -46,7 +46,7 @@
                 <?php foreach ($get_all_blog as $key => $post):?>
                 <?php $category = $this->blog_model->get_category_by_id($post->blog_category); ?>
                 <tr>
-                  <td><img src="<?php echo base_url() ?><?php echo $post->blog_image ?>" width="100px"></td>
+                  <td><img src="<?php echo base_url() ?><?php echo $post->blog_image ?>" width="100px" alt="image"></td>
                   <td>
                     <?php echo $post->blog_title ?>
                     <?php if($post->blog_author): ?>

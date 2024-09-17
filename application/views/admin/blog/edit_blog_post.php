@@ -108,7 +108,7 @@
                     <div class="form-group">
                        <label for="inputEmail" class="col-sm-12 col-form-label">Preview Blog Image </label>
                        <div class="col-sm-12">
-                           <img src="<?php echo base_url() ?><?php echo $blog->blog_image ?>" width="100px">
+                           <img src="<?php echo base_url() ?><?php echo $blog->blog_image ?>" width="100px" alt="image">
                        </div>
                     </div>
                   </div>

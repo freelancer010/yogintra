@@ -39,7 +39,7 @@
                 <article class="post clearfix mb-30 bg-lighter">
                   <div class="entry-header">
                     <div class="post-thumb thumb"> 
-                      <a href="<?php echo base_url(); ?>blog/<?php echo $all_blog->blog_slug; ?>"><img style="height:150px" src="<?php echo base_url(); ?><?php echo $all_blog->blog_image; ?>" alt="<?php echo $all_blog->blog_title; ?>" class="img-responsive img-fullwidth"></a> 
+                      <a href="<?php echo base_url(); ?>blog/<?php echo $all_blog->blog_slug; ?>"><img style="height:150px" src="<?php echo base_url(); ?><?php echo $all_blog->blog_image; ?>" alt="<?php echo $all_blog->blog_title; ?> Image" class="img-responsive img-fullwidth"></a> 
                     </div>
                   </div>
                   <div class="entry-content border-1px p-20 pr-10">

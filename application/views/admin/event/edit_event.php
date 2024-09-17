@@ -105,7 +105,7 @@
                          </div>
                         <div class="col-md-12">
                           <div class="form-group">
-                             <img src="<?php echo base_url(); ?><?php echo $event->image?>" style="width: 140px;">
+                             <img src="<?php echo base_url(); ?><?php echo $event->image?>" style="width: 140px;" alt="image">
                           </div>
                         </div>
                        <div class="col-md-8">

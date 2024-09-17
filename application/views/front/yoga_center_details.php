@@ -83,7 +83,7 @@
       </div>
         </div>
         <div class="col-md-8">
-          <img src="<?php echo base_url(); ?><?php echo $center->center_image; ?>" alt="<?php echo $center->center_name; ?>" width="100%">
+          <img src="<?php echo base_url(); ?><?php echo $center->center_image; ?>" alt="<?php echo $center->center_name; ?>" width="100%" alt="image">
         </div>
       </div>
  

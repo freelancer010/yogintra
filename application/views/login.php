@@ -25,7 +25,7 @@
   <div class="card card-outline card-primary">
       <div class="card-header text-center">
         <a href="<?php echo base_url() ?>">
-            <img src="<?php echo base_url(); ?><?php echo $app_setting->app_sticky_logo; ?>" width="60%">
+            <img src="<?php echo base_url(); ?><?php echo $app_setting->app_sticky_logo; ?>" width="60%" alt="image">
         </a>
         </div>
    

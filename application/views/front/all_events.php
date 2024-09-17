@@ -46,7 +46,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-6 sm-text-center mb-30 mb-sm-30">
                     <div class="schedule-box bg-light  mb-30" style="height:480px;border-bottom: 1px solid #bbb;">
                       <div class="thumb" >
-                            <img class="img-fullwidth" alt="<?php echo $event->title; ?>" src="<?php echo base_url(); ?><?php echo $event->image; ?>" style="height:300px;">
+                            <img class="img-fullwidth" alt="<?php echo $event->title; ?> Image" src="<?php echo base_url(); ?><?php echo $event->image; ?>" style="height:300px;">
                             <div class="overlay">
                               <a href="<?php echo base_url(); ?>workshop/<?php echo $event->link; ?>"><i class="fa fa-calendar mr-5"></i></a>
                             </div>
