@@ -103,12 +103,12 @@ $db['default'] = array(
 $db['second_db'] = array(
     'dsn'      => '',
     'hostname' => 'localhost',
-	// 'username' => 'rzjrzotk_crm_yogintra',
-	// 'password' => 'crm_yogintra@2023',
-	// 'database' => 'rzjrzotk_crm_yogintra',
-	'username' => 'root',
-	'password' => '1001',
-	'database' => 'crm_yogintra',
+	'username' => 'rzjrzotk_crm_yogintra',
+	'password' => 'crm_yogintra@2023',
+	'database' => 'rzjrzotk_crm_yogintra',
+	// 'username' => 'root',
+	// 'password' => '1001',
+	// 'database' => 'crm_yogintra',
     'dbdriver' => 'mysqli',
     // ... other database config options ...
 );
