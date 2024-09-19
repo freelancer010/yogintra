@@ -16,9 +16,16 @@
     margin-right: 0;
 }
 
-@media only screen and (min-width : 320px) {
+    @media only screen and (min-width : 320px) {
         .city_loc{
           text-align: left !important;
+        }
+        
+        .city_loc ul{
+            display: flex;
+            justify-content: space-between; /* To spread out the cities evenly */
+            flex-wrap: wrap; /* Ensure it wraps to the next line if necessary */
+            width: 100%; /* Ensure it spans the full width */
         }
         
     }
@@ -97,17 +104,18 @@
 
   <div class="footer-bottom" style="background-color: black;">
     <div class="container pt-10 pb-10">
-        <div class="row locate-us-container">
+        <div class="row">
             <div class="col-md-2">
-                <h5 class="font-18 text-white-777 m-0 text-center pb-10 city_loc" style="color: white;font-family: 'Open Sans', sans-serif !important;font-size: 18px; font-weight: 500;">Locate Us :</h5>
+                <h5 class="font-18 text-white-777 m-0 text-center pb-10 city_loc" style="color: white;font-family: 'Open Sans', sans-serif !important;font-size: 18px;
+    font-weight: 500;">Locate Us :</h5>
             </div>
             <div class="col-md-10 text-center text-md-right city_loc">
-                <ul class="footer-locate-us">
+                <ul style="list-style: none; padding: 0; margin: 0;">
                     <?php 
                     $all_landing_page = $this->db->get('new_landing_page')->result();
                     foreach ($all_landing_page as $key => $pages):?>
                          <!-- <li style="display: inline-block; margin-right: 10px;"><a href="<?php echo base_url() . 'landing_page/'.$pages->page_name; ?>"><?php echo $pages->page_name; ?> |</a></li>  -->
-                        <li><a href="<?php echo base_url() ."city/".$pages->page_slug; ?>"><?php echo $pages->page_name; ?> |</a></li>
+                        <li style="display: inline-block; margin-right: 10px;"><a href="<?php echo base_url() ."city/".$pages->page_slug; ?>"><?php echo $pages->page_name; ?> |</a></li>
                     <?php endforeach; ?>
                 </ul>
             </div>

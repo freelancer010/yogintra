@@ -182,29 +182,29 @@
             <div class="section-content text-center">
               <div class="row">
                 <?php foreach ($rand_service as $key => $r_service):?>
-                  <div class="col-xs-12 col-sm-6 col-md-3 mb-sm-40 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
+                  <div class="col-xs-6 col-sm-6 col-md-3 mb-sm-40 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
                     <img width="100px" height="100px" class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?><?php echo $r_service->service_cat_image; ?>" alt="<?php echo $r_service->service_cat_name; ?>Image">
                     <h4 class="mb-5"><?php echo $r_service->service_cat_name; ?></h4>
                     <a href="<?php echo base_url(); ?>service/<?php echo $r_service->service_cat_slug; ?>" class="btn btn-success">Book Now</a>
                   </div>
                 <?php endforeach; ?>
-                  <div class="col-xs-12 col-sm-6 col-md-3 mb-sm-40 wow fadeInLeft mt-20" data-wow-duration="1s" data-wow-delay="0.3s">
+                  <div class="col-xs-6 col-sm-6 col-md-3 mb-sm-40 wow fadeInLeft mt-20" data-wow-duration="1s" data-wow-delay="0.3s">
                     <img width="100px" height="100px" class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?>assets/icon-thumb3-150x150.jpg" alt="TTC">
                     <h4 class="mb-5">TTC</h4>
                     <a href="<?php echo base_url(); ?>teacher_training_course" class="btn btn-success">Visit Now</a>
                   </div>
-                  <div class="col-xs-12 col-sm-6 col-md-3 mb-sm-40 wow fadeInLeft mt-20" data-wow-duration="1s" data-wow-delay="0.3s">
+                  <div class="col-xs-6 col-sm-6 col-md-3 mb-sm-40 wow fadeInLeft mt-20" data-wow-duration="1s" data-wow-delay="0.3s">
                     <img width="100px" height="100px" class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?>assets/icon-thumb4-150x150.jpg" alt="retreat">
                     <h4 class="mb-5">Retreat</h4>
                     <a href="<?php echo base_url(); ?>retreat" class="btn btn-success">Visit Now</a>
                   </div>
-                  <div class="col-xs-12 col-sm-6 col-md-3 mb-sm-40 wow fadeInLeft mt-20" data-wow-duration="1s" data-wow-delay="0.3s">
+                  <div class="col-xs-6 col-sm-6 col-md-3 mb-sm-40 wow fadeInLeft mt-20" data-wow-duration="1s" data-wow-delay="0.3s">
                     <img width="100px" height="100px" class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?>assets/icon-thumb1-150x150.jpg" alt="workshop">
                     <h4 class="mb-5">Workshop</h4>
                     <a href="<?php echo base_url(); ?>workshop" class="btn btn-success">Visit Now</a>
                   </div>
 
-                  <div class="col-xs-12 col-sm-6 col-md-3 mb-sm-40 wow fadeInLeft mt-20 animated" data-wow-duration="1s" data-wow-delay="0.3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s;">
+                  <div class="col-xs-6 col-sm-6 col-md-3 mb-sm-40 wow fadeInLeft mt-20 animated" data-wow-duration="1s" data-wow-delay="0.3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s;">
                     <img width="100px" height="100px" class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?>uploads/yog_center.jpg" alt="Yoga Center">
                     <h4 class="mb-5">Yoga Center</h4>
                     <a href="<?php echo base_url(); ?>yoga_center" class="btn btn-success">Visit Now</a>
@@ -395,7 +395,7 @@
         </div> 
       </div>
     </section>
-    <section class="" style="background: #e4e4e433">
+    <section>
       <div class="container">
           <div class="row">
             
@@ -884,7 +884,7 @@ $(document).ready(function () {
         background-image: none!important;
     }
     .font-54 {
-      font-size: 2rem !important;
+      font-size: 3rem !important;
     }
     .position-ab
     {
@@ -893,11 +893,11 @@ $(document).ready(function () {
     }
     .sub_heading
     {
-        font-size: 13px;
+        font-size: 18px;
     }
     .margin-tp
     {
-        margin-top:10px!important;
+        margin-top:50px!important;
     }
     .fullwidth-carousel .carousel-item {
       min-height: 0;
