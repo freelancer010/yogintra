@@ -36,7 +36,7 @@
 
   <div class="main-content"> 
     <!-- Section: home -->
-    <section id="home" class="divider">
+    <section id="home" class="divider hide-mob">
       <div class="fullwidth-carousel" data-nav="true">
         <?php foreach ($all_slider as $slider): ?>
           <div class="carousel-item bg-img-cover " style='background-image: url("");' >
@@ -241,7 +241,7 @@
                     <div class="team-details">
                       <div class="p-10 bg-theme-colored2">
                         <h4 class="team-title text-uppercase mt-0 mb-0"><a href="#"><?php echo $trainner->name?></a></h4>
-                        <p class="team-subtitle mt-0 mb-0">Age - <?php echo $currentYear - $birthYear;?></p>
+                        <p class="team-subtitle mt-0 mb-0">Age - <?php echo @$currentYear - $birthYear;?></p>
                       </div>
                       
                     </div>

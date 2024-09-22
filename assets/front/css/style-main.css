@@ -3357,7 +3357,7 @@ form .error {
 
 @media only screen and (max-width:767px) {
     .menuzord-brand img {
-        max-height: 30px
+        max-height: 40px
     }
 
     .header-widget-contact-info-box .element {
@@ -8234,4 +8234,15 @@ a.btn {
 
 .swiper-slide {
     background: #e4e4e433
+}
+
+.hide-mob{
+    display: block;
+}
+
+@media screen and (max-width:800px) {
+
+    .hide-mob{
+        display: none;
+    }
 }
