@@ -96,7 +96,7 @@
         </div>
       </div>
     </div>
-    <div class="header-nav navbar- navbar-sticky-animated m-nav">
+    <div class="header-nav navbar- navbar-sticky-animated" style="z-index: 999; position: absolute; top: 0px; width:100%;">
       <div class="header-nav-wrapper">
         <div class="container ipad_header">
           <nav id="menuzord-right" class="menuzord orange no-bg menuzord-responsive"><a href="javascript:void(0)" class="" style="display: none;"><em></em><em></em><em></em></a>
