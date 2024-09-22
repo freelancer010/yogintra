@@ -319,7 +319,7 @@
         <div class="section-content" style="display:none;">
           <div class="row">
             <div class="col-md-12">
-            <script defer async src='https://cdn.trustindex.io/loader.js?bbfb2cf21c638636e8761057765'></script>
+            <script async src='https://cdn.trustindex.io/loader.js?bbfb2cf21c638636e8761057765'></script>
               <!--<div class="owl-carousel-3col" data-dots="true">-->
               <!--  <div class="item">-->
               <!--    <div class="testimonial testimonial-yoga">-->
@@ -399,7 +399,7 @@
       <div class="container">
           <div class="row">
             
-      <div class='sk-ww-google-reviews' data-embed-id='25389280'></div><script src='https://widgets.sociablekit.com/google-reviews/widget.js' async defer></script>
+      <div class='sk-ww-google-reviews' data-embed-id='25389280'></div><script src='https://widgets.sociablekit.com/google-reviews/widget.js' async </script>
       
       </div>
       <style>
