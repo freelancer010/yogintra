@@ -40,7 +40,7 @@
       <div class="fullwidth-carousel" data-nav="true">
         <?php foreach ($all_slider as $slider): ?>
           <div class="carousel-item bg-img-cover " style='background-image: url("");' >
-              <img width="1100px" height="850px" src="<?php echo base_url()?><?php echo $slider->slider_image; ?>" alt="yogintra yoga poses">
+              <img src="<?php echo base_url()?><?php echo $slider->slider_image; ?>" alt="yogintra yoga poses">
             <div class="overlay"></div>
             <div class="display-table" style="z-index: 999;position: absolute;top: 0;">
               <div class="display-table-cell">

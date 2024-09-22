@@ -8236,13 +8236,24 @@ a.btn {
     background: #e4e4e433
 }
 
-.hide-mob{
+.hide-mob {
     display: block;
 }
 
 @media screen and (max-width:800px) {
 
-    .hide-mob{
+    .hide-mob {
         display: none;
     }
+}
+
+.header-nav.navbar-scrolltofixed.navbar-sticky-animated.scroll-to-fixed-fixed {
+    width: 100%;
+}
+
+.m-nav {
+    z-index: 999;
+    position: absolute;
+    top: 0px;
+    width: 100%;
 }
