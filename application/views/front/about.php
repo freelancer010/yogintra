@@ -11,59 +11,92 @@
 <!-- Page Title -->
 <title>About us | YogIntra - Best Yoga Center in India </title>
 
+<style>
+      .article {
+         width: 100%;
+         margin-top: 8vh;
+         display: flex;
+         justify-content: center;
+      }
 
+      /* GENERAL SETTINGS */
+      h3.yog-ttl {
+         text-align: center;
+         font-size: 2rem;
+         margin-bottom: 1vh;
+      }
 
+      h3.yog-ttl.wht {
+         color: #fff;
+      }
 
+      p.yog-cont {
+         font-size: 1.5rem;
+         padding: 0 2rem;
+      }
 
-<div class="main-content">
-   <!-- Section: inner-header -->
-   <section class="inner-header divider parallax layer-overlay overlay-dark-7" style='background-image: url("<?php echo front_css(); ?>images/bg/bg8.jpg"); background-position: 50% 55px;height: 300px;'>
-      <div class="container pt-60 pb-60">
-         <!-- Section Content -->
-         <div class="section-content">
-            <div class="row">
-               <div class="col-md-12 text-center">
-                  <h2 class="title text-white">About</h2>
-                  <ol class="breadcrumb text-center mt-10">
-                     <li><a class="text-white" href="<?php echo base_url(); ?>">Home</a></li>
-                     <li class="active text-gray">About Us</li>
-                  </ol>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
+      /* BOX SETTINGS */
+      .box1 {
+         background-color: var(--purple);
+         border: 3px solid var(--dark);
+         color: var(--dark);
+         margin-right: 8vh;
+         border-radius: 15px;
+         padding-top: 70px;
+         padding-bottom: 70px;
+         width:50%;
+      }
 
-   <section class="about-section">
-      <div class="container section-padding">
-         <div class="row">
-            <div class="image-column col-lg-6 col-md-12 col-sm-12">
-               <div class="inner-column wow fadeInLeft">
-                  <div class="author-desc">
-                     <h2>Amit Pandey</h2>
-                     <span>CEO & Founder of Yogintra</span>
-                  </div>
-                  <figure class="image-1"><a href="#" class="lightbox-image" data-fancybox="images"><img title="Amit Pandey" src="<?php echo base_url(); ?>assets/image0-1-e1652675710448-povumdsa83b7dajv3gfs2377ei7o24wz5y0tn7sz34.jpeg" alt="Amit Pandey"></a></figure>
-               </div>
-            </div>
-            <div class="content-column col-lg-6 col-md-12 col-sm-12 order-2 padding-top-media">
-               <div class="inner-column">
-                  <div class="sec-title">
-                     <h2>About Founder:</h2>
-                  </div>
-                  <div class="text">
-                     Mr. Amit Pandey started his journey of yoga back in 2005 as student in Yogic science and then he understood Yoga is the only way he would be able to help people bring smiles back on their faces in this struggling and fast life. He served few years Internationally as a Yoga trainer but coming back to India during his visit a few years back, a thought him hard “Charity begins at home.” And then he never went back thinking about people here need know about Yoga and Yoga Benefits.
-                  </div>
-                  <div class="btn-box">
-                     <a href="<?php echo base_url(); ?>contact" class="theme-btn btn-style-one">Contact Us</a>
-                  </div>
-               </div>
-            </div>
-            <!-- Image Column -->
-         </div>
-      </div>
-   </section>
-   <style>
+      .box2 {
+         background-color: #fff;
+         border: 3px solid var(--light);
+         color: var(--light);
+         margin-left: 1vh;
+         position: relative;
+         border-radius: 15px;
+         padding-top: 70px;
+         padding-bottom: 70px;
+         width:100%;
+      }
+
+      /* BOX-TEXT SETTINGS */
+      .text-box1 {
+         padding: 2vh;
+         text-align: center;
+      }
+
+      .text-box2 {
+         padding: 2vh;
+         text-align: center;
+      }
+
+      /* TITLE SETTINGS */
+      .title1 {
+         grid-row: 1/2;
+         grid-column: 1/3;
+         align-self: end;
+         justify-self: end;
+         color: var(--light);
+      }
+
+      .title2 {
+         grid-row: 5/6;
+         grid-column: 5/7;
+         align-self: top;
+         justify-self: end;
+         color: var(--light);
+      }
+      @media screen and (min-width: 1000px) and (max-width: 1200px) {
+         .cst-font{
+            font-size:28px;
+         }
+         .about-section .content-column {
+            margin-top: 115px !important;
+         }
+         .about-section .image-column .inner-column .author-desc{
+            width:38% !important;
+         }
+      }
       .sec-title {
          position: relative;
          z-index: 1;
@@ -432,7 +465,7 @@
          {
             font-size: 14px!important;
          }
-         article
+         .article
          {
             margin-top: 0!important;
             display: block!important;
@@ -450,6 +483,57 @@
          }
       }
    </style>
+</head>
+
+
+<div class="main-content">
+   <!-- Section: inner-header -->
+   <section class="inner-header divider parallax layer-overlay overlay-dark-7" style='background-image: url("<?php echo front_css(); ?>images/bg/bg8.jpg"); background-position: 50% 55px;height: 300px;'>
+      <div class="container pt-60 pb-60">
+         <!-- Section Content -->
+         <div class="section-content">
+            <div class="row">
+               <div class="col-md-12 text-center">
+                  <h2 class="title text-white">About</h2>
+                  <ol class="breadcrumb text-center mt-10">
+                     <li><a class="text-white" href="<?php echo base_url(); ?>">Home</a></li>
+                     <li class="active text-gray">About Us</li>
+                  </ol>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section class="about-section">
+      <div class="container section-padding">
+         <div class="row">
+            <div class="image-column col-lg-6 col-md-12 col-sm-12">
+               <div class="inner-column wow fadeInLeft">
+                  <div class="author-desc">
+                     <h2>Amit Pandey</h2>
+                     <span>CEO & Founder of Yogintra</span>
+                  </div>
+                  <figure class="image-1"><a href="#" class="lightbox-image" data-fancybox="images"><img title="Amit Pandey" src="<?php echo base_url(); ?>assets/image0-1-e1652675710448-povumdsa83b7dajv3gfs2377ei7o24wz5y0tn7sz34.jpeg" alt="Amit Pandey"></a></figure>
+               </div>
+            </div>
+            <div class="content-column col-lg-6 col-md-12 col-sm-12 order-2 padding-top-media">
+               <div class="inner-column">
+                  <div class="sec-title">
+                     <h2>About Founder:</h2>
+                  </div>
+                  <div class="text">
+                     Mr. Amit Pandey started his journey of yoga back in 2005 as student in Yogic science and then he understood Yoga is the only way he would be able to help people bring smiles back on their faces in this struggling and fast life. He served few years Internationally as a Yoga trainer but coming back to India during his visit a few years back, a thought him hard “Charity begins at home.” And then he never went back thinking about people here need know about Yoga and Yoga Benefits.
+                  </div>
+                  <div class="btn-box">
+                     <a href="<?php echo base_url(); ?>contact" class="theme-btn btn-style-one">Contact Us</a>
+                  </div>
+               </div>
+            </div>
+            <!-- Image Column -->
+         </div>
+      </div>
+   </section>
    <!-- Section: About -->
    <section class="divider " data-bg-img="<?php echo base_url(); ?>assets/bg-graphic-free-img-1.jpg">
       <div class="container pt-45 pb-20 section-padding-2">
@@ -481,12 +565,12 @@
    </section>
    <!-- Section: Courses -->
    <section style="background-color: #fff4e0;">
-      <div class="container pb-20">
+      <div class="container">
          <div class="section-content">
             <div class="row">
                <!----------------------------Section-->
                <!-- <ARTICLE> WRAPS EVERYTHING -->
-               <article>
+               <div class="article">
                   <div class="box1" data-bg-img="<?php echo base_url(); ?>assets/greenfloralbg-image1.jpg">
                      <div class="text-box1">
                         <h3 class="yog-ttl wht">OUR VISION</h3>
@@ -521,100 +605,8 @@
                   </div>
                   <div class="title2">
                   </div>
-               </article>
+               </div>
                <!----Section end-->
-               <style>
-                  article {
-                     width: 100%;
-                     margin-top: 8vh;
-                     display: grid;
-                     grid-template-columns: repeat(7, 1fr);
-                     grid-template-rows: repeat(5, 1fr);
-                     grid-auto-rows: 50vh, auto;
-                  }
-
-                  /* GENERAL SETTINGS */
-                  h3.yog-ttl {
-                     text-align: center;
-                     font-size: 2rem;
-                     margin-bottom: 1vh;
-                  }
-
-                  h3.yog-ttl.wht {
-                     color: #fff;
-                  }
-
-                  p.yog-cont {
-                     font-size: 1.5rem;
-                     padding: 0 2rem;
-                  }
-
-                  /* BOX SETTINGS */
-                  .box1 {
-                     background-color: var(--purple);
-                     border: 3px solid var(--dark);
-                     color: var(--dark);
-                     margin-right: 8vh;
-                     grid-row: 1/3;
-                     grid-column: 5/8;
-                     border-radius: 15px;
-                     padding-top: 70px;
-                     padding-bottom: 70px;
-                  }
-
-                  .box2 {
-                     background-color: #fff;
-                     border: 3px solid var(--light);
-                     color: var(--light);
-                     margin-left: 1vh;
-                     grid-row: 2/5;
-                     grid-column: 2/5;
-                     position: relative;
-                     border-radius: 15px;
-                     padding-top: 70px;
-                     padding-bottom: 70px;
-                  }
-
-                  /* BOX-TEXT SETTINGS */
-                  .text-box1 {
-                     padding: 2vh;
-                     text-align: center;
-                  }
-
-                  .text-box2 {
-                     padding: 2vh;
-                     text-align: center;
-                  }
-
-                  /* TITLE SETTINGS */
-                  .title1 {
-                     grid-row: 1/2;
-                     grid-column: 1/3;
-                     align-self: end;
-                     justify-self: end;
-                     color: var(--light);
-                  }
-
-                  .title2 {
-                     grid-row: 5/6;
-                     grid-column: 5/7;
-                     align-self: top;
-                     justify-self: end;
-                     color: var(--light);
-                  }
-                  @media screen and (min-width: 1000px) and (max-width: 1200px) {
-    .cst-font{
-        font-size:28px;
-    }
-    .about-section .content-column {
-   
-    margin-top: 115px !important;
-}
-.about-section .image-column .inner-column .author-desc{
-    width:38% !important;
-}
-}
-               </style>
             </div>
          </div>
       </div>

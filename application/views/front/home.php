@@ -31,7 +31,36 @@
 
 <!-- Page Title -->
 <title><?php echo $app_setting->app_meta_title; ?></title>
-
+<style>
+.yg-txt-right{
+  text-align:right;
+}
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+  .cst-font{
+    font-size:28px !important;
+  }
+  .pt-20{
+    padding-top:30px !important;
+  }
+  .pb-50{
+    padding-bottom:30px !important;
+  }
+  /*  .font-54{
+    font-size:2rem !important;
+  }*/
+  h4.mb-5{
+    font-size:12px !important;
+  }
+  }
+  .test_ele .elementor-shape-fill
+  {
+  fill: #fff!important;
+  }
+  .sk_branding a.tutorial_link{
+    display:none !important;
+  }
+</style>
+</head>
 <!-- Start main-content -->
 
   <div class="main-content"> 
@@ -67,32 +96,7 @@
       <div class="container">
         <div class="section-title text-center">
           <div class="row">
-              <style>
-                  .yg-txt-right{
-                      text-align:right;
-                  }
-                  @media screen and (min-width: 1000px) and (max-width: 1200px) {
-    .cst-font{
-        font-size:28px !important;
-    }
-    .pt-20{
-        padding-top:30px !important;
-    }
-    .pb-50{
-        padding-bottom:30px !important;
-    }
-  /*  .font-54{
-        font-size:2rem !important;
-    }*/
-    h4.mb-5{
-        font-size:12px !important;
-    }
-}
-
-    
-
-              </style>
-              <!---- col-md-12 col-md-offset-1 col-md-12 yg-txt-right---->
+            <!---- col-md-12 col-md-offset-1 col-md-12 yg-txt-right---->
             <div class="col-md-7 col-md-offset-5">
               <h2 class="text-uppercase line-bottom-double-line-centered mt-0 cst-font"><?php echo $section_1->of_heading; ?></h2>
               <span><?php echo $section_1->of_sub_heading; ?></span>
@@ -253,12 +257,6 @@
         </div>
       </div>
     </section>
-    <style type="text/css">
-     .test_ele .elementor-shape-fill
-      {
-        fill: #fff!important;
-      }
-    </style>
     <section class="divider bg-gradient_effect d-none" >
       <div class="elementor-shape ">
       <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 283.5 27.8" preserveAspectRatio="none">
@@ -305,184 +303,90 @@
       </div>
     </section>
     
-    <!--start testimonial Section-->
-    <section class="divider" style='background-image: url("<?php //echo front_css(); ?>images/bg/bg12.jpg");'>
-      <div class="container pt-0">
-        <!-- <div class="section-title text-center">
+    <section class="">
+      <div class="container">
           <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-              <h2 class="text-uppercase text-white mt-0 line-height-1">Testimonial</h2>
-            </div>
-          </div>
-        </div> -->
-        <div class="section-content" style="display:none;">
-          <div class="row">
-            <div class="col-md-12">
-            <script defer async src='https://cdn.trustindex.io/loader.js?bbfb2cf21c638636e8761057765'></script>
-              <!--<div class="owl-carousel-3col" data-dots="true">-->
-              <!--  <div class="item">-->
-              <!--    <div class="testimonial testimonial-yoga">-->
-              <!--      <div class="comment p-30 bg-theme-colored-transparent-8">-->
-              <!--        <h4 class="comment-title text-white">Truly Recommended for This Company</h4>-->
-              <!--        <p class="text-white">Lorem ipsum dolor sit ametconse ctetur adipisicing elitvolup tatem error sit qui dolorem facilis.</p>-->
-              <!--      </div>-->
-              <!--      <div class="content mt-20">-->
-              <!--        <div class="thumb pull-left flip mr-20">-->
-              <!--          <img class="img-circle img-thumbnail" alt="" src="<?php //echo front_css(); ?>images/testimonials/1.jpg">-->
-              <!--        </div>-->
-              <!--        <div class="pull-left flip mt-10">-->
-              <!--          <h5 class="author text-white">Tegan Bolton</h5>-->
-              <!--          <h6 class="author-title text-white">Happy Client</h6>-->
-              <!--        </div>-->
-              <!--      </div>-->
-              <!--    </div>-->
-              <!--  </div>-->
-              <!--  <div class="item">-->
-              <!--    <div class="testimonial testimonial-yoga">-->
-              <!--      <div class="comment p-30 bg-theme-colored-transparent-8">-->
-              <!--        <h4 class="comment-title text-white">Truly Recommended for This Company</h4>-->
-              <!--        <p class="text-white">Lorem ipsum dolor sit ametconse ctetur adipisicing elitvolup tatem error sit qui dolorem facilis.</p>-->
-              <!--      </div>-->
-              <!--      <div class="content mt-20">-->
-              <!--        <div class="thumb pull-left flip mr-20">-->
-              <!--          <img class="img-circle img-thumbnail" alt="" src="<?php //echo front_css(); ?>images/testimonials/2.jpg">-->
-              <!--        </div>-->
-              <!--        <div class="pull-left flip mt-10">-->
-              <!--          <h5 class="author text-white">Tegan Bolton</h5>-->
-              <!--          <h6 class="author-title text-white">Happy Client</h6>-->
-              <!--        </div>-->
-              <!--      </div>-->
-              <!--    </div>-->
-              <!--  </div>-->
-              <!--  <div class="item">-->
-              <!--    <div class="testimonial testimonial-yoga">-->
-              <!--      <div class="comment p-30 bg-theme-colored-transparent-8">-->
-              <!--        <h4 class="comment-title text-white">Truly Recommended for This Company</h4>-->
-              <!--        <p class="text-white">Lorem ipsum dolor sit ametconse ctetur adipisicing elitvolup tatem error sit qui dolorem facilis.</p>-->
-              <!--      </div>-->
-              <!--      <div class="content mt-20">-->
-              <!--        <div class="thumb pull-left flip mr-20">-->
-              <!--          <img class="img-circle img-thumbnail" alt="" src="<?php //echo front_css(); ?>images/testimonials/3.jpg">-->
-              <!--        </div>-->
-              <!--        <div class="pull-left flip mt-10">-->
-              <!--          <h5 class="author text-white">Tegan Bolton</h5>-->
-              <!--          <h6 class="author-title text-white">Happy Client</h6>-->
-              <!--        </div>-->
-              <!--      </div>-->
-              <!--    </div>-->
-              <!--  </div>-->
-              <!--  <div class="item">-->
-              <!--    <div class="testimonial testimonial-yoga">-->
-              <!--      <div class="comment p-30 bg-theme-colored-transparent-8">-->
-              <!--        <h4 class="comment-title text-white">Truly Recommended for This Company</h4>-->
-              <!--        <p class="text-white">Lorem ipsum dolor sit ametconse ctetur adipisicing elitvolup tatem error sit qui dolorem facilis.</p>-->
-              <!--      </div>-->
-              <!--      <div class="content mt-20">-->
-              <!--        <div class="thumb pull-left flip mr-20">-->
-              <!--          <img class="img-circle img-thumbnail" alt="" src="<?php //echo front_css(); ?>images/testimonials/4.jpg">-->
-              <!--        </div>-->
-              <!--        <div class="pull-left flip mt-10">-->
-              <!--          <h5 class="author text-white">Tegan Bolton</h5>-->
-              <!--          <h6 class="author-title text-white">Happy Client</h6>-->
-              <!--        </div>-->
-              <!--      </div>-->
-              <!--    </div>-->
-              <!--  </div>-->
-              <!--</div>-->
-            </div>
-          </div>
-        </div> 
+            <div class='sk-ww-google-reviews' data-embed-id='25389280'></div>
+            <script src='https://widgets.sociablekit.com/google-reviews/widget.js' async defer></script>
       </div>
     </section>
-    <section class="">
-    <div class="container">
-        <div class="row">
-          
-    <div class='sk-ww-google-reviews' data-embed-id='25389280'></div><script src='https://widgets.sociablekit.com/google-reviews/widget.js' async defer></script>
-     
-    </div>
-</section>
     <section class="bg-lighter">
       <div class="container">
         <div class="row">
           <div class="col-md-6 ">
-           
-              
-              <form id="multi-step-form" name="contact_form" class="contact-form-transparent"  method="post">
-                <!-- Step 1: Personal Information -->
-                <div class="form-step active" id="step-1">
-                    <div class="form-group">
-                        <label for="name">Your Name:</label>
-                        <input type="text" class="form-control" id="name" name="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="phone">Phone Number:</label>
-                        <input type="text" class="form-control" id="phone" name="number" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email ID:</label>
-                        <input type="email" class="form-control" id="email" name="email" required>
-                    </div>
-                    <button class="btn btn-primary next" type="button">Next</button>
-                </div>
-                <!-- Step 2: Location -->
-                <div class="form-step" id="step-2">
-                    <div class="form-group">
-                        <label for="country">Select Country:</label>
-                        <select class="form-control countries" id="country" name="country" required>
-                            <option value="" >Select A Country</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="state">Select State:</label>
-                        <select class="form-control states" id="state" name="state" required>
-                            <option value="" >Select your Country First</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="city">Select City:</label>
-                        <select class="form-control cities" id="city" name="city" required>
-                            <option value="" >Select your state first</option>
-                        </select>
-                    </div>
-                    <button class="btn btn-primary prev" type="button">Previous</button>
-                    <button class="btn btn-primary next" type="button">Next</button>
-                </div>
-                <!-- Step 3: Service Information -->
-                <div class="form-step" id="step-3">
-                    <div class="form-group">
-                        <label for="city">Service Menu:</label>
-                        <select class="form-control" id="city" name="class" required>
-                          <?php 
-                            $all_service = $this->db->get('service_category')->result();
-                            foreach ($all_service as $key => $service):?>
-                              <option value="<?php echo $service->service_cat_name; ?>"><?php echo $service->service_cat_name; ?></option>
-                            <?php endforeach; ?>
-                            <option value="Yoga Center">Yoga Center</option>
-                            <option value="TTC">TTC</option>
-                            <option value="Retreat">Retreat</option>
-                            <option value="Workshop">Workshop</option>
-                        </select>
-                    </div>
-                    <div class="form-group d-none">
-                        <label for="call-time">Call Request Time From:</label>
-                        <input type="time" class="form-control" id="call-time" name="call-from" >
-                    </div>
-                    <div class="form-group d-none">
-                        <label for="call-time">To:</label>
-                        <input type="time" class="form-control" id="call-time-2" name="call-to" >
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message:</label>
-                        <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
-                    </div>
-                    <button class="btn btn-primary prev" type="button">Previous</button>
-                    <button type="submit" class="btn btn-success">Submit</button>
-                </div>
-              </form>
-              <!-- Appointment Form Validation-->
-             
-           
+            <form id="multi-step-form" name="contact_form" class="contact-form-transparent"  method="post">
+              <!-- Step 1: Personal Information -->
+              <div class="form-step active" id="step-1">
+                  <div class="form-group">
+                      <label for="name">Your Name:</label>
+                      <input type="text" class="form-control" id="name" name="name" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="phone">Phone Number:</label>
+                      <input type="text" class="form-control" id="phone" name="number" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="email">Email ID:</label>
+                      <input type="email" class="form-control" id="email" name="email" required>
+                  </div>
+                  <button class="btn btn-primary next" type="button">Next</button>
+              </div>
+              <!-- Step 2: Location -->
+              <div class="form-step" id="step-2">
+                  <div class="form-group">
+                      <label for="country">Select Country:</label>
+                      <select class="form-control countries" id="country" name="country" required>
+                          <option value="" >Select A Country</option>
+                      </select>
+                  </div>
+                  <div class="form-group">
+                      <label for="state">Select State:</label>
+                      <select class="form-control states" id="state" name="state" required>
+                          <option value="" >Select your Country First</option>
+                      </select>
+                  </div>
+                  <div class="form-group">
+                      <label for="city">Select City:</label>
+                      <select class="form-control cities" id="city" name="city" required>
+                          <option value="" >Select your state first</option>
+                      </select>
+                  </div>
+                  <button class="btn btn-primary prev" type="button">Previous</button>
+                  <button class="btn btn-primary next" type="button">Next</button>
+              </div>
+              <!-- Step 3: Service Information -->
+              <div class="form-step" id="step-3">
+                  <div class="form-group">
+                      <label for="city">Service Menu:</label>
+                      <select class="form-control" id="city" name="class" required>
+                        <?php 
+                          $all_service = $this->db->get('service_category')->result();
+                          foreach ($all_service as $key => $service):?>
+                            <option value="<?php echo $service->service_cat_name; ?>"><?php echo $service->service_cat_name; ?></option>
+                          <?php endforeach; ?>
+                          <option value="Yoga Center">Yoga Center</option>
+                          <option value="TTC">TTC</option>
+                          <option value="Retreat">Retreat</option>
+                          <option value="Workshop">Workshop</option>
+                      </select>
+                  </div>
+                  <div class="form-group d-none">
+                      <label for="call-time">Call Request Time From:</label>
+                      <input type="time" class="form-control" id="call-time" name="call-from" >
+                  </div>
+                  <div class="form-group d-none">
+                      <label for="call-time">To:</label>
+                      <input type="time" class="form-control" id="call-time-2" name="call-to" >
+                  </div>
+                  <div class="form-group">
+                      <label for="message">Message:</label>
+                      <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                  </div>
+                  <button class="btn btn-primary prev" type="button">Previous</button>
+                  <button type="submit" class="btn btn-success">Submit</button>
+              </div>
+            </form>
+            <!-- Appointment Form Validation-->
           </div>
           <div class="col-sm-6">
             <img src="<?php echo base_url(); ?>assets/chose_yoga.jpg" class="bf-ftr-img" loading="lazy" alt="yoga poses">
@@ -869,55 +773,55 @@ $(document).ready(function () {
     // }
   </script>
   <style type="text/css">
-.section_1 .benefit-icon .icon
-{
-  background-color: #fff;
-}
-@media (max-width: 767px) {
-    .section-content-image {
-        background-image: none!important;
-    }
-    .font-54 {
-      font-size: 2rem !important;
-    }
-    .position-ab
+    .section_1 .benefit-icon .icon
     {
-        position: absolute;
-        top: -70px;
+      background-color: #fff;
     }
-    .sub_heading
-    {
-        font-size: 13px;
+    @media (max-width: 767px) {
+        .section-content-image {
+            background-image: none!important;
+        }
+        .font-54 {
+          font-size: 2rem !important;
+        }
+        .position-ab
+        {
+            position: absolute;
+            top: -70px;
+        }
+        .sub_heading
+        {
+            font-size: 13px;
+        }
+        .margin-tp
+        {
+            margin-top:10px!important;
+        }
+        .fullwidth-carousel .carousel-item {
+          min-height: 0;
+          width: 100%;
+        }
     }
     .margin-tp
     {
-        margin-top:10px!important;
+        margin-top:40px;
     }
-    .fullwidth-carousel .carousel-item {
-      min-height: 0;
-      width: 100%;
+    .padding-200
+    {
+        padding-top:200px;
+        padding-bottom:200px;
     }
-}
-.margin-tp
-{
-    margin-top:40px;
-}
-.padding-200
-{
-    padding-top:200px;
-    padding-bottom:200px;
-}
-.form-step {
-    display: none;
-}
-.form-step.active {
-    display: block;
-}
-.border-1px {
-  border: 1px solid #c9c7c7 !important;
-}
-.kzANES
-{
-  height: none!important;
-}
+    .form-step {
+        display: none;
+    }
+    .form-step.active {
+        display: block;
+    }
+    .border-1px {
+      border: 1px solid #c9c7c7 !important;
+    }
+    .kzANES
+    {
+      height: none!important;
+    }
   </style>
