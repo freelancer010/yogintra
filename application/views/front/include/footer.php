@@ -149,7 +149,7 @@ $('form').submit(function() {
 </script>
 <!-- Footer Scripts -->
 <!-- JS | Custom script for all pages -->
-<script src="<?php echo front_css(); ?>js/custom.js"></script>
+<script src="<?php echo front_css(); ?>js/custom.min.js"></script>
 
 <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  
       (Load Extensions only on Local File Systems ! 

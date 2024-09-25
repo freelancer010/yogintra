@@ -40,7 +40,7 @@
       <div class="fullwidth-carousel" data-nav="true">
         <?php foreach ($all_slider as $slider): ?>
           <div class="carousel-item bg-img-cover " style='background-image: url("");' >
-              <img src="<?php echo base_url()?><?php echo $slider->slider_image; ?>" alt="yogintra yoga poses">
+              <img src="<?php echo base_url()?><?php echo $slider->slider_image; ?>" width="600" height="400" loading="lazy" alt="yogintra yoga poses">
             <div class="overlay"></div>
             <div class="display-table" style="z-index: 999;position: absolute;top: 0;">
               <div class="display-table-cell">
@@ -113,7 +113,7 @@
                   <div class="col-sm-6">
                     <div class="icon-box icon-theme-colored benefit-icon left media p-0 mb-sm-10 mt-30">
                       <a class="icon icon-circled icon-md  pull-left flip">
-                        <img src="<?php echo base_url(); ?><?php echo $content_1->of_image; ?>" alt="yogintra">
+                        <img src="<?php echo base_url(); ?><?php echo $content_1->of_image; ?>" width="75" height="75" loading="lazy" alt="yogintra">
                       </a>
                       <div class="media-body">
                         <h2 class="media-heading heading"><b><?php echo $content_1->of_heading?></b></h2>
@@ -140,7 +140,7 @@
         <div class="section-content">
           <div class="row">
             <div class="col-md-6">
-              <img src="<?php echo base_url(); ?><?php echo $section_2->os_image_image; ?>" alt="<?php echo $section_2->os_image_heading; ?>">
+              <img src="<?php echo base_url(); ?><?php echo $section_2->os_image_image; ?>" width="349" height="348" loading="lazy" alt="<?php echo $section_2->os_image_heading; ?>">
             </div>
             <div class="col-md-6">
               <h5 class="section-3 mb-0"><?php echo $section_2->os_image_sub_heading; ?></h5>
@@ -152,7 +152,7 @@
                 <?php foreach ($section_2_content as $key => $content_sec_2):?>
                   <div class="col-sm-4 text-center">
                       <div class="">
-                        <img src="<?php echo base_url(); ?><?php echo $content_sec_2->os_image; ?>" alt="<?php echo $content_sec_2->os_heading; ?>">
+                        <img src="<?php echo base_url(); ?><?php echo $content_sec_2->os_image; ?>" width="90" height="95" loading="lazy" loading="lazy" alt="<?php echo $content_sec_2->os_heading; ?>">
                       </div>
                       <h2 style="font-size: 16px"><?php echo $content_sec_2->os_heading; ?></h2>
                   </div>
@@ -184,23 +184,23 @@
               <div class="row">
                 <?php foreach ($rand_service as $key => $r_service):?>
                   <div class="col-xs-12 col-sm-6 col-md-3 mb-sm-40 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
-                    <img class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?><?php echo $r_service->service_cat_image; ?>" alt="<?php echo $r_service->service_cat_name; ?>">
+                    <img class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?><?php echo $r_service->service_cat_image; ?>" height="150" width="150" loading="lazy" alt="<?php echo $r_service->service_cat_name; ?>">
                     <h4 class="mb-5"><?php echo $r_service->service_cat_name; ?></h4>
                     <a href="<?php echo base_url(); ?>service/<?php echo $r_service->service_cat_slug; ?>" class="btn btn-success">Book Now</a>
                   </div>
                 <?php endforeach; ?>
                   <div class="col-xs-12 col-sm-6 col-md-3 mb-sm-40 wow fadeInLeft mt-20" data-wow-duration="1s" data-wow-delay="0.3s">
-                    <img class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?>assets/icon-thumb3-150x150.jpg" alt="TTC">
+                    <img class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?>assets/icon-thumb3-150x150.jpg" height="150" width="150" loading="lazy" alt="TTC">
                     <h4 class="mb-5">TTC</h4>
                     <a href="<?php echo base_url(); ?>teacher_training_course" class="btn btn-success">Visit Now</a>
                   </div>
                   <div class="col-xs-12 col-sm-6 col-md-3 mb-sm-40 wow fadeInLeft mt-20" data-wow-duration="1s" data-wow-delay="0.3s">
-                    <img class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?>assets/icon-thumb4-150x150.jpg" alt="retreat">
+                    <img class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?>assets/icon-thumb4-150x150.jpg" height="150" width="150" loading="lazy" alt="retreat">
                     <h4 class="mb-5">Retreat</h4>
                     <a href="<?php echo base_url(); ?>retreat" class="btn btn-success">Visit Now</a>
                   </div>
                   <div class="col-xs-12 col-sm-6 col-md-3 mb-sm-40 wow fadeInLeft mt-20" data-wow-duration="1s" data-wow-delay="0.3s">
-                    <img class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?>assets/icon-thumb1-150x150.jpg" alt="workshop">
+                    <img class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?>assets/icon-thumb1-150x150.jpg" height="150" width="150" loading="lazy" alt="workshop">
                     <h4 class="mb-5">Workshop</h4>
                     <a href="<?php echo base_url(); ?>workshop" class="btn btn-success">Visit Now</a>
                   </div>
@@ -227,7 +227,7 @@
                 <div class="item">
                   <div class="team-members text-center maxwidth400">
                     <div class="team-thumb">
-                      <img class="img-fullwidth" style="height: 200px;width: auto"  alt="yogintra trainers" src="<?php echo $api; ?>/<?php echo $trainner->profile_image?>">
+                      <img class="img-fullwidth" width="200" height="200" loading="lazy" alt="yogintra trainers" src="<?php echo $api; ?>/<?php echo $trainner->profile_image?>">
                     </div>
                     <?php
                   $birthYear = date("Y", strtotime($trainner->dob));
@@ -284,7 +284,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-6 text-center">
-            <img class="img-circle img-thumbnail mb-15" src="<?php echo front_css(); ?>images/about/sq1.jpg" alt="yogintra">
+            <img class="img-circle img-thumbnail mb-15" src="<?php echo front_css(); ?>images/about/sq1.jpg" loading="lazy" alt="yogintra">
             <div class="row">
               <div class="col-md-8 col-md-offset-2">
                 <h2 class="mb-5">Power Vinyasa</h2>
@@ -323,7 +323,7 @@
               <!--      </div>-->
               <!--      <div class="content mt-20">-->
               <!--        <div class="thumb pull-left flip mr-20">-->
-              <!--          <img class="img-circle img-thumbnail" alt="" src="<?php echo front_css(); ?>images/testimonials/1.jpg">-->
+              <!--          <img class="img-circle img-thumbnail" alt="" src="<?php //echo front_css(); ?>images/testimonials/1.jpg">-->
               <!--        </div>-->
               <!--        <div class="pull-left flip mt-10">-->
               <!--          <h5 class="author text-white">Tegan Bolton</h5>-->
@@ -340,7 +340,7 @@
               <!--      </div>-->
               <!--      <div class="content mt-20">-->
               <!--        <div class="thumb pull-left flip mr-20">-->
-              <!--          <img class="img-circle img-thumbnail" alt="" src="<?php echo front_css(); ?>images/testimonials/2.jpg">-->
+              <!--          <img class="img-circle img-thumbnail" alt="" src="<?php //echo front_css(); ?>images/testimonials/2.jpg">-->
               <!--        </div>-->
               <!--        <div class="pull-left flip mt-10">-->
               <!--          <h5 class="author text-white">Tegan Bolton</h5>-->
@@ -357,7 +357,7 @@
               <!--      </div>-->
               <!--      <div class="content mt-20">-->
               <!--        <div class="thumb pull-left flip mr-20">-->
-              <!--          <img class="img-circle img-thumbnail" alt="" src="<?php echo front_css(); ?>images/testimonials/3.jpg">-->
+              <!--          <img class="img-circle img-thumbnail" alt="" src="<?php //echo front_css(); ?>images/testimonials/3.jpg">-->
               <!--        </div>-->
               <!--        <div class="pull-left flip mt-10">-->
               <!--          <h5 class="author text-white">Tegan Bolton</h5>-->
@@ -374,7 +374,7 @@
               <!--      </div>-->
               <!--      <div class="content mt-20">-->
               <!--        <div class="thumb pull-left flip mr-20">-->
-              <!--          <img class="img-circle img-thumbnail" alt="" src="<?php echo front_css(); ?>images/testimonials/4.jpg">-->
+              <!--          <img class="img-circle img-thumbnail" alt="" src="<?php //echo front_css(); ?>images/testimonials/4.jpg">-->
               <!--        </div>-->
               <!--        <div class="pull-left flip mt-10">-->
               <!--          <h5 class="author text-white">Tegan Bolton</h5>-->
@@ -480,7 +480,7 @@
            
           </div>
           <div class="col-sm-6">
-            <img src="<?php echo base_url(); ?>assets/chose_yoga.jpg" class="bf-ftr-img" alt="yoga poses">
+            <img src="<?php echo base_url(); ?>assets/chose_yoga.jpg" class="bf-ftr-img" loading="lazy" alt="yoga poses">
           </div>
         </div>
       </div>
