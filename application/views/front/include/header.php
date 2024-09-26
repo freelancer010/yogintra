@@ -100,8 +100,8 @@
         <div class="container ipad_header">
           <nav id="menuzord-right" class="menuzord orange no-bg menuzord-responsive"><a href="javascript:void(0)" class="" style="display: none;"><em></em><em></em><em></em></a>
             <a class="menuzord-brand switchable-logo pull-left flip mb-10" href="<?php echo base_url(); ?>">
-              <img class="logo-default" src="<?php echo base_url(); ?><?php echo $app_setting->app_sticky_logo; ?>" alt="YogIntra Logo">
-              <img class="logo-scrolled-to-fixed" src="<?php echo base_url(); ?><?php echo $app_setting->app_sticky_logo; ?>" alt="YogIntra Logo">
+              <img class="logo-default" width="205" height="55" src="<?php echo base_url(); ?><?php echo $app_setting->app_sticky_logo; ?>" alt="YogIntra Logo">
+              <img class="logo-scrolled-to-fixed" width="205" height="55" src="<?php echo base_url(); ?><?php echo $app_setting->app_sticky_logo; ?>" alt="YogIntra Logo">
             </a>
             <ul class="menuzord-menu menuzord-right menuzord-indented scrollable" style="max-height: 400px;">
              <li  <?php if($this->uri->segment(1) == ''){echo 'class="active"';}?>><a href="<?php echo base_url(); ?>">Home</a>

@@ -1041,6 +1041,7 @@ section > .container-fluid {
 @media only screen and (max-width: 767px) {
   .menuzord-brand img {
     max-height: 30px;
+    width: auto;
   }
 }
 /* -------- Inner Header ---------- */
@@ -1486,9 +1487,6 @@ section > .container-fluid {
 }
 .header-nav .header-nav-absolute-wrapper {
   width: 100%;
-}
-.header-nav .header-nav-wrapper .menuzord {
-  padding: 0;
 }
 /* -------- Menuzord ---------- */
 .menuzord-menu > li.home > a > i {
@@ -8851,4 +8849,25 @@ a.btn,.btn-primary{
    
     margin-top: 115px !important;
 }
+}
+@media only screen and (max-width: 767px) {
+  .fullwidth-carousel{
+    height: 250px;
+    width: 100%;
+  }
+  .fullwidth-carousel .owl-stage-outer, .fullwidth-carousel .owl-stage, .fullwidth-carousel .owl-item{
+    height: 100%;
+  } 
+  .owl-carousel .owl-item img {
+    height: 100%;
+    object-fit: cover;
+  }
+  .header-nav.navbar-sticky-animated:not(.scroll-to-fixed-fixed) .container {
+    height: 68px;
+    width: 100%;
+  }
+  .divider .fullwidth-carousel .container{
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 }

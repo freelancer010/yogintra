@@ -208,7 +208,7 @@
                     <h4 class="mb-5">Workshop</h4>
                     <a href="<?php echo base_url(); ?>workshop" class="btn btn-success">Visit Now</a>
                   </div>
-                  <div class="col-xs-6 col-sm-6 col-md-3 mb-sm-40 wow fadeInLeft mt-20 animated" data-wow-duration="1s" data-wow-delay="0.3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s;">
+                  <div class="col-xs-12 col-sm-6 col-md-3 mb-sm-40 wow fadeInLeft mt-20 animated" data-wow-duration="1s" data-wow-delay="0.3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s;">
                     <img width="150" height="150" class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?>uploads/yog_center.jpg" alt="Yoga Center">
                     <h4 class="mb-5">Yoga Center</h4>
                     <a href="<?php echo base_url(); ?>yoga_center" class="btn btn-success">Visit Now</a>
@@ -519,7 +519,6 @@ function locationInfo() {
 
 jQuery(function() {
     var loc = new locationInfo();
-    console.log(loc);
     loc.getCountries();
     
     jQuery(".countries").on("change", function(ev) {
@@ -547,7 +546,7 @@ $(document).ready(function () {
     $.ajax({
         url: "https://restcountries.com/v3.1/all",
         type: 'GET',
-        success: function(response) { console.log(response); }
+        success: function(response) { }
     });
 
     var currentStep = 1;
@@ -786,8 +785,8 @@ $(document).ready(function () {
         }
         .position-ab
         {
-            position: absolute;
-            top: -70px;
+          position: absolute;
+          top: 0;
         }
         .sub_heading
         {
