@@ -67,9 +67,9 @@
     <!-- Section: home -->
     <section id="home" class="divider">
       <div class="fullwidth-carousel" data-nav="true">
-        <?php foreach ($all_slider as $slider): ?>
+        <?php foreach ($all_slider as $index => $slider): ?>
           <div class="carousel-item bg-img-cover " style='background-image: url("");' >
-              <img src="<?php echo base_url()?><?php echo $slider->slider_image; ?>" width="600" height="400" loading="lazy" alt="yogintra yoga poses">
+              <img src="<?php echo base_url()?><?php echo $slider->slider_image; ?>" width="1519" height="854" alt="yogintra yoga poses" <?php echo ($index != 0) ? 'loading="lazy"' : ''; ?>>
             <div class="overlay"></div>
             <div class="display-table" style="z-index: 999;position: absolute;top: 0;">
               <div class="display-table-cell">
@@ -169,7 +169,7 @@
       </div>
     </section>
 
-    <section class="divider" style="background-image: url(<?php echo base_url(); ?>assets/parallax-decor.png);background-position: center center;background-size: auto;">
+    <section class="divider" style="background-image: url(<?php echo base_url(); ?>assets/parallax-decor.webp);background-position: center center;background-size: auto;">
       <div class="container">
         <div class="row">
           <div class="col-sm-8">
@@ -209,7 +209,7 @@
                     <a href="<?php echo base_url(); ?>workshop" class="btn btn-success">Visit Now</a>
                   </div>
                   <div class="col-xs-12 col-sm-6 col-md-3 mb-sm-40 wow fadeInLeft mt-20 animated" data-wow-duration="1s" data-wow-delay="0.3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s;">
-                    <img width="150" height="150" class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?>uploads/yog_center.jpg" alt="Yoga Center">
+                    <img width="150" height="150" loading="lazy" class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?>uploads/yog_center.jpg" alt="Yoga Center">
                     <h4 class="mb-5">Yoga Center</h4>
                     <a href="<?php echo base_url(); ?>yoga_center" class="btn btn-success">Visit Now</a>
                   </div>

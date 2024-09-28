@@ -77,7 +77,8 @@ This file contains the common styles of this theme.
 * Footer
 * ===============================================
 */
-@import "font-awesome.min.css";
+
+/* @import "font-awesome.min.css";
 @import "font-awesome-animation.min.css";
 @import "pe-icon-7-stroke.css";
 @import "elegant-icons.css";
@@ -89,9 +90,7 @@ This file contains the common styles of this theme.
 @import "flaticon-set-yoga-symbol.css";
 @import "flaticon-set-spa.css";
 @import "flaticon-set-gym.css";
-/* @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800|Raleway:400,300,200,500,700,600,800|Playfair+Display:400,400italic,700,700italic); */
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Philosopher:wght@700&family=Quicksand:wght@600&family=Roboto&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Philosopher:wght@700&family=Quicksand:wght@600;700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Philosopher:wght@700&family=Quicksand:wght@600;700&family=Roboto&display=swap'); */
 
 /*
  * typography.less
@@ -8858,7 +8857,7 @@ a.btn,.btn-primary{
   .fullwidth-carousel .owl-stage-outer, .fullwidth-carousel .owl-stage, .fullwidth-carousel .owl-item{
     height: 100%;
   } 
-  .owl-carousel .owl-item img {
+  .fullwidth-carousel.owl-carousel .owl-item img {
     height: 100%;
     object-fit: cover;
   }

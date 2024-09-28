@@ -12,47 +12,51 @@
 <!-- Stylesheet -->
 <link href="<?php echo front_css(); ?>css/bootstrap.min.css" rel="stylesheet" type="text/css">
 <link href="<?php echo front_css(); ?>css/jquery-ui.min.css" rel="stylesheet" type="text/css">
-<link href="<?php echo front_css(); ?>css/animate.css" rel="stylesheet" type="text/css">
-<link href="<?php echo front_css(); ?>css/css-plugin-collections.css" rel="stylesheet"/>
+<!-- <link href="<?php //echo front_css(); ?>css/animate.css" rel="stylesheet" type="text/css"> -->
+<link href="<?php echo front_css(); ?>css/css-plugin-collections.min.css" rel="stylesheet">
 <!-- CSS | menuzord megamenu skins -->
-<link href="<?php echo front_css(); ?>css/menuzord-megamenu.css" rel="stylesheet"/>
-<link id="menuzord-menu-skins" href="<?php echo front_css(); ?>css/menuzord-skins/menuzord-bottom-trace.css" rel="stylesheet"/>
+<link href="<?php echo front_css(); ?>css/menuzord-megamenu.min.css" rel="stylesheet">
+<link id="menuzord-menu-skins" href="<?php echo front_css(); ?>css/menuzord-skins/menuzord-bottom-trace.min.css" rel="stylesheet">
+<!-- Other CSS files -->
+ <link rel="stylesheet" href="<?php echo front_css(); ?>css/font-awesome.min.css">
+ <link rel="stylesheet" href="<?php echo front_css(); ?>css/font-awesome-animation.min.css">
+ <link rel="stylesheet" href="<?php echo front_css(); ?>css/pe-icon-7-stroke.css">
+ <link rel="stylesheet" href="<?php echo front_css(); ?>css/elegant-icons.min.css">
+ <link rel="stylesheet" href="<?php echo front_css(); ?>css/icomoon.min.css">
+ <link rel="stylesheet" href="<?php echo front_css(); ?>css/ionicons.min.css">
+ <link rel="stylesheet" href="<?php echo front_css(); ?>css/stroke-gap-icons.css">
+ <link rel="stylesheet" href="<?php echo front_css(); ?>css/utility-classes.min.css">
+ <link rel="stylesheet" href="<?php echo front_css(); ?>css/flaticon-set-yoga.css">
+ <link rel="stylesheet" href="<?php echo front_css(); ?>css/flaticon-set-yoga-symbol.css">
+ <link rel="stylesheet" href="<?php echo front_css(); ?>css/flaticon-set-spa.css">
+ <link rel="stylesheet" href="<?php echo front_css(); ?>css/flaticon-set-gym.css">
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Philosopher:wght@700&family=Quicksand:wght@600;700&family=Roboto&display=swap">
+<!-- Other CSS files -->
 <!-- CSS | Main style file -->
-<link href="<?php echo front_css(); ?>css/style-main.css" rel="stylesheet" type="text/css">
+<link href="<?php echo front_css(); ?>css/style-main.min.css" rel="stylesheet" type="text/css">
 <!-- CSS | Preloader Styles -->
-<link href="<?php echo front_css(); ?>css/preloader.css" rel="stylesheet" type="text/css">
+<link href="<?php echo front_css(); ?>css/preloader.min.css" rel="stylesheet" type="text/css">
 <!-- CSS | Custom Margin Padding Collection -->
-<link href="<?php echo front_css(); ?>css/custom-bootstrap-margin-padding.css" rel="stylesheet" type="text/css">
-<!-- CSS | Responsive media queries -->
-<link href="<?php echo front_css(); ?>css/responsive.css" rel="stylesheet" type="text/css">
-<!-- CSS | Style css. This is the file where you can place your own custom css code. Just uncomment it and use it. -->
-<!-- <link href="<?php echo front_css(); ?>css/style.css" rel="stylesheet" type="text/css"> -->
-
+<link href="<?php echo front_css(); ?>css/custom-bootstrap-margin-padding.min.css" rel="stylesheet" type="text/css">
 <!-- Revolution Slider 5.x CSS settings -->
 <!-- <link  href="<?php //echo front_css(); ?>js/revolution-slider/css/settings.css" rel="stylesheet" type="text/css"/>
 <link  href="<?php //echo front_css(); ?>js/revolution-slider/css/layers.css" rel="stylesheet" type="text/css"/>
 <link  href="<?php //echo front_css(); ?>js/revolution-slider/css/navigation.css" rel="stylesheet" type="text/css"/> -->
 
 <!-- CSS | Theme Color -->
-<link href="<?php echo front_css(); ?>css/colors/theme-skin-color-set1.css" rel="stylesheet" type="text/css">
+<link href="<?php echo front_css(); ?>css/colors/theme-skin-color-set1.min.css" rel="stylesheet" type="text/css">
 
 <!-- external javascripts -->
 <script src="<?php echo front_css(); ?>js/jquery-2.2.4.min.js"></script>
 <script src="<?php echo front_css(); ?>js/jquery-ui.min.js"></script>
 <script src="<?php echo front_css(); ?>js/bootstrap.min.js"></script>
 <!-- JS | jquery plugin collection for this theme -->
-<script src="<?php echo front_css(); ?>js/jquery-plugin-collection.js"></script>
+<script src="<?php echo front_css(); ?>js/jquery-plugin-collection.min.js"></script>
 
-<!-- Revolution Slider 5.x SCRIPTS -->
-<script src="<?php echo front_css(); ?>js/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
-<script src="<?php echo front_css(); ?>js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
+<!-- Revolution Slider 5.x SCRIPTS -->  
+<!-- <script src="<?php //echo front_css(); ?>js/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
+<script src="<?php //echo front_css(); ?>js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script> -->
 
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
 </head>
 <style type="text/css">
 :root {
@@ -60,7 +64,7 @@
   --theme-color-2 : <?php echo $visual_setting->color_2; ?>;
   }
   </style>
-<body class="">
+<body>
 <div id="wrapper">
   <!-- preloader -->
   <?php if($this->uri->segment(1) == 'pages'):?>
