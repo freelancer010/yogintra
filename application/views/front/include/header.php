@@ -169,24 +169,24 @@
   </style>
 
 <script type="text/javascript">
-   function googleTranslateElementInit() {
-      new google.translate.TranslateElement({
-         pageLanguage: 'en', // Change this to your website's default language
-         autoDisplay: false,
-      }, 'google_translate_element');
-   }
-$(window).load(function(){
-    $(".goog-logo-link").empty();
-    $('.goog-te-gadget').html($('.goog-te-gadget').children());
-    $(".VIpgJd-ZVi9od-l4eHX-hSRGPd").empty();
-})
+  //  function googleTranslateElementInit() {
+  //     new google.translate.TranslateElement({
+  //        pageLanguage: 'en', // Change this to your website's default language
+  //        autoDisplay: false,
+  //     }, 'google_translate_element');
+  //  }
+  // $(window).load(function(){
+  //     $(".goog-logo-link").empty();
+  //     $('.goog-te-gadget').html($('.goog-te-gadget').children());
+  //     $(".VIpgJd-ZVi9od-l4eHX-hSRGPd").empty();
+  // })
 
 </script>
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<!-- <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> -->
 <style type="text/css">
-
+/* 
 .goog-te-gadget-icon {
-    display: none!important; /* Hide the Google Translate icon */
+    display: none!important; 
 }
 #google_translate_element {
   position: relative;
@@ -206,7 +206,7 @@ $(window).load(function(){
 } 
 .goog-logo-link {
     display:none !important;
-} 
+}  */
 <?php if($this->uri->segment(1) != ''):?>
 .header-nav-wrapper
 {
