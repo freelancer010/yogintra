@@ -98,11 +98,11 @@
   <div class="footer-bottom" style="background-color: black;">
     <div class="container pt-10 pb-10">
         <div class="row">
-            <div class="col-md-2">
+            <div class="col-md-12">
                 <h5 class="font-18 text-white-777 m-0 text-center pb-10 city_loc" style="color: white;font-family: 'Open Sans', sans-serif !important;font-size: 18px;
     font-weight: 500;">Locate Us :</h5>
             </div>
-            <div class="col-md-10 text-center text-md-right city_loc">
+            <div class="col-md-12 text-center text-md-right city_loc">
                 <ul style="list-style: none; padding: 0; margin: 0;">
                     <?php 
                     $all_landing_page = $this->db->get('new_landing_page')->result();
