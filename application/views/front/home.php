@@ -12,7 +12,9 @@
 <link rel="canonical" href="https://yogintra.com/" /> 
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-<meta name="description" content="<?php echo $app_setting->app_meta_description; ?>" />
+<meta property="og:title" content="<?php echo $app_setting->app_meta_title; ?>" />
+<meta property="og:description" content="<?php echo $app_setting->app_meta_description; ?>" />
+<!-- <meta name="description" content="<?php //echo $app_setting->app_meta_description; ?>" /> -->
 <meta name="keywords" content="<?php echo $app_setting->app_keywords; ?>" />
 <meta name="author" content="YogIntra" />
 
