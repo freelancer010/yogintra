@@ -1,26 +1,5 @@
-<html dir="ltr" lang="en">
 <head>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-8QW4B6YQ9G"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-8QW4B6YQ9G');
-</script>
-<link rel="canonical" href="https://yogintra.com/" /> 
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-<meta name="description" content="<?php echo $app_setting->app_meta_description; ?>" />
-<meta name="keywords" content="<?php echo $app_setting->app_keywords; ?>" />
-<meta name="author" content="YogIntra" />
-
-
-<!-- Page Title -->
-<title><?php echo $app_setting->app_meta_title; ?></title>
-
-
 <!-- Favicon and Touch Icons -->
 <link href="<?php echo base_url(); ?><?php echo $app_setting->fevicon; ?>" rel="shortcut icon" type="image/png">
 <link href="<?php echo base_url(); ?><?php echo $app_setting->fevicon; ?>" rel="apple-touch-icon">
@@ -75,35 +54,6 @@
 <!-- Revolution Slider 5.x SCRIPTS -->  
 <!-- <script src="<?php //echo front_css(); ?>js/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
 <script src="<?php //echo front_css(); ?>js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script> -->
-<style>
-.yg-txt-right{
-  text-align:right;
-}
-@media screen and (min-width: 1000px) and (max-width: 1200px) {
-  .cst-font{
-    font-size:28px !important;
-  }
-  .pt-20{
-    padding-top:30px !important;
-  }
-  .pb-50{
-    padding-bottom:30px !important;
-  }
-  /*  .font-54{
-    font-size:2rem !important;
-  }*/
-  h4.mb-5{
-    font-size:12px !important;
-  }
-  }
-  .test_ele .elementor-shape-fill
-  {
-  fill: #fff!important;
-  }
-  .sk_branding a.tutorial_link{
-    display:none !important;
-  }
-</style>
 </head>
 <style type="text/css">
 :root {
