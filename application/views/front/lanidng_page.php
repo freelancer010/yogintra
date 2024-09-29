@@ -792,12 +792,13 @@
                       <img class="img-fullwidth" style="height: 200px;width: auto"  alt="YogIntra trainers" src="<?php echo $api; ?>/<?php echo $trainner->profile_image?>">
                     </div>
                     <?php
-                  $birthYear = date("Y", strtotime($trainner->dob));
-                   ?>
+                      $currentYear = date("Y");
+                      $birthYear = date("Y", strtotime($trainner->dob));
+                    ?>
                     <div class="team-details">
                       <div class="p-10 bg-theme-colored2">
-                        <h4 class="team-title text-uppercase mt-0 mb-0"><a href="#"><?php echo $trainner->name?></a></h4>
-                        <p class="team-subtitle mt-0 mb-0">Age - <?php echo $currentYear - $birthYear;?></p>
+                        <h4 class="text-uppercase mt-0 mb-0"><a href="#"><?php echo $trainner->name?></a></h4>
+                        <p class="mt-0 mb-0">Age - <?php echo $currentYear - $birthYear;?></p>
                       </div>
                       
                     </div>
