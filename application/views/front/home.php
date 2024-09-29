@@ -292,6 +292,7 @@
       <div class="container">
           <div class="row">
             <div class='sk-ww-google-reviews' data-embed-id='25389280'></div>
+            <script src='https://widgets.sociablekit.com/google-reviews/widget.js' async defer></script>
       </div>
     </section>
     <section class="bg-lighter">
@@ -379,8 +380,6 @@
       </div>
     </section>
     
-    <script src='https://widgets.sociablekit.com/google-reviews/widget.js' async defer></script>
-
     <script type="text/javascript">
       $("#multi-step-form").submit(function(e) {
     e.preventDefault(); 
