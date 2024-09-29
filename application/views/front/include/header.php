@@ -31,9 +31,9 @@
  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Philosopher:wght@700&family=Quicksand:wght@600;700&family=Roboto&display=swap">
 <!-- Other CSS files -->
 <!-- CSS | Main style file -->
-<link href="<?php echo front_css(); ?>css/style-main.min.css" rel="stylesheet" type="text/css">
+<link href="<?php echo front_css(); ?>css/style-main.min.css?xv=1" rel="stylesheet" type="text/css">
 <!-- CSS | Preloader Styles -->
-<link href="<?php echo front_css(); ?>css/preloader.min.css" rel="stylesheet" type="text/css">
+<link href="<?php echo front_css(); ?>css/preloader.min.css?xv=1" rel="stylesheet" type="text/css">
 <!-- CSS | Custom Margin Padding Collection -->
 <link href="<?php echo front_css(); ?>css/custom-bootstrap-margin-padding.min.css" rel="stylesheet" type="text/css">
 <!-- Revolution Slider 5.x CSS settings -->
