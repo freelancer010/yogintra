@@ -4,7 +4,8 @@
 <!-- Meta Tags -->
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-<meta name="description" content="We are constantly raising awareness of detoxifying the mind and body from within. We guide you to improve your inner beauty and personality through yoga." />
+<meta property="og:title" content="Gallery  | YogIntra" />
+<meta property="og:description" content="We are constantly raising awareness of detoxifying the mind and body from within. We guide you to improve your inner beauty and personality through yoga." />
 <meta name="keywords" content="Online Yoga Classes India, Yoga Class in India, Best Yoga Institute In India, Best Yoga Center in India, Personal Yoga Trainer at Home, Best Yoga Classes in Mumbai, Yoga Teacher Training Courses." />
 <meta name="author" content="YogIntra" />
 

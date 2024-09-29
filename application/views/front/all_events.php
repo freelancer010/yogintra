@@ -4,7 +4,8 @@
 <!-- Meta Tags -->
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-<meta name="description" content="The Association for Yoga and Meditation has provided you with the Top Yoga Teacher Training in India. " />
+<meta property="og:title" content="Yoga Teacher Training Courses | Global Certification" />
+<meta property="og:description" content="The Association for Yoga and Meditation has provided you with the Top Yoga Teacher Training in India. " />
 <meta name="keywords" content=" Yoga Teacher Training courses,  Online Yoga Classes India, Yoga Class in India, Best Yoga Institute In India, Best Yoga Center in India, Personal Yoga Trainer at Home, best yoga classes in Mumbai" />
 <meta name="author" content="YogIntra" />
 

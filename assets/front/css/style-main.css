@@ -8879,6 +8879,9 @@ a.btn,.btn-primary{
     text-overflow: ellipsis
 }
 
-.sk_branding a.tutorial_link{
+.sk_branding a.tutorial_link {
     display:none !important;
+}
+.sk-badge-name > a.sk-google-reviews-badge-info {
+  display:none !important;
 }

@@ -4,7 +4,8 @@
 <!-- Meta Tags -->
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-<meta name="description" content="<?php echo $blog->blog_meta_description; ?>" />
+<meta property="og:title" content="<?php echo $blog->blog_title; ?>" />
+<meta property="og:description" content="<?php echo $blog->blog_meta_description; ?>" />
 <meta name="keywords" content="<?php echo $blog->blog_meta_keywords; ?>" />
 <meta name="author" content="YogIntra" />
 

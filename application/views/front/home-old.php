@@ -1,47 +1,56 @@
 <html dir="ltr" lang="en">
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8QW4B6YQ9G"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-8QW4B6YQ9G');
-  </script>
-  <link rel="canonical" href="https://yogintra.com/" /> 
-  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-  <meta property="og:title" content="<?php echo $app_setting->app_meta_title; ?>" />
-  <meta property="og:description" content="<?php echo $app_setting->app_meta_description; ?>" />
-  <meta name="keywords" content="<?php echo $app_setting->app_keywords; ?>" />
-  <meta name="author" content="YogIntra" />
-  <title><?php echo $app_setting->app_meta_title; ?></title>
-  <style>
-    .yg-txt-right{
-      text-align:right;
-    }
-    @media screen and (min-width: 1000px) and (max-width: 1200px) {
-      .cst-font{
-        font-size:28px !important;
-      }
-      .pt-20{
-        padding-top:30px !important;
-      }
-      .pb-50{
-        padding-bottom:30px !important;
-      }
-      h4.mb-5{
-        font-size:12px !important;
-      }
-    }
-    .test_ele .elementor-shape-fill{
-      fill: #fff!important;
-    }
-  </style>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8QW4B6YQ9G"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8QW4B6YQ9G');
+</script>
+<link rel="canonical" href="https://yogintra.com/" /> 
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta property="og:title" content="<?php echo $app_setting->app_meta_title; ?>" />
+<meta property="og:description" content="<?php echo $app_setting->app_meta_description; ?>" />
+<!-- <meta name="description" content="<?php //echo $app_setting->app_meta_description; ?>" /> -->
+<meta name="keywords" content="<?php echo $app_setting->app_keywords; ?>" />
+<meta name="author" content="YogIntra" />
+
+<!-- Page Title -->
+<title><?php echo $app_setting->app_meta_title; ?></title>
+<style>
+.yg-txt-right{
+  text-align:right;
+}
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+  .cst-font{
+    font-size:28px !important;
+  }
+  .pt-20{
+    padding-top:30px !important;
+  }
+  .pb-50{
+    padding-bottom:30px !important;
+  }
+  /*  .font-54{
+    font-size:2rem !important;
+  }*/
+  h4.mb-5{
+    font-size:12px !important;
+  }
+  }
+  .test_ele .elementor-shape-fill
+  {
+  fill: #fff!important;
+  }
+</style>
 </head>
 <!-- Start main-content -->
 
   <div class="main-content"> 
+    <!-- Section: home -->
     <section id="home" class="divider">
       <div class="fullwidth-carousel" data-nav="true">
         <?php foreach ($all_slider as $index => $slider): ?>
@@ -73,6 +82,7 @@
       <div class="container">
         <div class="section-title text-center">
           <div class="row">
+            <!---- col-md-12 col-md-offset-1 col-md-12 yg-txt-right---->
             <div class="col-md-7 col-md-offset-5">
               <h2 class="text-uppercase line-bottom-double-line-centered mt-0 cst-font"><?php echo $section_1->of_heading; ?></h2>
               <span><?php echo $section_1->of_sub_heading; ?></span>
@@ -81,8 +91,11 @@
         </div>
         <div class="section-content section_1">
           <div class="row">
+            
             <div class="col-md-5">
-              <div class="left_side_image hidden-xs"></div>
+              <div class="left_side_image hidden-xs">
+                
+              </div>
             </div>
             <div class="col-md-7">
               <div class="row">
@@ -106,12 +119,13 @@
         </div>
       </div>
     </section>
+    <!-- Section: Calculator  -->
     <section class="divider" style="background-image: url(<?php echo base_url(); ?>assets/pattern-chakras-alt-color.jpg);background-repeat: repeat;background-size: auto;">
       <div class="elementor-shape elementor-shape-top" data-negative="false">
-        <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 283.5 27.8" preserveAspectRatio="xMidYMax slice">
-          <path class="elementor-shape-fill" d="M0 0v6.7c1.9-.8 4.7-1.4 8.5-1 9.5 1.1 11.1 6 11.1 6s2.1-.7 4.3-.2c2.1.5 2.8 2.6 2.8 2.6s.2-.5 1.4-.7c1.2-.2 1.7.2 1.7.2s0-2.1 1.9-2.8c1.9-.7 3.6.7 3.6.7s.7-2.9 3.1-4.1 4.7 0 4.7 0 1.2-.5 2.4 0 1.7 1.4 1.7 1.4h1.4c.7 0 1.2.7 1.2.7s.8-1.8 4-2.2c3.5-.4 5.3 2.4 6.2 4.4.4-.4 1-.7 1.8-.9 2.8-.7 4 .7 4 .7s1.7-5 11.1-6c9.5-1.1 12.3 3.9 12.3 3.9s1.2-4.8 5.7-5.7c4.5-.9 6.8 1.8 6.8 1.8s.6-.6 1.5-.9c.9-.2 1.9-.2 1.9-.2s5.2-6.4 12.6-3.3c7.3 3.1 4.7 9 4.7 9s1.9-.9 4 0 2.8 2.4 2.8 2.4 1.9-1.2 4.5-1.2 4.3 1.2 4.3 1.2.2-1 1.4-1.7 2.1-.7 2.1-.7-.5-3.1 2.1-5.5 5.7-1.4 5.7-1.4 1.5-2.3 4.2-1.1c2.7 1.2 1.7 5.2 1.7 5.2s.3-.1 1.3.5c.5.4.8.8.9 1.1.5-1.4 2.4-5.8 8.4-4 7.1 2.1 3.5 8.9 3.5 8.9s.8-.4 2 0 1.1 1.1 1.1 1.1 1.1-1.1 2.3-1.1 2.1.5 2.1.5 1.9-3.6 6.2-1.2 1.9 6.4 1.9 6.4 2.6-2.4 7.4 0c3.4 1.7 3.9 4.9 3.9 4.9s3.3-6.9 10.4-7.9 11.5 2.6 11.5 2.6.8 0 1.2.2c.4.2.9.9.9.9s4.4-3.1 8.3.2c1.9 1.7 1.5 5 1.5 5s.3-1.1 1.6-1.4c1.3-.3 2.3.2 2.3.2s-.1-1.2.5-1.9 1.9-.9 1.9-.9-4.7-9.3 4.4-13.4c5.6-2.5 9.2.9 9.2.9s5-6.2 15.9-6.2 16.1 8.1 16.1 8.1.7-.2 1.6-.4V0H0z"></path>
-        </svg>
-      </div>
+            <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 283.5 27.8" preserveAspectRatio="xMidYMax slice">
+        <path class="elementor-shape-fill" d="M0 0v6.7c1.9-.8 4.7-1.4 8.5-1 9.5 1.1 11.1 6 11.1 6s2.1-.7 4.3-.2c2.1.5 2.8 2.6 2.8 2.6s.2-.5 1.4-.7c1.2-.2 1.7.2 1.7.2s0-2.1 1.9-2.8c1.9-.7 3.6.7 3.6.7s.7-2.9 3.1-4.1 4.7 0 4.7 0 1.2-.5 2.4 0 1.7 1.4 1.7 1.4h1.4c.7 0 1.2.7 1.2.7s.8-1.8 4-2.2c3.5-.4 5.3 2.4 6.2 4.4.4-.4 1-.7 1.8-.9 2.8-.7 4 .7 4 .7s1.7-5 11.1-6c9.5-1.1 12.3 3.9 12.3 3.9s1.2-4.8 5.7-5.7c4.5-.9 6.8 1.8 6.8 1.8s.6-.6 1.5-.9c.9-.2 1.9-.2 1.9-.2s5.2-6.4 12.6-3.3c7.3 3.1 4.7 9 4.7 9s1.9-.9 4 0 2.8 2.4 2.8 2.4 1.9-1.2 4.5-1.2 4.3 1.2 4.3 1.2.2-1 1.4-1.7 2.1-.7 2.1-.7-.5-3.1 2.1-5.5 5.7-1.4 5.7-1.4 1.5-2.3 4.2-1.1c2.7 1.2 1.7 5.2 1.7 5.2s.3-.1 1.3.5c.5.4.8.8.9 1.1.5-1.4 2.4-5.8 8.4-4 7.1 2.1 3.5 8.9 3.5 8.9s.8-.4 2 0 1.1 1.1 1.1 1.1 1.1-1.1 2.3-1.1 2.1.5 2.1.5 1.9-3.6 6.2-1.2 1.9 6.4 1.9 6.4 2.6-2.4 7.4 0c3.4 1.7 3.9 4.9 3.9 4.9s3.3-6.9 10.4-7.9 11.5 2.6 11.5 2.6.8 0 1.2.2c.4.2.9.9.9.9s4.4-3.1 8.3.2c1.9 1.7 1.5 5 1.5 5s.3-1.1 1.6-1.4c1.3-.3 2.3.2 2.3.2s-.1-1.2.5-1.9 1.9-.9 1.9-.9-4.7-9.3 4.4-13.4c5.6-2.5 9.2.9 9.2.9s5-6.2 15.9-6.2 16.1 8.1 16.1 8.1.7-.2 1.6-.4V0H0z"></path>
+      </svg>
+    </div>
       <div class="container">
         <div class="section-content">
           <div class="row">
@@ -140,6 +154,7 @@
         </div>
       </div>
     </section>
+
     <section class="divider types-of-yoga-section" style="background-image: url(<?php echo base_url(); ?>assets/parallax-decor.webp);background-position: center center;background-size: auto;">
       <div class="container">
         <div class="row">
@@ -147,7 +162,10 @@
             <div class="section-title">
               <div class="row">
                 <div class="col-md-12">
+                  <!-- <div class="section-4-title text-uppercase line-bottom-double-line-centered mt-0">A BRIEF DESCRIPTION OF THE TYPES OF YOGA SERVICES</div> -->
+
                   <h1 style="font-family: 'Philosopher', 'Sans-serif' !important; font-size: 35px;color: #000;">A BRIEF DESCRIPTION OF THE TYPES OF YOGA SERVICES </h1>
+
                   <p>We at YogIntra provide various services to the nature of the clients. Wish how you would like to spend your time here we can talk and come to a conclusion.</p>
                 </div>
               </div>
@@ -193,6 +211,7 @@
           <div class="row">
             <div class="col-md-8 col-md-offset-2">
               <h2 class="mt-0 line-height-1">Meet Our <span class="text-theme-colored2">Instructors</span></h2>
+             
             </div>
           </div>
         </div>
@@ -211,7 +230,7 @@
                     ?>
                     <div class="team-details">
                       <div class="p-10 bg-theme-colored2">
-                        <h4 class="text-uppercase mt-0 mb-0 text-dark"><?php echo $trainner->name?></h4>
+                        <h4 class="text-uppercase mt-0 mb-0 text-dark"><a href="#"><?php echo $trainner->name?></a></h4>
                         <p class="mt-0 mb-0">Age - <?php echo $currentYear - $birthYear;?></p>
                       </div>
                       
@@ -270,6 +289,7 @@
         </div>
       </div>
     </section>
+    
     <section class="review-section">
       <div class="container">
           <div class="row">
@@ -396,7 +416,8 @@ function ajaxCall() {
             success(data);
         }
         var errorRes = function(xhr, ajaxOptions, thrownError) {            
-          console.log(xhr.responseText);
+            // console.log(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+            console.log(xhr.responseText);
         }   
         jQuery.ajax({
             url: url,
@@ -427,7 +448,10 @@ function locationInfo() {
                 if(listlen > 0)
                 {
                     jQuery.each(data['result'], function(key, val) {
+                        // var option = jQuery('');
                         var option = `<option value='${val.name}'>${val.name}</option>`;
+
+                        // option.attr('value', val.name).text(val.name);
                         jQuery('.cities').append(option);
                     });
                 }
@@ -505,6 +529,7 @@ jQuery(function() {
 });
 
 $(document).ready(function () {
+    
     $.ajax({
         url: "https://restcountries.com/v3.1/all",
         type: 'GET',
@@ -601,157 +626,188 @@ $(document).ready(function () {
         return isValid;
     }
 });
-var $owl_carousel_4col = $('.owl-carousel-4col');
-if ( $owl_carousel_4col.length > 0 ) {
-    if(!$owl_carousel_4col.hasClass("owl-carousel")){
-        $owl_carousel_4col.addClass("owl-carousel owl-theme");
-    }
-    $owl_carousel_4col.each(function() {
-        var data_dots = ( $(this).data("dots") === undefined ) ? false: $(this).data("dots");
-        var data_nav = ( $(this).data("nav")=== undefined ) ? false: $(this).data("nav");
-        var data_duration = ( $(this).data("duration") === undefined ) ? 4000: $(this).data("duration");
-        $(this).owlCarousel({
-            // rtl: THEMEMASCOT.isRTL.check(),
-            autoplay: true,
-            autoplayTimeout: data_duration,
-            loop: true,
-            items: 4,
-            margin: 15,
-            dots: false,
-            nav: data_nav,
-            navText: [
-                '<i class="fa fa-chevron-left"></i>',
-                '<i class="fa fa-chevron-right"></i>'
-            ],
-            responsive: {
-                0: {
-                    items: 1,
-                    center: true
-                },
-                480: {
-                    items: 1,
-                    center: false
-                },
-                600: {
-                    items: 3,
-                    center: false
-                },
-                750: {
-                    items: 3,
-                    center: false
-                },
-                960: {
-                    items: 3
-                },
-                1170: {
-                    items: 4
-                },
-                1300: {
-                    items: 4
+    var $owl_carousel_4col = $('.owl-carousel-4col');
+    if ( $owl_carousel_4col.length > 0 ) {
+        if(!$owl_carousel_4col.hasClass("owl-carousel")){
+            $owl_carousel_4col.addClass("owl-carousel owl-theme");
+        }
+        $owl_carousel_4col.each(function() {
+            var data_dots = ( $(this).data("dots") === undefined ) ? false: $(this).data("dots");
+            var data_nav = ( $(this).data("nav")=== undefined ) ? false: $(this).data("nav");
+            var data_duration = ( $(this).data("duration") === undefined ) ? 4000: $(this).data("duration");
+            $(this).owlCarousel({
+                // rtl: THEMEMASCOT.isRTL.check(),
+                autoplay: true,
+                autoplayTimeout: data_duration,
+                loop: true,
+                items: 4,
+                margin: 15,
+                dots: false,
+                nav: data_nav,
+                navText: [
+                    '<i class="fa fa-chevron-left"></i>',
+                    '<i class="fa fa-chevron-right"></i>'
+                ],
+                responsive: {
+                    0: {
+                        items: 1,
+                        center: true
+                    },
+                    480: {
+                        items: 1,
+                        center: false
+                    },
+                    600: {
+                        items: 3,
+                        center: false
+                    },
+                    750: {
+                        items: 3,
+                        center: false
+                    },
+                    960: {
+                        items: 3
+                    },
+                    1170: {
+                        items: 4
+                    },
+                    1300: {
+                        items: 4
+                    }
                 }
-            }
+            });
         });
-    });
-}
-var $owl_carousel_3col = $('.owl-carousel-3col');
-if ( $owl_carousel_3col.length > 0 ) {
-    if(!$owl_carousel_3col.hasClass("owl-carousel")){
-        $owl_carousel_3col.addClass("owl-carousel owl-theme");
     }
-    $owl_carousel_3col.each(function() {
-        var data_dots = ( $(this).data("dots") === undefined ) ? false: $(this).data("dots");
-        var data_nav = ( $(this).data("nav")=== undefined ) ? false: $(this).data("nav");
-        var data_duration = ( $(this).data("duration") === undefined ) ? 4000: $(this).data("duration");
-        $(this).owlCarousel({
-            autoplay: true,
-            autoplayTimeout: data_duration,
-            loop: true,
-            items: 3,
-            margin: 15,
-            dots: data_dots,
-            nav: data_nav,
-            navText: [
-                '<i class="fa fa-chevron-left"></i>',
-                '<i class="fa fa-chevron-right"></i>'
-            ],
-            responsive: {
-                0: {
-                    items: 1,
-                    center: false
-                },
-                480: {
-                    items: 1,
-                    center: false
-                },
-                600: {
-                    items: 1,
-                    center: false
-                },
-                750: {
-                    items: 2,
-                    center: false
-                },
-                960: {
-                    items: 2
-                },
-                1170: {
-                    items: 3
-                },
-                1300: {
-                    items: 3
+    var $owl_carousel_3col = $('.owl-carousel-3col');
+    if ( $owl_carousel_3col.length > 0 ) {
+        if(!$owl_carousel_3col.hasClass("owl-carousel")){
+            $owl_carousel_3col.addClass("owl-carousel owl-theme");
+        }
+        $owl_carousel_3col.each(function() {
+            var data_dots = ( $(this).data("dots") === undefined ) ? false: $(this).data("dots");
+            var data_nav = ( $(this).data("nav")=== undefined ) ? false: $(this).data("nav");
+            var data_duration = ( $(this).data("duration") === undefined ) ? 4000: $(this).data("duration");
+            $(this).owlCarousel({
+                // rtl: THEMEMASCOT.isRTL.check(),
+                autoplay: true,
+                autoplayTimeout: data_duration,
+                loop: true,
+                items: 3,
+                margin: 15,
+                dots: data_dots,
+                nav: data_nav,
+                navText: [
+                    '<i class="fa fa-chevron-left"></i>',
+                    '<i class="fa fa-chevron-right"></i>'
+                ],
+                responsive: {
+                    0: {
+                        items: 1,
+                        center: false
+                    },
+                    480: {
+                        items: 1,
+                        center: false
+                    },
+                    600: {
+                        items: 1,
+                        center: false
+                    },
+                    750: {
+                        items: 2,
+                        center: false
+                    },
+                    960: {
+                        items: 2
+                    },
+                    1170: {
+                        items: 3
+                    },
+                    1300: {
+                        items: 3
+                    }
                 }
-            }
+            });
         });
-    });
-}
-</script>
-<style type="text/css">
-  .section_1 .benefit-icon .icon
-  {
-    background-color: #fff;
-  }
-  @media (max-width: 767px) {
-      .section-content-image {
-          background-image: none!important;
-      }
-      .font-54 {
-        font-size: 2rem !important;
-      }
-      .position-ab
-      {
-        position: absolute;
-        top: 0;
-      }
-      .sub_heading
-      {
-          font-size: 13px;
-      }
-      .margin-tp
-      {
-          margin-top:10px!important;
-      }
-      .fullwidth-carousel .carousel-item {
-        min-height: 0;
-        width: 100%;
-      }
-  }
-  .margin-tp{
-      margin-top:40px;
-  }
-  .padding-200{
-      padding-top:200px;
-      padding-bottom:200px;
-  }
-  .form-step {
-      display: none;
-  }
-  .form-step.active {
-      display: block;
-  }
-  .border-1px {
-    border: 1px solid #c9c7c7 !important;
-  }
-  .kzANES{
-    height: none !important;
-  }
-</style>
+    }
+
+    // var $owl_carousel_1col = $('.owl-carousel-1col, .text-carousel, .image-carousel, .fullwidth-carousel');
+    // if ( $owl_carousel_1col.length > 0 ) {
+    //     if(!$owl_carousel_1col.hasClass("owl-carousel")){
+    //         $owl_carousel_1col.addClass("owl-carousel owl-theme");
+    //     }
+    //     $owl_carousel_1col.each(function() {
+    //         var data_dots = ( $(this).data("dots") === undefined ) ? false: $(this).data("dots");
+    //         var data_nav = ( $(this).data("nav") === undefined ) ? false: $(this).data("nav");
+    //         var data_duration = ( $(this).data("duration") === undefined ) ? 4000: $(this).data("duration");
+    //         $(this).owlCarousel({
+    //             // rtl: THEMEMASCOT.isRTL.check(),
+    //             autoplay: true,
+    //             autoplayTimeout: data_duration,
+    //             loop: true,
+    //             items: 1,
+    //             dots: false,
+    //             nav: false,
+    //             touchDrag  : true,
+    //             mouseDrag  : true
+    //             // navText: [
+    //             //     '<i class="fa fa-chevron-left"></i>',
+    //             //     '<i class="fa fa-chevron-right"></i>'
+    //             // ]
+    //         });
+    //     });
+    // }
+  </script>
+  <style type="text/css">
+    .section_1 .benefit-icon .icon
+    {
+      background-color: #fff;
+    }
+    @media (max-width: 767px) {
+        .section-content-image {
+            background-image: none!important;
+        }
+        .font-54 {
+          font-size: 2rem !important;
+        }
+        .position-ab
+        {
+          position: absolute;
+          top: 0;
+        }
+        .sub_heading
+        {
+            font-size: 13px;
+        }
+        .margin-tp
+        {
+            margin-top:10px!important;
+        }
+        .fullwidth-carousel .carousel-item {
+          min-height: 0;
+          width: 100%;
+        }
+    }
+    .margin-tp
+    {
+        margin-top:40px;
+    }
+    .padding-200
+    {
+        padding-top:200px;
+        padding-bottom:200px;
+    }
+    .form-step {
+        display: none;
+    }
+    .form-step.active {
+        display: block;
+    }
+    .border-1px {
+      border: 1px solid #c9c7c7 !important;
+    }
+    .kzANES
+    {
+      height: none!important;
+    }
+  </style>
