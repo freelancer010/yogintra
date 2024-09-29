@@ -43,9 +43,6 @@
   {
   fill: #fff!important;
   }
-  .sk_branding a.tutorial_link{
-    display:none !important;
-  }
 </style>
 </head>
 <!-- Start main-content -->

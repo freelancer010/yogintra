@@ -8878,3 +8878,7 @@ a.btn,.btn-primary{
     overflow: hidden;
     text-overflow: ellipsis
 }
+
+.sk_branding a.tutorial_link{
+    display:none !important;
+}
