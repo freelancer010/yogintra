@@ -46,8 +46,8 @@
                     <div class="entry-meta media mt-0 no-bg no-border">
                       <div class="entry-date media-left text-center flip bg-theme-colored pt-5 pr-15 pb-5 pl-15">
                         <ul>
-                          <li class="font-16 font-weight-600" style="color:blue"><?php echo date('d', strtotime($all_blog->created_at)); ?></li>
-                          <li class="font-12 text-uppercase" style="color:blue"><?php echo date('M', strtotime($all_blog->created_at)); ?></li>
+                          <li class="font-16 font-weight-600 text-primary"><?php echo date('d', strtotime($all_blog->created_at)); ?></li>
+                          <li class="font-12 text-uppercase text-primary"><?php echo date('M', strtotime($all_blog->created_at)); ?></li>
                         </ul>
                       </div>
                       <div class="media-body pl-15">
