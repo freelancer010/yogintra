@@ -153,7 +153,7 @@
       </div>
     </section>
 
-    <section class="divider" style="background-image: url(<?php echo base_url(); ?>assets/parallax-decor.webp);background-position: center center;background-size: auto;">
+    <section class="divider types-of-yoga-section" style="background-image: url(<?php echo base_url(); ?>assets/parallax-decor.webp);background-position: center center;background-size: auto;">
       <div class="container">
         <div class="row">
           <div class="col-sm-8">
@@ -288,11 +288,11 @@
       </div>
     </section>
     
-    <section class="">
+    <section class="review-section">
       <div class="container">
           <div class="row">
             <div class='sk-ww-google-reviews' data-embed-id='25389280'></div>
-            <script src='https://widgets.sociablekit.com/google-reviews/widget.js' async defer></script>
+            <script data-src='https://widgets.sociablekit.com/google-reviews/widget.js'></script>
       </div>
     </section>
     <section class="bg-lighter">

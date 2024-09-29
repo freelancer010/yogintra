@@ -2392,3 +2392,39 @@ var THEMEMASCOT = {};
     THEMEMASCOT.initialize.TM_preLoaderClickDisable();
 
 })(jQuery);
+
+document.addEventListener("DOMContentLoaded", function () {
+    // Callback function for when the observed element enters the viewport
+    const callback = function (entries, observer) {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          // Load script or trigger any action you need
+          loadReviewScript();
+          observer.unobserve(entry.target); // Stop observing once triggered
+        }
+      });
+    };
+  
+    // IntersectionObserver setup
+    const observer = new IntersectionObserver(callback, {
+      root: null, // Use the browser viewport
+      threshold: 0.1, // Trigger when 50% of the element is in view
+    });
+  
+    // Target the previous section
+    const target = document.querySelector(".types-of-yoga-section");
+  
+    // Ensure the observer doesn't fire on load by delaying or setting a condition
+    if (target) {
+      observer.observe(target);
+    }
+});
+  
+  // Function to load the script
+function loadReviewScript() {
+    var scriptTag = $(".review-section script[data-src]");
+    var src = scriptTag.attr("data-src");
+    scriptTag.attr("src", src);
+}
+  
+  
