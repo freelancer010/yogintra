@@ -75,14 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-// 	'hostname' => 'localhost',
-// 	'username' => 'root',
-// 	'password' => '1001',
-// 	'database' => 'yogintra',
-	'hostname' => 'localhost',
-	'username' => 'rzjrzotk_yogintra',
-	'password' => 'yogintra@2023',
-	'database' => 'rzjrzotk_yogintra',
+	'hostname' => ENVIRONMENT == 'production' ? 'localhost' : 'localhost',
+	'username' => ENVIRONMENT == 'production' ? 'rzjrzotk_yogintra' : 'root',
+	'password' => ENVIRONMENT == 'production' ? 'yogintra@2023' : '1001',
+	'database' => ENVIRONMENT == 'production' ? 'rzjrzotk_yogintra' : 'yogintra',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
@@ -103,12 +99,12 @@ $db['default'] = array(
 $db['second_db'] = array(
     'dsn'      => '',
     'hostname' => 'localhost',
-	// 'username' => 'rzjrzotk_crm_yogintra',
-	// 'password' => 'crm_yogintra@2023',
-	// 'database' => 'rzjrzotk_crm_yogintra',
-	'username' => 'root',
-	'password' => '1001',
-	'database' => 'crm_yogintra',
+	'username' => 'rzjrzotk_crm_yogintra',
+	'password' => 'crm_yogintra@2023',
+	'database' => 'rzjrzotk_crm_yogintra',
+	// 'username' => 'root',
+	// 'password' => '1001',
+	// 'database' => 'crm_yogintra',
     'dbdriver' => 'mysqli',
     // ... other database config options ...
 );
