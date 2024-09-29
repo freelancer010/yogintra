@@ -56,7 +56,7 @@
                         </div>
                       </div>
                     </div>
-                    <p class="mt-10"><?php echo mb_strimwidth($all_blog->blog_short_description, 0, 60, "..."); ?></p>
+                    <p class="mt-10 elipse-text"><?= $all_blog->blog_short_description ?></p>
                     <a href="<?php echo base_url(); ?>blog/<?php echo $all_blog->blog_slug; ?>" class="btn-read-more">Read more</a>
                     <div class="clearfix"></div>
                   </div>
