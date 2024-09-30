@@ -54,7 +54,7 @@
                       <li><i class="fa fa-calendar mr-5"></i> <?php echo date('d-m-Y h:i A', strtotime($event->date_time)); ?></li>
                       <li><i class="fa fa-map-marker mr-5"></i> <?php echo $event->event_location; ?></li>
                     </ul>
-                    <p><?php echo mb_strimwidth($event->short_content, 0, 40, "..."); ?></p>
+                    <p class="elipse-text"><?php echo $event->short_content; ?></p>
                     <div class="mt-10">
                      <a class="btn btn-dark btn-theme-colored btn-sm mt-10" href="<?php echo base_url(); ?>event/<?php echo $event->link; ?>">Register</a>
                      <a href="<?php echo base_url(); ?>event/<?php echo $event->link; ?>" class="btn btn-dark btn-sm mt-10">Details</a>
