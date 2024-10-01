@@ -35,7 +35,7 @@
     <?php if($all_event): ?>
     <!-- Section: Upcoming Events -->
     <section id="upcoming-events" class="divider parallax layer-overlay overlay-white-8" data-bg-img="images/bg/bg1.jpg;">
-      <div class="container pb-50 pt-80">
+      <div class="container pb-0 pt-80">
         <div class="section-content">
           <div class="row">
             <?php foreach ($all_event as $key => $event):?>
