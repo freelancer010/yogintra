@@ -2393,6 +2393,9 @@ var THEMEMASCOT = {};
 
 })(jQuery);
 
+$(window).on('beforeunload',function(){
+    $('html,body').scrollTop(0);
+})
 document.addEventListener("DOMContentLoaded", function () {
     // Callback function for when the observed element enters the viewport
     const callback = function (entries, observer) {
