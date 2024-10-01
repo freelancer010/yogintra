@@ -42,8 +42,9 @@
              <?php 
              foreach ($all_event as $key => $event):?>
                 <div class="col-xs-12 col-sm-6 col-md-6 sm-text-center mb-30 mb-sm-30">
-<div class="schedule-box bg-light  mb-30" style="height:480px;border-bottom: 1px solid #bbb;">                      <div class="thumb" >
-                            <img class="img-fullwidth" alt="" src="<?php echo base_url(); ?><?php echo $event->image; ?>" style="height:300px;">
+                        <div class="schedule-box bg-light  mb-30 event-card-ag">
+                            <div class="thumb" >
+                            <img class="img-fullwidth" alt="<?php echo $event->title; ?> Image" src="<?php echo base_url(); ?><?php echo $event->image; ?>" style="height:300px;">
                             <div class="overlay">
                               <a href="<?php echo base_url(); ?>workshop/<?php echo $event->link; ?>"><i class="fa fa-calendar mr-5"></i></a>
                             </div>
@@ -54,7 +55,7 @@
                               <li><i class="fa fa-calendar mr-5"></i> <?php echo date('d-m-Y h:i A', strtotime($event->date_time)); ?></li>
                               <li><i class="fa fa-map-marker mr-5"></i> <?php echo $event->event_location; ?></li>
                             </ul>
-                             <p><?php echo mb_strimwidth($event->short_content, 0, 40, "..."); ?></p>
+                            <p class="elipse-text"><?php echo $event->short_content; ?></p>
                             <div class="mt-10">
                              <a class="btn btn-dark btn-theme-colored btn-sm mt-10" href="<?php echo base_url(); ?>workshop/<?php echo $event->link; ?>">Register</a>
                              <a href="<?php echo base_url(); ?>workshop/<?php echo $event->link; ?>" class="btn btn-dark btn-sm mt-10">Details</a>
