@@ -502,6 +502,10 @@
                                 foreach ($all_service as $key => $service):?>
                                   <option value="<?php echo $service->service_cat_name; ?>"><?php echo $service->service_cat_name; ?></option>
                                 <?php endforeach; ?>
+                                <option value="Yoga Center">Yoga Center</option>
+                                <option value="TTC">TTC</option>
+                                <option value="Retreat">Retreat</option>
+                                <option value="Workshop">Workshop</option>
                             </select>
                         </div>
                         <div class="form-group d-none">
