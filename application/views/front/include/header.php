@@ -7,6 +7,9 @@
 <link href="<?php echo base_url(); ?><?php echo $app_setting->fevicon; ?>" rel="apple-touch-icon" sizes="114x114">
 <link href="<?php echo base_url(); ?><?php echo $app_setting->fevicon; ?>" rel="apple-touch-icon" sizes="144x144">
 
+<!-- manifest  -->
+<link rel="manifest" href="<?php echo base_url(); ?>/manifest.json">
+
 <!-- Stylesheet -->
 <link href="<?php echo front_css(); ?>css/bootstrap.min.css" rel="stylesheet" type="text/css">
 <link href="<?php echo front_css(); ?>css/jquery-ui.min.css" rel="stylesheet" type="text/css">
