@@ -1,22 +1,24 @@
 <html dir="ltr" lang="en">
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8QW4B6YQ9G"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-8QW4B6YQ9G');
-  </script>
   <link rel="canonical" href="https://yogintra.com/" /> 
   <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
   <meta name="description" content="<?php echo $app_setting->app_meta_description; ?>" />
   <meta property="og:title" content="<?php echo $app_setting->app_meta_title; ?>" />
   <meta property="og:description" content="<?php echo $app_setting->app_meta_description; ?>" />
+  <meta property="og:url" content="https://yogintra.com/" />
+  <meta property="og:image" content="https://yogintra.com/uploads/slider/659f3e5889226Home-Page-Slide-3.webp" />
   <meta name="keywords" content="<?php echo $app_setting->app_keywords; ?>" />
   <meta name="author" content="YogIntra" />
   <title><?php echo $app_setting->app_meta_title; ?></title>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8QW4B6YQ9G"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-8QW4B6YQ9G');
+    </script>
   <style>
     .yg-txt-right{
       text-align:right;
