@@ -65,6 +65,20 @@
   }
   </style>
 <body>
+        <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Yogintra",
+  "url": "https://yogintra.com/",
+  "logo": "https://yogintra.com/uploads/6501ab36d6f70Rectrangular-logo-2.png",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+91-9867291573",
+    "contactType": "Customer Service"
+  }
+}
+</script>
 <div id="wrapper">
   <!-- preloader -->
   <?php if($this->uri->segment(1) == 'pages'):?>
