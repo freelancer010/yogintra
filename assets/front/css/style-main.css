@@ -8869,6 +8869,10 @@ a.btn,.btn-primary{
     padding-top: 0;
     padding-bottom: 0;
   }
+
+  .am-service-price{
+    font-size: 16px;
+  }
 }
 
 .elipse-text {
