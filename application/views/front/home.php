@@ -150,7 +150,7 @@
             <div class="section-title">
               <div class="row">
                 <div class="col-md-12">
-                  <h1 style="font-family: 'Philosopher', 'Sans-serif' !important; font-size: 35px;color: #000;">A BRIEF DESCRIPTION OF THE TYPES OF YOGA SERVICES </h1>
+                  <h1 class="ssc-ttl brief-dec-title">A BRIEF DESCRIPTION OF THE TYPES OF YOGA SERVICES </h1>
                   <p>We at YogIntra provide various services to the nature of the clients. Wish how you would like to spend your time here we can talk and come to a conclusion.</p>
                 </div>
               </div>

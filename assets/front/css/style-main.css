@@ -8889,3 +8889,8 @@ a.btn,.btn-primary{
     border-bottom: 1px solid #bbb;
     padding: 0;
 }
+
+.brief-dec-title{
+  font-family: 'Philosopher', 'Sans-serif' !important; 
+  font-size: 35px;color: #000;
+}
