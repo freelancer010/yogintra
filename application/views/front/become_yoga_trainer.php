@@ -1,9 +1,6 @@
-<html dir="ltr" lang="en">
-<head>
-
 <!-- Meta Tags -->
-<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta name="description" content="As YogIntra is one of the best Yoga Platforms, we are offering an opportunity to be a part of our organization." />
 <meta property="og:title" content="Yoga Teacher Jobs and Vacancies" />
 <meta property="og:description" content="As YogIntra is one of the best Yoga Platforms, we are offering an opportunity to be a part of our organization." />
 <meta name="keywords" content="Yoga Teacher Training Jobs and Vacancies, Online Yoga Classes India, Yoga Class in India, Best Yoga Institute In India, Best Yoga Center in India, Personal Yoga Trainer at Home, Best Yoga Classes in Mumbai, Yoga Teacher Training Courses." />
@@ -11,7 +8,9 @@
 
 <!-- Page Title -->
 <title>Yoga Teacher Jobs and Vacancies</title>
-
+</head>
+<body>
+  <?php include('include/navbar.php'); ?>
   <!-- Start main-content -->
   <div class="main-content">
     <!-- Section: inner-header -->

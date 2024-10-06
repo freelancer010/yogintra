@@ -1,9 +1,6 @@
-<html dir="ltr" lang="en">
-<head>
-
 <!-- Meta Tags -->
-<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta name="description" content="<?php echo $blog->blog_meta_description; ?>" />
 <meta property="og:title" content="<?php echo $blog->blog_title; ?>" />
 <meta property="og:description" content="<?php echo $blog->blog_meta_description; ?>" />
 <meta name="keywords" content="<?php echo $blog->blog_meta_keywords; ?>" />
@@ -21,7 +18,9 @@
 <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials-theme-classic.css" />
 <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials-theme-minima.css" />
 <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials-theme-plain.css" />
-
+</head>
+<body>
+  <?php include('include/navbar.php'); ?>
   <!-- Start main-content -->
   <div class="main-content">
   

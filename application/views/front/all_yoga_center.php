@@ -1,9 +1,6 @@
-<html dir="ltr" lang="en">
-<head>
-
 <!-- Meta Tags -->
-<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta name="description" content="Yoga Training is a renowned Best Yoga Center in India. It offers various yoga classes, online yoga classes, or group yoga classes in India." />
 <meta property="og:title" content="Best Yoga Center in India | YogIntra" />
 <meta property="og:description" content="Yoga Training is a renowned Best Yoga Center in India. It offers various yoga classes, online yoga classes, or group yoga classes in India." />
 <meta name="keywords" content="Yoga Class in India, Best Yoga Institute In India, Best Yoga Center in India, Personal Yoga Trainer at Home, best yoga classes in Mumbai, Yoga Teacher Training Courses" />
@@ -11,7 +8,9 @@
 
 <!-- Page Title -->
 <title>Best Yoga Center in India | YogIntra</title>
-
+</head>
+<body>
+  <?php include('include/navbar.php'); ?>
   <!-- Start main-content -->
   <div class="main-content">
     <!-- Section: inner-header -->

@@ -1,9 +1,6 @@
-<html dir="ltr" lang="en">
-<head>
-
 <!-- Meta Tags -->
-<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta name="description" content="Contact us directly or get a phone number and email address for a Yoga Class in India. Our YogIntra team is available for guidance to answer any questions!" />
 <meta property="og:title" content="Contact Us - YogIntra" />
 <meta property="og:description" content="Contact us directly or get a phone number and email address for a Yoga Class in India. Our YogIntra team is available for guidance to answer any questions!" />
 <meta name="keywords" content="Contact Us, Online Yoga Classes India, Yoga Class in India, Best Yoga Institute In India, Best Yoga Center in India, Personal Yoga Trainer at Home, Yoga Teacher Training Courses, Best Yoga Classes in Mumbai."/>       
@@ -12,7 +9,9 @@
 
 <!-- Page Title -->
 <title>Contact Us - YogIntra</title>
-
+</head>
+<body>
+  <?php include('include/navbar.php'); ?>
   <!-- Start main-content -->
   <div class="main-content">
     <!-- Section: inner-header -->

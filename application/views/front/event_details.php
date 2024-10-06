@@ -1,17 +1,18 @@
-<html dir="ltr" lang="en">
-<head>
-
 <!-- Meta Tags -->
-<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 <meta name="description" content="<?php echo $event->description; ?>" />
+<meta property="og:title" content="<?php echo $event->title; ?>" />
+<meta property="og:description" content="<?php echo $event->description; ?>" />
+
 <meta name="keywords" content="<?php echo $event->keyword; ?>" />
 <meta name="author" content="YogIntra" />
 <link rel="icon" href="<?php echo $event->image; ?>" type="image/png" />
 	
 <!-- Page Title -->
 <title><?php echo $event->title; ?></title>
-
+</head>
+<body>
+  <?php include('include/navbar.php'); ?>
 
 <!-- Start main-content -->
 <div class="main-content">

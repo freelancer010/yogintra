@@ -1,17 +1,15 @@
-<html dir="ltr" lang="en">
-<head>
-
 <!-- Meta Tags -->
-<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta name="description" content="A Beginner's Workshop for Every Yogi. Join us! Yoga Basics and Beyond is the perfect workshop if you are new to yoga or an experienced student, visit our site." />
 <meta property="og:title" content="Fundamentals of Yoga Workshop - YogIntra" />
-<meta property="og:description" content="A Beginner's Workshop for Every Yogi. Join us! Yoga Basics and Beyond is the perfect workshop if you are new to yoga or an experienced student, visit our site." />
 <meta name="keywords" content="Yoga Class Workshop in Mumbai, Online Yoga Classes India, Yoga Class in India, Best Yoga Institute In India, Best Yoga Center in India, Personal Yoga Trainer at Home, Best Yoga Classes in Mumbai, Yoga Teacher Training Courses." />
 <meta name="author" content="YogIntra" />
 
 <!-- Page Title -->
 <title>Fundamentals of Yoga Workshop - YogIntra</title>
-
+</head>
+<body>
+  <?php include('include/navbar.php'); ?>
   <!-- Start main-content -->
   <div class="main-content">
     <!-- Section: inner-header -->

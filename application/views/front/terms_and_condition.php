@@ -1,16 +1,17 @@
-<html dir="ltr" lang="en">
-<head>
-
 <!-- Meta Tags -->
-<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 <meta name="description" content="Elevate your mind and body with YogIntra the Best Yoga Institute In India, providing Online and personal home visit Yoga." />
+<meta property="og:title" content="Terms and Conditions | YogIntra" />
+<meta property="og:description" content="Elevate your mind and body with YogIntra the Best Yoga Institute In India, providing Online and personal home visit Yoga." />
+
 <meta name="keywords" content="Terms and Conditions, Online Yoga Classes India, Yoga Class in India, Best Yoga Institute In India, Best Yoga Center in India, Personal Yoga Trainer at Home, Best Yoga Classes in Mumbai, Yoga Teacher Training Courses." />
 <meta name="author" content="YogIntra" />
 
 <!-- Page Title -->
 <title>Terms and Conditions | YogIntra</title>
-
+</head>
+<body>
+  <?php include('include/navbar.php'); ?>
   <div class="main-content">
 
     <!-- Section: inner-header -->

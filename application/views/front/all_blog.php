@@ -1,16 +1,16 @@
-<html dir="ltr" lang="en">
-<head>
-
 <!-- Meta Tags -->
-<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 <meta name="description" content="This blog is about my yoga journey. It started decades ago and has no end." />
+<meta property="og:title" content="Blogs - YogIntra" />
+<meta property="og:description" content="This blog is about my yoga journey. It started decades ago and has no end." />
 <meta name="keywords" content="Online Yoga Classes India, Yoga Class in India, Best Yoga Institute In India, Best Yoga Center in India, Personal Yoga Trainer at Home, Best Yoga Classes in Mumbai." />
 <meta name="author" content="YogIntra" />
 
 <!-- Page Title -->
 <title>Blogs - YogIntra</title>
-
+</head>
+<body>
+  <?php include('include/navbar.php'); ?>
   <div class="main-content">
 
     <!-- Section: inner-header -->
