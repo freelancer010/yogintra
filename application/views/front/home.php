@@ -4,7 +4,7 @@
   <meta property="og:title" content="<?php echo $app_setting->app_meta_title; ?>" />
   <meta property="og:description" content="<?php echo $app_setting->app_meta_description; ?>" />
   <meta property="og:url" content="https://yogintra.com/" />
-  <meta property="og:image" content="https://yogintra.com/uploads/slider/659f3e5889226Home-Page-Slide-2.webp" />
+  <meta property="og:image" content="<?php echo base_url('assets/android-chrome-512x512.png')?>" />
   <meta name="keywords" content="<?php echo $app_setting->app_keywords; ?>" />
   <meta name="author" content="YogIntra" />
   <title><?php echo $app_setting->app_meta_title; ?></title>
