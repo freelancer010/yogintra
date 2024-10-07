@@ -36,7 +36,7 @@
   <section>
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-12">
           <ul>
               <div class="bg-light media border-bottom p-15 mb-20">
                 <div class="media-left">
@@ -81,7 +81,7 @@
         </div>
       </div>
         </div>
-        <div class="col-md-8">
+        <div class="col-md-12">
           <img src="<?php echo base_url(); ?><?php echo $center->center_image; ?>" alt="<?php echo $center->center_name; ?>" width="100%">
         </div>
       </div>
