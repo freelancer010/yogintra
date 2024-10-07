@@ -53,4 +53,4 @@
     /></noscript>
     <!-- End Meta Pixel Code -->
     <meta property="og:url" content="https://yogintra.com/" />
-    <meta property="og:image" content="<?php echo base_url('assets/android-chrome-512x512.png')?>" />
+    <meta property="og:image" content="<?php echo base_url('assets/og-logo.jpg')?>" />
