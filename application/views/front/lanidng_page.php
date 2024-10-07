@@ -1,6 +1,3 @@
-<html dir="ltr" lang="en">
-<head>
-
 <!-- Meta Tags -->
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
@@ -22,24 +19,24 @@
 
  <style>
     @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
- .about-section .image-column .inner-column .author-desc
- {
-       position: absolute !important;
-    bottom: 19px !important;
-    z-index: 1 !important;
-    background: orange !important;
-    padding: 5px 5px !important;
-    left: 100px !important;
-    width: 50% !important;
-    border-radius: 1 !important;
-   }
- }
+      .about-section .image-column .inner-column .author-desc
+      {
+            position: absolute !important;
+          bottom: 19px !important;
+          z-index: 1 !important;
+          background: orange !important;
+          padding: 5px 5px !important;
+          left: 100px !important;
+          width: 50% !important;
+          border-radius: 1 !important;
+        }
+      }
  
- @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
- h1.font-54{
-    font-size: 1.857143rem !important;
-  }
-}
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+      h1.font-54{
+          font-size: 1.857143rem !important;
+        }
+      }
       .sec-title {
          position: relative;
          z-index: 1;
@@ -426,9 +423,10 @@
          }
       }
    </style>
-
-
-
+</head>
+<body>
+<?php include('include/navbar.php'); ?>
+<!-- Start main-content -->
 
   <div class="main-content">
     <!-- Section: home -->
@@ -545,7 +543,8 @@
       </div>
     </section>
 
-<section class="">
+
+    <section class="">
       <div class="container" style="padding-top: 30px !important;padding-bottom: 30px!important;">
         <div class="section-title text-center">
           <div class="row">
