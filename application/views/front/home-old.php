@@ -130,7 +130,7 @@
         <div class="section-content">
           <div class="row">
             <div class="col-md-6">
-              <img src="<?php echo CDN_URL ?><?php echo $section_2->os_image_image; ?>" width="349" height="348" loading="lazy" alt="<?php echo $section_2->os_image_heading; ?>">
+              <img src="<?php echo base_url() ?><?php echo $section_2->os_image_image; ?>" width="349" height="348" loading="lazy" alt="<?php echo $section_2->os_image_heading; ?>">
             </div>
             <div class="col-md-6">
               <h5 class="section-3 mb-0"><?php echo $section_2->os_image_sub_heading; ?></h5>
