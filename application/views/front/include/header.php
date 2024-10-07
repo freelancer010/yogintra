@@ -31,12 +31,12 @@
     <link href="<?php echo front_css(); ?>css/preloader.min.css?xv=1" rel="stylesheet" type="text/css">
     <link href="<?php echo front_css(); ?>css/custom-bootstrap-margin-padding.min.css" rel="stylesheet" type="text/css">
     <link href="<?php echo front_css(); ?>css/colors/theme-skin-color-set1.min.css" rel="stylesheet" type="text/css">
-    <script src="<?php echo front_css(); ?>js/common.js"></script>
+    <!-- <script src="<?php //echo front_css(); ?>js/common.js"></script> -->
 
-    <!-- <script src="<?php //echo front_css(); ?>js/jquery-2.2.4.min.js"></script>
-    <script src="<?php //echo front_css(); ?>js/jquery-ui.min.js"></script>
-    <script src="<?php //echo front_css(); ?>js/bootstrap.min.js"></script>
-    <script src="<?php //echo front_css(); ?>js/jquery-plugin-collection.min.js"></script> -->
+    <script src="<?php echo front_css(); ?>js/jquery-2.2.4.min.js"></script>
+    <script src="<?php echo front_css(); ?>js/jquery-ui.min.js"></script>
+    <script src="<?php echo front_css(); ?>js/bootstrap.min.js"></script>
+    <script src="<?php echo front_css(); ?>js/jquery-plugin-collection.min.js"></script>
     <!-- Meta Pixel Code -->
     <script>
     !function(f,b,e,v,n,t,s)
