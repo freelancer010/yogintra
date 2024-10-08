@@ -140,10 +140,6 @@
   <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
 </div>
 <!-- end wrapper -->
-<script src="<?php echo front_css(); ?>js/jquery-2.2.4.min.js"></script>
-<script src="<?php echo front_css(); ?>js/jquery-ui.min.js"></script>
-<script src="<?php echo front_css(); ?>js/bootstrap.min.js"></script>
-<script src="<?php echo front_css(); ?>js/jquery-plugin-collection.min.js"></script>
 <script type="text/javascript">
 $('form').submit(function() {
      $('button[type="submit"]').html('Processing....');
