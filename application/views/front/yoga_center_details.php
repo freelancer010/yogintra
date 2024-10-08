@@ -146,7 +146,7 @@
         $('#ttl_p').html(amount + totalAmountMain);
         $('#tplMainAmt').val(amount + totalAmountMain);
       } else {
-        var amount = <?php echo $event->ticket_price_foreigner; ?>;
+        var amount = "<?php echo $event->ticket_price_foreigner; ?>";
         $('#tpl').val(amount);
         $('#ttl_p').html(amount + totalAmountMain);
         $('#tplMainAmt').val(amount + totalAmountMain);
