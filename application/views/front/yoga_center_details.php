@@ -37,6 +37,9 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
+          <img src="<?php echo base_url(); ?><?php echo $center->center_image; ?>" alt="<?php echo $center->center_name; ?>" width="100%">
+        </div>
+        <div class="col-md-12">
           <ul>
               <div class="bg-light media border-bottom p-15 mb-20">
                 <div class="media-left">
@@ -69,23 +72,12 @@
                    <p>Mobile Number: <?php echo $center->mobile_number ?></p>
          
           </div>
-               <div class="row mt-60">
         <div class="col-sm-12">
-          
-       
-            <div >
-              <p style="text-align:justify"><?php echo $center->center_description; ?></p>
-            </div>
-            
-         
+          <div >
+            <p style="text-align:justify"><?php echo $center->center_description; ?></p>
+          </div>
         </div>
       </div>
-        </div>
-        <div class="col-md-12">
-          <img src="<?php echo base_url(); ?><?php echo $center->center_image; ?>" alt="<?php echo $center->center_name; ?>" width="100%">
-        </div>
-      </div>
- 
     </div>
   </section>
   <script>
