@@ -141,7 +141,7 @@
 
     function get_price(e) {
       if (e == 1) {
-        var amount = <?php echo $event->ticket_price_indian; ?>;
+        var amount = "<?php echo $event->ticket_price_indian; ?>";
         $('#tpl').val(amount);
         $('#ttl_p').html(amount + totalAmountMain);
         $('#tplMainAmt').val(amount + totalAmountMain);
