@@ -1,8 +1,5 @@
 
-<script src="<?php echo front_css(); ?>js/jquery-2.2.4.min.js"></script>
-<script src="<?php echo front_css(); ?>js/jquery-ui.min.js"></script>
-<script src="<?php echo front_css(); ?>js/bootstrap.min.js"></script>
-<script src="<?php echo front_css(); ?>js/jquery-plugin-collection.min.js"></script>
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
