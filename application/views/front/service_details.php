@@ -572,7 +572,7 @@ function selectTimeSlot(selectedTimeSlot) {
 @media only screen and (max-width: 600px) {
   .am-service-header
     {
-      display: inherit;
+        flex-direction: column;
     }
 }
 </style>

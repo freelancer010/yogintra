@@ -16,6 +16,42 @@
     "contactType": "Customer Service"
   }
 }
+
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Yogintra",
+  "image": "https://yogintra.com/assets/og-logo.jpg",
+  "@id": "https://yogintra.com/",
+  "url": "https://yogintra.com/",
+  "telephone": "+91-9867291573",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "D-408 Shivlila Apt Mumbra devi colony road",
+    "addressLocality": "Mumbai Thane",
+    "addressRegion": "West Bengal",
+    "postalCode": "400612",
+    "addressCountry": "India"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 19.186440995177897,
+    "longitude": 73.04725068022144
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "opens": "09:00",
+    "closes": "20:00"
+  }
+}
+
 </script>
 <div id="wrapper">
   <!-- preloader -->
