@@ -11,32 +11,29 @@
     <link rel="manifest" href="<?php echo base_url(); ?>/manifest.json">
     <link href="<?php echo front_css(); ?>css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="<?php echo front_css(); ?>css/jquery-ui.min.css" rel="stylesheet" type="text/css">
-    <link href="<?php echo front_css(); ?>css/css-plugin-collections.min.css" rel="stylesheet">
+    <link href="<?php echo front_css(); ?>css/css-plugin-collections.min.css" rel="stylesheet" media="all">
     <link href="<?php echo front_css(); ?>css/menuzord-megamenu.min.css" rel="stylesheet">
     <link id="menuzord-menu-skins" href="<?php echo front_css(); ?>css/menuzord-skins/menuzord-bottom-trace.min.css" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo front_css(); ?>css/font-awesome.min.css">
-    <link rel="stylesheet" href="<?php echo front_css(); ?>css/font-awesome-animation.min.css">
+    <link rel="stylesheet" href="<?php echo front_css(); ?>css/font-awesome-animation.min.css" media="all">
     <link rel="stylesheet" href="<?php echo front_css(); ?>css/pe-icon-7-stroke.css">
     <link rel="stylesheet" href="<?php echo front_css(); ?>css/elegant-icons.min.css">
     <link rel="stylesheet" href="<?php echo front_css(); ?>css/icomoon.min.css">
-    <link rel="stylesheet" href="<?php echo front_css(); ?>css/ionicons.min.css">
-    <link rel="stylesheet" href="<?php echo front_css(); ?>css/stroke-gap-icons.css">
+    <link rel="stylesheet" href="<?php echo front_css(); ?>css/ionicons.min.css" media="all">
+    <link rel="stylesheet" href="<?php echo front_css(); ?>css/stroke-gap-icons.css" media="all">
     <link rel="stylesheet" href="<?php echo front_css(); ?>css/utility-classes.min.css">
     <link rel="stylesheet" href="<?php echo front_css(); ?>css/flaticon-set-yoga.css">
     <link rel="stylesheet" href="<?php echo front_css(); ?>css/flaticon-set-yoga-symbol.css">
     <link rel="stylesheet" href="<?php echo front_css(); ?>css/flaticon-set-spa.css">
     <link rel="stylesheet" href="<?php echo front_css(); ?>css/flaticon-set-gym.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Philosopher:wght@700&family=Quicksand:wght@600;700&family=Roboto&display=swap">
-    <link href="<?php echo front_css(); ?>css/style-main.min.css?xv=1" rel="stylesheet" type="text/css">
+    <link href="<?php echo front_css(); ?>css/style-main.min.css?xv=1" rel="stylesheet" type="text/css" media="all">
     <link href="<?php echo front_css(); ?>css/preloader.min.css?xv=1" rel="stylesheet" type="text/css">
-    <link href="<?php echo front_css(); ?>css/custom-bootstrap-margin-padding.min.css" rel="stylesheet" type="text/css">
+    <link href="<?php echo front_css(); ?>css/custom-bootstrap-margin-padding.min.css" rel="stylesheet" type="text/css" media="all">
     <link href="<?php echo front_css(); ?>css/colors/theme-skin-color-set1.min.css" rel="stylesheet" type="text/css">
     <!-- <script src="<?php //echo front_css(); ?>js/common.js"></script> -->
 
-    <script src="<?php echo front_css(); ?>js/jquery-2.2.4.min.js"></script>
-    <script src="<?php echo front_css(); ?>js/jquery-ui.min.js"></script>
-    <script src="<?php echo front_css(); ?>js/bootstrap.min.js"></script>
-    <script src="<?php echo front_css(); ?>js/jquery-plugin-collection.min.js"></script>
+
     <!-- Meta Pixel Code -->
     <script>
     !function(f,b,e,v,n,t,s)
