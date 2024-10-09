@@ -40,38 +40,45 @@
           <img src="<?php echo base_url(); ?><?php echo $center->center_image; ?>" alt="<?php echo $center->center_name; ?>" width="100%">
         </div>
         <div class="col-md-12">
-          <ul>
+          <div class="row">
+            <div class="col-md-4">
+              <ul>
+                <div class="bg-light media border-bottom p-15 mb-20">
+                  <div class="media-left">
+                    <i class="pe-7s-home text-theme-colored font-24 mt-5"></i>
+                  </div>
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-0">Location:</h5>
+                    <p><?php echo $center->center_address ?>, <?php echo $center->center_city ?>, <?php echo $center->center_state ?>, 
+                      <?php echo $center->center_country ?></p>
+                  </div>
+                </div>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-4">
               <div class="bg-light media border-bottom p-15 mb-20">
-                <div class="media-left">
-                  <i class="pe-7s-home text-theme-colored font-24 mt-5"></i>
-                </div>
-                <div class="media-body">
-                  <h5 class="mt-0 mb-0">Location:</h5>
-                  <p><?php echo $center->center_address ?>, <?php echo $center->center_city ?>, <?php echo $center->center_state ?>, 
-                    <?php echo $center->center_country ?></p>
-                </div>
+                <p>Email Address: <?php echo $center->email_address ?></p>
+                <p>Mobile Number: <?php echo $center->mobile_number ?></p>
               </div>
-            </li>
-           
-            <li>
-              <h5>Share:</h5>
-              <div class="styled-icons icon-sm icon-gray icon-circled">
-                <a href="https://www.facebook.com/yogintra"><i class="fa fa-facebook"></i></a>
-                <a href="https://twitter.com/yogintra"><i class="fa fa-twitter"></i></a>
-                <a href="https://www.instagram.com/yogintra"><i class="fa fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/in/yogintra/"><i class="fa fa-linkedin"></i></a>
-
-                                                        
+            </div>
+            <div class="col-md-4">
+              <div class="bg-light media border-bottom p-15 mb-20">
+                <ul>
+                  <li>
+                    <h5>Share:</h5>
+                    <div class="styled-icons icon-sm icon-gray icon-circled">
+                      <a href="https://www.facebook.com/yogintra"><i class="fa fa-facebook"></i></a>
+                      <a href="https://twitter.com/yogintra"><i class="fa fa-twitter"></i></a>
+                      <a href="https://www.instagram.com/yogintra"><i class="fa fa-instagram"></i></a>
+                      <a href="https://www.linkedin.com/in/yogintra/"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                  </li>
+                </ul>
               </div>
-            </li>
-          </ul>
-          <br/><br>
-          <div class="bg-light media border-bottom p-15 mb-20">
-                   <p>Email Address: <?php echo $center->email_address ?></p>
-                   
-                   <p>Mobile Number: <?php echo $center->mobile_number ?></p>
-         
+            </div>
           </div>
+        </div>
         <div class="col-sm-12">
           <div >
             <p style="text-align:justify"><?php echo $center->center_description; ?></p>
