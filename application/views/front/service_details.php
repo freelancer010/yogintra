@@ -5,6 +5,7 @@
 </head>
 
 <body>
+  <?php include('include/navbar.php'); ?>
   <!-- Start main-content -->
   <div class="main-content">
     <!-- Section: inner-header -->

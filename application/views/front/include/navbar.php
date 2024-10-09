@@ -95,8 +95,8 @@
                 <ul class="dropdown">
                   <?php 
                   $all_service = $this->db->get('service_category')->result();
-                  foreach ($all_service as $key => $service):?>
-                    <li><a href="<?php echo base_url(); ?>service/<?php echo $service->service_cat_slug; ?>"><?php echo $service->service_cat_name; ?></a></li>
+                  foreach ($all_service as $key => $service_menu):?>
+                    <li><a href="<?php echo base_url(); ?>service/<?php echo $service_menu->service_cat_slug; ?>"><?php echo $service_menu->service_cat_name; ?></a></li>
                   <?php endforeach; ?>
                 </ul>
               </li>
