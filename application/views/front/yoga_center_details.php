@@ -40,7 +40,7 @@
           <img src="<?php echo base_url(); ?><?php echo $center->center_image; ?>" alt="<?php echo $center->center_name; ?>" width="100%">
         </div>
         <div class="col-md-12">
-          <div class="row">
+          <div class="row bg-light">
             <div class="col-md-4">
               <ul>
                 <div class="bg-light media border-bottom p-15 mb-20">
