@@ -43,23 +43,44 @@
           <div class="row bg-light m-0">
             <div class="col-md-4">
               <ul>
-                <div class="bg-light media border-bottom p-15 mb-20">
-                  <div class="media-left">
-                    <i class="pe-7s-home text-theme-colored font-24 mt-5"></i>
+                <li>
+                  <div class="bg-light media border-bottom p-15 mb-20">
+                    <div class="media-left">
+                      <i class="pe-7s-home text-theme-colored font-24 mt-5"></i>
+                    </div>
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-0">Location:</h5>
+                      <p><?php echo $center->center_address ?>, <?php echo $center->center_city ?>, <?php echo $center->center_state ?>, 
+                        <?php echo $center->center_country ?></p>
+                    </div>
                   </div>
-                  <div class="media-body">
-                    <h5 class="mt-0 mb-0">Location:</h5>
-                    <p><?php echo $center->center_address ?>, <?php echo $center->center_city ?>, <?php echo $center->center_state ?>, 
-                      <?php echo $center->center_country ?></p>
-                  </div>
-                </div>
                 </li>
               </ul>
             </div>
             <div class="col-md-4">
-              <div class="bg-light media border-bottom p-15 mb-20">
-                <p>Email Address: <?php echo $center->email_address ?></p>
-                <p>Mobile Number: <?php echo $center->mobile_number ?></p>
+              <ul>
+                <li>
+                  <div class="bg-light media border-bottom p-15 pb-0">
+                    <div class="media-left">
+                      <i class="fa fa-envelope"></i>
+                    </div>
+                    <div class="media-body">
+                      <a class="d-flex" href="mailto:<?php echo $center->email_address ?>"><?php echo $center->email_address ?></a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="bg-light media border-bottom p-15 pb-0">
+                    <div class="media-left">
+                      <i class="fa fa-phone"></i>
+                    </div>
+                    <div class="media-body">
+                      <a class="d-flex" href="tel:<?php echo $center->mobile_number ?>"><?php echo $center->mobile_number ?></a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <div class="styled-icons icon-sm icon-gray icon-circled">
               </div>
             </div>
             <div class="col-md-4">
