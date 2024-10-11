@@ -8839,7 +8839,8 @@ a.btn,.btn-primary{
 .mobile-heaading-h2{
   font-size:  3rem !important;
   line-height: 1.25; 
-  font-weight: 900
+  font-weight: 900;
+  margin-top: 30%;
 }
 
 @media (max-width: 767px){
