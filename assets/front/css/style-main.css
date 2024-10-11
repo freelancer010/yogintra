@@ -8821,7 +8821,34 @@ a.btn,.btn-primary{
   margin-top: 25px;
 }
 .breadcrumb{display: none;}
+
+#home .mobile-home{
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position-x: center;
+  padding: 60px 35px;
+}
+
+#home .fullwidth-carousel{
+  display: block;
+}
+#home .mobile-home{
+  display: none;
+}
+.mobile-heaading-h2{
+  font-size:  3rem !important;
+  line-height: 1.25; 
+  font-weight: 900
+}
+
 @media (max-width: 767px){
+  #home .fullwidth-carousel{
+    display: none;
+  }
+  #home .mobile-home{
+    display: block;
+  }
   h2,.section-3-title,.line-bottom-double-line-centered,.section-4-title{
     font-size: 2rem !important;
    

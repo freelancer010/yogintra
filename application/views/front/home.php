@@ -43,6 +43,22 @@
   
   <div class="main-content"> 
     <section id="home" class="divider">
+      <?php 
+        foreach ($all_slider as $index => $slider){
+          $mob_heading = $slider->slider_heading;
+          $uri_image = base_url().$slider->slider_image.'?x=21dfsd';
+          break;
+        } 
+      ?>
+      <div class="mobile-home" style="background-image: url('<?= $uri_image ?>');">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="bg-white-transparent pt-20 pb-50 outline-border">
+              <h2 class="text-black-555 mobile-heaading-h2"><?php echo $mob_heading; ?></h2>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="fullwidth-carousel" data-nav="true">
         <?php foreach ($all_slider as $index => $slider): ?>
           <div class="carousel-item bg-img-cover " style='background-image: url("");' >
