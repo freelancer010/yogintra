@@ -46,7 +46,7 @@
       <?php 
         foreach ($all_slider as $index => $slider){
           if($index == 1){
-            $uri_image = base_url().$slider->slider_image.'?x=21dfsd';
+            $uri_image = base_url().$slider->slider_image.'?y=dsvndskjvn';
             $mob_heading = $slider->slider_heading;
             $mob_sub_heading = $slider->slider_sub_heading;
             break;
