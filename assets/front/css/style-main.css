@@ -8823,7 +8823,7 @@ a.btn,.btn-primary{
 .breadcrumb{display: none;}
 
 #home .mobile-home{
-  height: 100vh;
+  height: 30vh;
   width: 100%;
   background-size: cover;
   background-position-x: center;
@@ -8835,12 +8835,6 @@ a.btn,.btn-primary{
 }
 #home .mobile-home{
   display: none;
-}
-.mobile-heaading-h2{
-  font-size:  3rem !important;
-  line-height: 1.25; 
-  font-weight: 900;
-  margin-top: 30%;
 }
 
 @media (max-width: 767px){

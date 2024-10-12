@@ -45,16 +45,22 @@
     <section id="home" class="divider">
       <?php 
         foreach ($all_slider as $index => $slider){
-          $mob_heading = $slider->slider_heading;
-          $uri_image = base_url().$slider->slider_image.'?x=21dfsd';
-          break;
+          if($index == 1){
+            $uri_image = base_url().$slider->slider_image.'?x=21dfsd';
+            $mob_heading = $slider->slider_heading;
+            $mob_sub_heading = $slider->slider_sub_heading;
+            break;
+          } else {
+            continue;
+          }
         } 
       ?>
       <div class="mobile-home" style="background-image: url('<?= $uri_image ?>');">
         <div class="row">
           <div class="col-md-6">
             <div class="bg-white-transparent pt-20 pb-50 outline-border">
-              <h2 class="text-black-555 mobile-heaading-h2"><?php echo $mob_heading; ?></h2>
+              <h2 class="text-black-555 font-54"><?php echo $mob_heading; ?></h2>
+              <h5 class="font-weight-400 margin-tp sub_heading"><?php echo $mob_sub_heading; ?></h5>
             </div>
           </div>
         </div>
