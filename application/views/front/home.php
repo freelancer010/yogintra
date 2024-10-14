@@ -43,30 +43,14 @@
   
   <div class="main-content"> 
     <section id="home" class="divider">
-      <?php 
-        foreach ($all_slider as $index => $slider){
-          if($index == 1){
-            $uri_image = base_url().$slider->slider_image.'?y=dsvndskjvn';
-            $mob_heading = $slider->slider_heading;
-            $mob_sub_heading = $slider->slider_sub_heading;
-            break;
-          } else {
-            continue;
-          }
-        } 
-      ?>
-      <div class="mobile-home" style="background-image: url('<?= $uri_image ?>');">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="bg-white-transparent pt-20 pb-50 outline-border">
-              <h2 class="text-black-555 font-54"><?php echo $mob_heading; ?></h2>
-              <h5 class="font-weight-400 margin-tp sub_heading"><?php echo $mob_sub_heading; ?></h5>
-            </div>
-          </div>
-        </div>
-      </div>
       <div class="fullwidth-carousel" data-nav="true">
-        <?php foreach ($all_slider as $index => $slider): ?>
+        <?php 
+          foreach ($all_slider as $index => $slider): 
+            if($index == 1){
+              $mob_heading = $slider->slider_heading;
+              $mob_sub_heading = $slider->slider_sub_heading;
+            }
+        ?>
           <div class="carousel-item bg-img-cover " style='background-image: url("");' >
               <img src="<?php echo base_url()?><?php echo $slider->slider_image; ?>?x=21d" width="1519" height="854" alt="yogintra yoga poses" <?php echo ($index != 0) ? 'loading="lazy"' : ''; ?>>
             <div class="overlay"></div>
@@ -89,6 +73,16 @@
             </div>
           </div>
         <?php endforeach; ?>
+      </div>
+      <div class="mobile-home" style="background-image: url('<?= base_url('assets/mobile-header-image.webp') ?>');">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="bg-white-transparent pt-20 pb-50 outline-border">
+              <h2 class="text-black-555 mob-font-54"><?php echo $mob_heading; ?></h2>
+              <h5 class="font-weight-400 margin-tp sub_heading mob-sub_heading"><?php echo $mob_sub_heading; ?></h5>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <section class="section-content-image"  style="background-image: url('<?php echo base_url(); ?><?php echo $section_1->of_image?>');background-repeat: no-repeat;background-size: auto;">
@@ -502,31 +496,32 @@ function locationInfo() {
 
 }
 
-jQuery(function() {
-    var loc = new locationInfo();
-    loc.getCountries();
-    
-    jQuery(".countries").on("change", function(ev) {
-        var countryId = jQuery("option:selected", this).attr('countryid');
-        if(countryId != ''){
-            loc.getStates(countryId);
-        }
-        else{
-            jQuery(".states option:gt(0)").remove();
-        }
-    });
-    jQuery(".states").on("change", function(ev) {
-        var stateId = jQuery("option:selected", this).attr('stateid');
-        if(stateId != ''){
-            loc.getCities(stateId);
-        }
-        else{
-            jQuery(".cities option:gt(0)").remove();
-        }
-    });
-});
 
 $(document).ready(function () {
+    jQuery(function() {
+        var loc = new locationInfo();
+        loc.getCountries();
+        
+        jQuery(".countries").on("change", function(ev) {
+            var countryId = jQuery("option:selected", this).attr('countryid');
+            if(countryId != ''){
+                loc.getStates(countryId);
+            }
+            else{
+                jQuery(".states option:gt(0)").remove();
+            }
+        });
+        jQuery(".states").on("change", function(ev) {
+            var stateId = jQuery("option:selected", this).attr('stateid');
+            if(stateId != ''){
+                loc.getCities(stateId);
+            }
+            else{
+                jQuery(".cities option:gt(0)").remove();
+            }
+        });
+    });
+
     $.ajax({
         url: "https://restcountries.com/v3.1/all",
         type: 'GET',
