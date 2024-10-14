@@ -51,7 +51,7 @@
               $mob_sub_heading = $slider->slider_sub_heading;
             }
         ?>
-          <div class="carousel-item bg-img-cover " style='background-image: url("");' >
+          <div class="carousel-item bg-img-cover ">
               <img src="<?php echo base_url()?><?php echo $slider->slider_image; ?>?x=21d" width="1519" height="854" alt="yogintra yoga poses" <?php echo ($index != 0) ? 'loading="lazy"' : ''; ?>>
             <div class="overlay"></div>
             <div class="display-table" style="z-index: 999;position: absolute;top: 0;">
