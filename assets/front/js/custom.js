@@ -2411,7 +2411,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // IntersectionObserver setup
     const observer = new IntersectionObserver(callback, {
       root: null, // Use the browser viewport
-      threshold: 0.1, // Trigger when 50% of the element is in view
+      threshold: 0.1,
     });
   
     // Target the previous section

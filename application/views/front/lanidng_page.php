@@ -668,7 +668,7 @@
 </div>
 </section>
 
-<section class="">
+<section class="types-of-yoga-section">
       <div class="container " style="padding-top: 30px !important;padding-bottom: 30px!important;">
         <div class="section-title text-center">
           <div class="row">
@@ -855,11 +855,11 @@
 </section>
 
 
-<section class="">
+<section class="review-section">
     <div class="container">
         <div class="row">
 
-   <div class='sk-ww-google-reviews' data-embed-id='25389280'></div><script src='https://widgets.sociablekit.com/google-reviews/widget.js' async defer></script>
+   <div class='sk-ww-google-reviews' data-embed-id='25389280'></div><script data-src='https://widgets.sociablekit.com/google-reviews/widget.js' async defer></script>
 
         </div>
     </div>
