@@ -567,19 +567,19 @@
 
                              <div class="col-sm-4 text-center">
                       <div class="">
-                        <img src="<?php echo base_url(); ?>uploads/6503db8d98529icon-1.png" alt="Alternative Medicines">
+                        <img loading="lazy" src="<?php echo base_url(); ?>uploads/6503db8d98529icon-1.png" alt="Alternative Medicines">
                       </div>
                       <h2 style="font-size: 16px">Alternative Medicines</h2>
                   </div>
                                   <div class="col-sm-4 text-center">
                       <div class="">
-                        <img src="<?php echo base_url(); ?>uploads/6503dbc7b2fc5icon-2.png" alt="For Good Health">
+                        <img loading="lazy" src="<?php echo base_url(); ?>uploads/6503dbc7b2fc5icon-2.png" alt="For Good Health">
                       </div>
                       <h2 style="font-size: 16px">For Good Health</h2>
                   </div>
                                   <div class="col-sm-4 text-center">
                       <div class="">
-                        <img src="<?php echo base_url(); ?>uploads/6503dbe5edf47icon-3.png" alt="Healthy Mind &amp; Body">
+                        <img loading="lazy" src="<?php echo base_url(); ?>uploads/6503dbe5edf47icon-3.png" alt="Healthy Mind &amp; Body">
                       </div>
                       <h2 style="font-size: 16px">Healthy Mind &amp; Body</h2>
                   </div>
@@ -596,7 +596,7 @@
       <div class="container" style="padding-top: 30px !important;padding-bottom: 30px!important;">
         <div class="section-title text-center">
            <row>
-                 <img src="<?php echo base_url(); ?>uploads/download.png" alt="For Good Health">
+                 <img loading="lazy" src="<?php echo base_url(); ?>uploads/download.png" alt="For Good Health">
 
               </row>
       </div>
@@ -621,7 +621,7 @@
                   <div class="col-sm-6">
                     <div class="icon-box icon-theme-colored benefit-icon left media p-0 mb-sm-10 mt-30">
                       <a class="icon icon-circled icon-md  pull-left flip">
-                        <img src="<?php echo base_url(); ?>uploads/65030a9e1ab49health-icon.png" alt="yogintra good for health">
+                        <img loading="lazy" src="<?php echo base_url(); ?>uploads/65030a9e1ab49health-icon.png" alt="yogintra good for health">
                       </a>
                       <div class="media-body">
                         <h3 class="media-heading heading"><b>Good for Health</b></h3>
@@ -632,7 +632,7 @@
                   <div class="col-sm-6">
                     <div class="icon-box icon-theme-colored benefit-icon left media p-0 mb-sm-10 mt-30">
                       <a class="icon icon-circled icon-md  pull-left flip">
-                        <img src="<?php echo base_url(); ?>uploads/65030aafc7902heart-beat.png" alt="yogintra Good for Cardio">
+                        <img loading="lazy" src="<?php echo base_url(); ?>uploads/65030aafc7902heart-beat.png" alt="yogintra Good for Cardio">
                       </a>
                       <div class="media-body">
                         <h3 class="media-heading heading"><b>Good for Cardio</b></h3>
@@ -643,7 +643,7 @@
                   <div class="col-sm-6">
                     <div class="icon-box icon-theme-colored benefit-icon left media p-0 mb-sm-10 mt-30">
                       <a class="icon icon-circled icon-md  pull-left flip">
-                        <img src="<?php echo base_url(); ?>uploads/65030ac4021e6weight-loss.png" alt="yogintra Good for Body">
+                        <img loading="lazy" src="<?php echo base_url(); ?>uploads/65030ac4021e6weight-loss.png" alt="yogintra Good for Body">
                       </a>
                       <div class="media-body">
                         <h3 class="media-heading heading"><b>Good for Body</b></h3>
@@ -654,7 +654,7 @@
                   <div class="col-sm-6">
                     <div class="icon-box icon-theme-colored benefit-icon left media p-0 mb-sm-10 mt-30">
                       <a class="icon icon-circled icon-md  pull-left flip">
-                        <img src="<?php echo base_url(); ?>uploads/65030ad5516adbreathing.png" alt="yogintra Good for Breathing">
+                        <img loading="lazy" src="<?php echo base_url(); ?>uploads/65030ad5516adbreathing.png" alt="yogintra Good for Breathing">
                       </a>
                       <div class="media-body">
                         <h3 class="media-heading heading"><b>Good for Breathing</b></h3>
@@ -684,44 +684,44 @@
        <div class="section-content text-center">
               <div class="row">
                   <div class="col-xs-12 col-sm-6 col-md-3 mb-sm-40 wow fadeInLeft mt-20" data-wow-duration="1s" data-wow-delay="0.3s">
-                    <img class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?>uploads/home_visit_yoga.jpg" alt="TTC">
+                    <img loading="lazy" width="160" height="160" class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?>uploads/home_visit_yoga.jpg" alt="TTC">
                     <h4 class="mb-5">Home Visit Yoga</h4>
 
                     <a href="<?php echo base_url(); ?>service/home-visit-yoga" class="btn btn-success">Visit Now</a>
                   </div>
                     <div class="col-xs-12 col-sm-6 col-md-3 mb-sm-40 wow fadeInLeft mt-20" data-wow-duration="1s" data-wow-delay="0.3s">
-                    <img class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?>uploads/private_online_yoga.png" alt="Private Online Yoga">
+                    <img loading="lazy" width="160" height="160" class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?>uploads/private_online_yoga.png" alt="Private Online Yoga">
                     <h4 class="mb-5">Private Online Yoga</h4>
 
                     <a href="<?php echo base_url(); ?>service/private-online-yoga" class="btn btn-success">Visit Now</a>
                   </div>
                     <div class="col-xs-12 col-sm-6 col-md-3 mb-sm-40 wow fadeInLeft mt-20" data-wow-duration="1s" data-wow-delay="0.3s">
-                    <img class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?>uploads/group_online_yoga.jpg" alt="Group Online Yoga">
+                    <img loading="lazy" width="160" height="160" class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?>uploads/group_online_yoga.jpg" alt="Group Online Yoga">
                     <h4 class="mb-5">Group Online Yoga</h4>
                     <a href="<?php echo base_url(); ?>service/group-online-yoga" class="btn btn-success">Visit Now</a>
                   </div>
                     <div class="col-xs-12 col-sm-6 col-md-3 mb-sm-40 wow fadeInLeft mt-20" data-wow-duration="1s" data-wow-delay="0.3s">
-                    <img class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?>uploads/65057356cad36images-150x150.jpg" alt="Corporate Yoga">
+                    <img loading="lazy" width="160" height="160" class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?>uploads/65057356cad36images-150x150.jpg" alt="Corporate Yoga">
                     <h4 class="mb-5">Corporate Yoga</h4>
                     <a href="<?php echo base_url(); ?>service/corporate-yoga" class="btn btn-success">Visit Now</a>
                   </div>
                    <div class="col-xs-12 col-sm-6 col-md-3 mb-sm-40 wow fadeInLeft mt-20" data-wow-duration="1s" data-wow-delay="0.3s">
-                    <img class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?>uploads/yog_center.jpg" alt="Yoga Center">
+                    <img loading="lazy" width="160" height="160" class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?>uploads/yog_center.jpg" alt="Yoga Center">
                     <h4 class="mb-5">Yoga Center</h4>
                     <a href="<?php echo base_url(); ?>yoga_center" class="btn btn-success">Visit Now</a>
                   </div>
                      <div class="col-xs-12 col-sm-6 col-md-3 mb-sm-40 wow fadeInLeft mt-20" data-wow-duration="1s" data-wow-delay="0.3s">
-                    <img class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?>uploads/ttc.png" alt="TTC">
+                    <img loading="lazy" width="160" height="160" class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?>uploads/ttc.png" alt="TTC">
                     <h4 class="mb-5">TTC</h4>
                     <a href="<?php echo base_url(); ?>teacher_training_course" class="btn btn-success">Visit Now</a>
                   </div>
                   <div class="col-xs-12 col-sm-6 col-md-3 mb-sm-40 wow fadeInLeft mt-20" data-wow-duration="1s" data-wow-delay="0.3s">
-                    <img class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?>assets/icon-thumb4-150x150.jpg" alt="Retreat">
+                    <img loading="lazy" width="160" height="160" class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?>assets/icon-thumb4-150x150.jpg" alt="Retreat">
                     <h4 class="mb-5">Retreat</h4>
                     <a href="<?php echo base_url(); ?>retreat" class="btn btn-success">Visit Now</a>
                   </div>
                   <div class="col-xs-12 col-sm-6 col-md-3 mb-sm-40 wow fadeInLeft mt-20" data-wow-duration="1s" data-wow-delay="0.3s">
-                    <img class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?>uploads/workshop.png" alt="Workshop">
+                    <img loading="lazy" width="160" height="160" class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?>uploads/workshop.png" alt="Workshop">
                     <h4 class="mb-5">Workshop</h4>
                     <a href="<?php echo base_url(); ?>workshop" class="btn btn-success">Visit Now</a>
                   </div>
@@ -735,7 +735,7 @@
          <div class="section-title">
             <div class="row">
                <div class="col-md-4">
-                  <img src="<?php echo base_url(); ?>assets/Square-Logo-with-Name-2-povy7zr4loqk9maa9hbtvdrc77dpfngjngf3wrmp40.png" alt= "yogintra"/>
+                  <img loading="lazy" src="<?php echo base_url(); ?>assets/Square-Logo-with-Name-2-povy7zr4loqk9maa9hbtvdrc77dpfngjngf3wrmp40.webp" alt= "yogintra"/>
                </div>
                <div class="col-md-8 text-xs-center">
                   <h2 class="mt-40 text-xs-center">About YogIntra:</h2>
@@ -754,7 +754,7 @@
                      <h2>Amit Pandey</h2>
                      <span>CEO & Founder of Yogintra</span>
                   </div>
-                  <figure class="image-1"><a href="#" class="lightbox-image" data-fancybox="images"><img title="Amit Pandey" src="<?php echo base_url(); ?>assets/image0-1-e1652675710448-povumdsa83b7dajv3gfs2377ei7o24wz5y0tn7sz34.jpeg" alt="CEO & Founder of Yogintra Amit Pandey"></a></figure>
+                  <figure class="image-1"><a href="#" class="lightbox-image" data-fancybox="images"><img title="Amit Pandey" loading="lazy" src="<?php echo base_url(); ?>assets/image0-1-e1652675710448-povumdsa83b7dajv3gfs2377ei7o24wz5y0tn7sz34.jpeg" alt="CEO & Founder of Yogintra Amit Pandey"></a></figure>
                </div>
             </div>
             <div class="content-column col-lg-6 col-md-12 col-sm-12 order-2 padding-top-media">
@@ -792,7 +792,7 @@
                 <div class="item">
                   <div class="team-members text-center maxwidth400">
                     <div class="team-thumb">
-                      <img class="img-fullwidth" style="height: 200px;width: auto"  alt="YogIntra trainers" src="<?php echo $api; ?>/<?php echo $trainner->profile_image?>">
+                      <img loading="lazy" class="img-fullwidth" style="height: 200px;width: auto"  alt="YogIntra trainers" src="<?php echo $api; ?>/<?php echo $trainner->profile_image?>">
                     </div>
                     <?php
                       $currentYear = date("Y");
@@ -831,21 +831,21 @@
         <div class="col-xs-12 col-sm-6 col-md-4 sm-text-center mb-30 mb-sm-30">
              <div class="team-members text-center maxwidth400" onclick="open_modal(<?php echo $i; ?>)">
                <div class="team-thumb">
-                 <img class="img-fullwidth" id="imageresource_<?php echo $i; ?>" style="height: 200px;width: auto" alt="yogintra" src="<?php echo base_url(); ?>uploads/yoga-pose1.jpeg">
+                 <img loading="lazy" class="img-fullwidth" id="imageresource_<?php echo $i; ?>" style="height: 200px;width: auto" alt="yogintra" src="<?php echo base_url(); ?>uploads/yoga-pose1.jpeg">
                </div>
            </div>
        </div>
        <div class="col-xs-12 col-sm-6 col-md-4 sm-text-center mb-30 mb-sm-30">
              <div class="team-members text-center maxwidth400" onclick="open_modal(<?php echo $i; ?>)">
                <div class="team-thumb">
-                 <img class="img-fullwidth" id="imageresource_<?php echo $i; ?>" style="height: 200px;width: auto" alt="yogintra" src="<?php echo base_url(); ?>uploads/yoga-pose2.jpeg">
+                 <img loading="lazy" class="img-fullwidth" id="imageresource_<?php echo $i; ?>" style="height: 200px;width: auto" alt="yogintra" src="<?php echo base_url(); ?>uploads/yoga-pose2.jpeg">
                </div>
            </div>
        </div>
        <div class="col-xs-12 col-sm-6 col-md-4 sm-text-center mb-30 mb-sm-30">
              <div class="team-members text-center maxwidth400" onclick="open_modal(<?php echo $i; ?>)">
                <div class="team-thumb">
-                 <img class="img-fullwidth" id="imageresource_<?php echo $i; ?>" style="height: 200px;width: auto" alt="yogintra" src="<?php echo base_url(); ?>uploads/yoga-pose3.jpeg">
+                 <img loading="lazy" class="img-fullwidth" id="imageresource_<?php echo $i; ?>" style="height: 200px;width: auto" alt="yogintra" src="<?php echo base_url(); ?>uploads/yoga-pose3.jpeg">
                </div>
            </div>
        </div>
