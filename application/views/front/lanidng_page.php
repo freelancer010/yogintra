@@ -596,7 +596,7 @@
       <div class="container" style="padding-top: 30px !important;padding-bottom: 30px!important;">
         <div class="section-title text-center">
            <row>
-                 <img loading="lazy" src="<?php echo base_url(); ?>uploads/download.png" alt="For Good Health">
+                 <img loading="lazy" src="<?php echo base_url(); ?>uploads/download.webp" alt="For Good Health">
 
               </row>
       </div>
@@ -684,34 +684,34 @@
        <div class="section-content text-center">
               <div class="row">
                   <div class="col-xs-12 col-sm-6 col-md-3 mb-sm-40 wow fadeInLeft mt-20" data-wow-duration="1s" data-wow-delay="0.3s">
-                    <img loading="lazy" width="160" height="160" class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?>uploads/home_visit_yoga.jpg" alt="TTC">
+                    <img loading="lazy" width="160" height="160" class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?>uploads/home_visit_yoga.webp" alt="TTC">
                     <h4 class="mb-5">Home Visit Yoga</h4>
 
                     <a href="<?php echo base_url(); ?>service/home-visit-yoga" class="btn btn-success">Visit Now</a>
                   </div>
                     <div class="col-xs-12 col-sm-6 col-md-3 mb-sm-40 wow fadeInLeft mt-20" data-wow-duration="1s" data-wow-delay="0.3s">
-                    <img loading="lazy" width="160" height="160" class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?>uploads/private_online_yoga.png" alt="Private Online Yoga">
+                    <img loading="lazy" width="160" height="160" class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?>uploads/private_online_yoga.webp" alt="Private Online Yoga">
                     <h4 class="mb-5">Private Online Yoga</h4>
 
                     <a href="<?php echo base_url(); ?>service/private-online-yoga" class="btn btn-success">Visit Now</a>
                   </div>
                     <div class="col-xs-12 col-sm-6 col-md-3 mb-sm-40 wow fadeInLeft mt-20" data-wow-duration="1s" data-wow-delay="0.3s">
-                    <img loading="lazy" width="160" height="160" class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?>uploads/group_online_yoga.jpg" alt="Group Online Yoga">
+                    <img loading="lazy" width="160" height="160" class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?>uploads/group_online_yoga.webp" alt="Group Online Yoga">
                     <h4 class="mb-5">Group Online Yoga</h4>
                     <a href="<?php echo base_url(); ?>service/group-online-yoga" class="btn btn-success">Visit Now</a>
                   </div>
                     <div class="col-xs-12 col-sm-6 col-md-3 mb-sm-40 wow fadeInLeft mt-20" data-wow-duration="1s" data-wow-delay="0.3s">
-                    <img loading="lazy" width="160" height="160" class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?>uploads/65057356cad36images-150x150.jpg" alt="Corporate Yoga">
+                    <img loading="lazy" width="160" height="160" class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?>uploads/65057356cad36images-150x150.webp" alt="Corporate Yoga">
                     <h4 class="mb-5">Corporate Yoga</h4>
                     <a href="<?php echo base_url(); ?>service/corporate-yoga" class="btn btn-success">Visit Now</a>
                   </div>
                    <div class="col-xs-12 col-sm-6 col-md-3 mb-sm-40 wow fadeInLeft mt-20" data-wow-duration="1s" data-wow-delay="0.3s">
-                    <img loading="lazy" width="160" height="160" class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?>uploads/yog_center.jpg" alt="Yoga Center">
+                    <img loading="lazy" width="160" height="160" class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?>uploads/yog_center.webp" alt="Yoga Center">
                     <h4 class="mb-5">Yoga Center</h4>
                     <a href="<?php echo base_url(); ?>yoga_center" class="btn btn-success">Visit Now</a>
                   </div>
                      <div class="col-xs-12 col-sm-6 col-md-3 mb-sm-40 wow fadeInLeft mt-20" data-wow-duration="1s" data-wow-delay="0.3s">
-                    <img loading="lazy" width="160" height="160" class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?>uploads/ttc.png" alt="TTC">
+                    <img loading="lazy" width="160" height="160" class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?>uploads/ttc.webp" alt="TTC">
                     <h4 class="mb-5">TTC</h4>
                     <a href="<?php echo base_url(); ?>teacher_training_course" class="btn btn-success">Visit Now</a>
                   </div>
@@ -721,7 +721,7 @@
                     <a href="<?php echo base_url(); ?>retreat" class="btn btn-success">Visit Now</a>
                   </div>
                   <div class="col-xs-12 col-sm-6 col-md-3 mb-sm-40 wow fadeInLeft mt-20" data-wow-duration="1s" data-wow-delay="0.3s">
-                    <img loading="lazy" width="160" height="160" class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?>uploads/workshop.png" alt="Workshop">
+                    <img loading="lazy" width="160" height="160" class="img-circle img-thumbnail mb-0" src="<?php echo base_url(); ?>uploads/workshop.webp" alt="Workshop">
                     <h4 class="mb-5">Workshop</h4>
                     <a href="<?php echo base_url(); ?>workshop" class="btn btn-success">Visit Now</a>
                   </div>
@@ -730,7 +730,7 @@
         </div>
     </section>
 
-  <section class="divider " data-bg-img="<?php echo base_url(); ?>assets/bg-graphic-free-img-1.jpg">
+  <section class="divider " data-bg-img="<?php echo base_url(); ?>assets/bg-graphic-free-img-1.webp">
       <div class="container pt-45 pb-20 section-padding-2" style="padding-top: 30px !important;padding-bottom: 30px!important;">
          <div class="section-title">
             <div class="row">
