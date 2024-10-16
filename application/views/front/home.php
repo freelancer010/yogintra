@@ -74,7 +74,7 @@
           </div>
         <?php endforeach; ?>
       </div>
-      <div class="mobile-home" style="background-image: url('<?= base_url('assets/mobile-header-image.webp') ?>');">
+      <div class="mobile-home" style="background-image: url('<?= base_url('assets/Home-Banner.jpg') ?>');">
         <div class="row">
           <div class="col-md-6">
             <div class="bg-white-transparent pt-20 pb-50 outline-border">
