@@ -53,6 +53,14 @@
     <!-- End Meta Pixel Code -->
     <?php
         $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+        
+        // Explode the path into segments
+        $segments = explode('/', trim($path, '/'));
+
+        $ogimage_url = base_url('assets/og-logo.jpg');
+        if (isset($segments[1]) && $segments[1] === 'blog') {
+            $ogimage_url = base_url($blog->blog_image);
+        }
     ?>
     <meta property="og:url" content="<?= base_url($path) ?>" />
-    <meta property="og:image" content="<?php echo base_url('assets/og-logo.jpg')?>" />
+    <meta property="og:image" content="<?= @$ogimage_url ?>" />
