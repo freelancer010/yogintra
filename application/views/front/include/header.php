@@ -51,5 +51,16 @@
     src="https://www.facebook.com/tr?id=399354049700557&ev=PageView&noscript=1"
     /></noscript>
     <!-- End Meta Pixel Code -->
-    <meta property="og:url" content="https://yogintra.com/" />
+     <?php
+        // Remove query parameters (if any)
+        $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+
+        // Explode the path into segments
+        $segments = explode('/', trim($path, '/'));
+
+        // Get the last segment, which is usually the slug
+        $slug = end($segments);
+
+    ?>
+    <meta property="og:url" content="<?= base_url($slug) ?>" />
     <meta property="og:image" content="<?php echo base_url('assets/og-logo.jpg')?>" />
