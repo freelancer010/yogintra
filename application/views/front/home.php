@@ -290,7 +290,7 @@
       <div class="container">
           <div class="row">
             <div class='sk-ww-google-reviews' data-embed-id='25389280'></div>
-            <script src='https://widgets.sociablekit.com/google-reviews/widget.js'></script>
+            <script data-src='https://widgets.sociablekit.com/google-reviews/widget.js'></script>
       </div>
     </section>
     <section class="bg-lighter">
@@ -506,35 +506,32 @@ $(document).ready(function () {
 
     var currentStep = 1;
 
+    jQuery(".countries").on("change", function(ev) {
+      var countryId = jQuery("option:selected", this).attr('countryid');
+      if(countryId != ''){
+          loc.getStates(countryId);
+      }
+      else{
+          jQuery(".states option:gt(0)").remove();
+      }
+    });
+    jQuery(".states").on("change", function(ev) {
+      var stateId = jQuery("option:selected", this).attr('stateid');
+      if(stateId != ''){
+          loc.getCities(stateId);
+      }
+      else{
+          jQuery(".cities option:gt(0)").remove();
+      }
+    });
+
     $(".next").click(function () {
         if (validateStep(currentStep)) {
             $("#step-" + currentStep).removeClass("active");
             currentStep++;
             $("#step-" + currentStep).addClass("active");
-
-            jQuery(function() {
-              var loc = new locationInfo();
-              loc.getCountries();
-              
-              jQuery(".countries").on("change", function(ev) {
-                  var countryId = jQuery("option:selected", this).attr('countryid');
-                  if(countryId != ''){
-                      loc.getStates(countryId);
-                  }
-                  else{
-                      jQuery(".states option:gt(0)").remove();
-                  }
-              });
-              jQuery(".states").on("change", function(ev) {
-                  var stateId = jQuery("option:selected", this).attr('stateid');
-                  if(stateId != ''){
-                      loc.getCities(stateId);
-                  }
-                  else{
-                      jQuery(".cities option:gt(0)").remove();
-                  }
-              });
-          });
+            var loc = new locationInfo();
+            loc.getCountries();
         }
     });
 
