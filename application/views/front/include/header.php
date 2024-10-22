@@ -9,7 +9,7 @@
     <link href="<?php echo base_url(); ?><?php echo $app_setting->fevicon; ?>" rel="apple-touch-icon" sizes="114x114">
     <link href="<?php echo base_url(); ?><?php echo $app_setting->fevicon; ?>" rel="apple-touch-icon" sizes="144x144">
     <link rel="manifest" href="<?php echo base_url(); ?>/manifest.json">
-    <link href="<?php echo front_css(); ?>css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?php echo front_css(); ?>css/jquery-ui.min.css" rel="stylesheet" type="text/css">
     <link href="<?php echo front_css(); ?>css/css-plugin-collections.min.css" rel="stylesheet" media="all">
     <link href="<?php echo front_css(); ?>css/menuzord-megamenu.min.css" rel="stylesheet">
@@ -62,5 +62,56 @@
             $ogimage_url = base_url($blog->blog_image);
         }
     ?>
+
+    <!-- Footer -->
+<style>
+  .horizontal-list {
+    list-style-type: none;
+    padding: 0;
+    margin-left:30px ;
+    display: flex;
+    font-size:20px;
+}
+
+.horizontal-list li {
+    margin-right: 10px; 
+}
+
+.horizontal-list li:last-child {
+    margin-right: 0;
+}
+
+@media only screen and (min-width : 320px) {
+        .city_loc{
+          text-align: left !important;
+        }
+        
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+
+       .city_loc{
+            text-align: left !important;
+       }
+    }
+
+  .owl-carousel .owl-stage,
+  .owl-carousel.owl-drag .owl-item{
+      -ms-touch-action: auto;
+          touch-action: auto;
+  }
+      .layer-overlay.overlay-dark-7::before {
+    background-color: rgba(17, 17, 17, 0.1)!important;
+  }
+  .overlay-dark-7
+  {
+    background-position: top!important;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover!important;
+  }
+
+</style>
     <meta property="og:url" content="<?= base_url($path) ?>" />
     <meta property="og:image" content="<?= @$ogimage_url ?>" />

@@ -1,42 +1,4 @@
-<!-- Footer -->
-<style>
-  .horizontal-list {
-    list-style-type: none;
-    padding: 0;
-    margin-left:30px ;
-    display: flex;
-    font-size:20px;
-}
-
-.horizontal-list li {
-    margin-right: 10px; 
-}
-
-.horizontal-list li:last-child {
-    margin-right: 0;
-}
-
-@media only screen and (min-width : 320px) {
-        .city_loc{
-          text-align: left !important;
-        }
-        
-    }
-
-    /* Extra Small Devices, Phones */ 
-    @media only screen and (min-width : 480px) {
-
-       .city_loc{
-            text-align: left !important;
-       }
-    }
-  </style>
-  
-  <br>
-<!--  <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>-->
-<!--<div class="elfsight-app-fba57de6-4614-4341-80ed-6d6b3504350a" data-elfsight-app-lazy></div>-->
-
-
+ <br>
  <footer id="footer" class="footer bg-black-111" style="background-color:#000!important;margin-top: -22px!important;">
        <div class="container pt-40 pb-10">
          <div class="row border-bottom-black">
@@ -107,8 +69,7 @@
                     <?php 
                     $all_landing_page = $this->db->get('new_landing_page')->result();
                     foreach ($all_landing_page as $key => $pages):?>
-                         <!-- <li style="display: inline-block; margin-right: 10px;"><a href="<?php echo base_url() . 'landing_page/'.$pages->page_name; ?>"><?php echo $pages->page_name; ?> |</a></li>  -->
-                        <li style="display: inline-block; margin-right: 10px;"><a href="<?php echo base_url() ."city/".$pages->page_slug; ?>"><?php echo $pages->page_name; ?> |</a></li>
+                      <li style="display: inline-block; margin-right: 10px;"><a href="<?php echo base_url() ."city/".$pages->page_slug; ?>"><?php echo $pages->page_name; ?> |</a></li>
                     <?php endforeach; ?>
                 </ul>
             </div>
@@ -151,46 +112,12 @@ $('form').submit(function() {
 <!-- JS | Custom script for all pages -->
 <script src="<?php echo front_css(); ?>js/custom.min.js"></script>
 
-<!-- SLIDER REVOLUTION 5.0 EXTENSIONS  
-      (Load Extensions only on Local File Systems ! 
-       The following part can be removed on Server for On Demand Loading) -->
-<!-- <script type="text/javascript" src="<?php //echo front_css(); ?>js/revolution-slider/js/extensions/revolution.extension.actions.min.js"></script>
-<script type="text/javascript" src="<?php //echo front_css(); ?>js/revolution-slider/js/extensions/revolution.extension.carousel.min.js"></script>
-<script type="text/javascript" src="<?php //echo front_css(); ?>js/revolution-slider/js/extensions/revolution.extension.kenburn.min.js"></script>
-<script type="text/javascript" src="<?php //echo front_css(); ?>js/revolution-slider/js/extensions/revolution.extension.layeranimation.min.js"></script>
-<script type="text/javascript" src="<?php //echo front_css(); ?>js/revolution-slider/js/extensions/revolution.extension.migration.min.js"></script>
-<script type="text/javascript" src="<?php //echo front_css(); ?>js/revolution-slider/js/extensions/revolution.extension.navigation.min.js"></script>
-<script type="text/javascript" src="<?php //echo front_css(); ?>js/revolution-slider/js/extensions/revolution.extension.parallax.min.js"></script>
-<script type="text/javascript" src="<?php //echo front_css(); ?>js/revolution-slider/js/extensions/revolution.extension.slideanims.min.js"></script>
-<script type="text/javascript" src="<?php //echo front_css(); ?>js/revolution-slider/js/extensions/revolution.extension.video.min.js"></script> -->
-
-
 <script async src='https://d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js'></script>
-        <script>
-          var wa_btnSetting = {"btnColor":"#16BE45","ctaText":"","cornerRadius":40,"marginBottom":20,"marginLeft":20,"marginRight":20,"btnPosition":"left","whatsAppNumber":"919867291573","welcomeMessage":"Hello","zIndex":999999,"btnColorScheme":"light"};
-          window.onload = () => {
-            _waEmbed(wa_btnSetting);
-          };
-        </script>
-
-
+<script>
+  var wa_btnSetting = {"btnColor":"#16BE45","ctaText":"","cornerRadius":40,"marginBottom":20,"marginLeft":20,"marginRight":20,"btnPosition":"left","whatsAppNumber":"919867291573","welcomeMessage":"Hello","zIndex":999999,"btnColorScheme":"light"};
+  window.onload = () => {
+    _waEmbed(wa_btnSetting);
+  };
+</script>
 </body>
 </html>
-<style>
-.owl-carousel .owl-stage,
-.owl-carousel.owl-drag .owl-item{
-    -ms-touch-action: auto;
-        touch-action: auto;
-}
-    .layer-overlay.overlay-dark-7::before {
-  background-color: rgba(17, 17, 17, 0.1)!important;
-}
-.overlay-dark-7
-{
-  background-position: top!important;
-  height: 300px;
-  background-repeat: no-repeat;
-  background-size: cover!important;
-}
-
-</style>
