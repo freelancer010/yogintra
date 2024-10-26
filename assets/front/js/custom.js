@@ -426,7 +426,7 @@ var THEMEMASCOT = {};
                 $(this).css("cssText", "background: " + $(this).data("bg-color") + " !important;");
             });
             $('[data-bg-img]').each(function() {
-                $(this).css('background-image', 'url(' + $(this).data("bg-img") + ')');
+                $(this).css('background-image', 'url("' + $(this).data("bg-img") + '")');
             });
             $('[data-text-color]').each(function() {
                 $(this).css('color', $(this).data("text-color"));
