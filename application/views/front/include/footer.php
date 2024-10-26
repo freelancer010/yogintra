@@ -102,11 +102,11 @@
 </div>
 <!-- end wrapper -->
 <script type="text/javascript">
-$('form').submit(function() {
-     $('button[type="submit"]').html('Processing....');
-     $('button[type="submit"]').attr('disabled',true);
-     $(".loader").show();
- });
+  $('form').submit(function() {
+      $('button[type="submit"]').html('Processing....');
+      $('button[type="submit"]').attr('disabled',true);
+      $(".loader").show();
+  });
 </script>
 <!-- Footer Scripts -->
 <!-- JS | Custom script for all pages -->

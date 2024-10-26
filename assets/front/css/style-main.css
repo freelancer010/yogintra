@@ -8875,10 +8875,9 @@ a.btn,.btn-primary{
     .cst-font{
         font-size:28px;
     }
-    .about-section .content-column {
-   
-    margin-top: 115px !important;
-}
+    .about-section .content-column { 
+      margin-top: 115px !important;
+    }
 }
 @media only screen and (max-width: 767px) {
   .fullwidth-carousel{
@@ -8929,4 +8928,8 @@ a.btn,.btn-primary{
 .brief-dec-title{
   font-family: 'Philosopher', 'Sans-serif' !important; 
   font-size: 35px;color: #000;
+}
+
+.review-section{
+  height: 59vh;
 }
