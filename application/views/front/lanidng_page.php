@@ -987,31 +987,27 @@ function locationInfo() {
 
 }
 
-jQuery(function() {
-    var loc = new locationInfo();
-    loc.getCountries();
-    loc.getStates();
-    jQuery(".countries").on("change", function(ev) {
-        var countryId = jQuery("option:selected", this).attr('countryid');
-        if(countryId != ''){
-            loc.getStates(countryId);
-        }
-        else{
-            jQuery(".states option:gt(0)").remove();
-        }
-    });
-    jQuery(".states").on("change", function(ev) {
-        var stateId = jQuery("option:selected", this).attr('stateid');
-        if(stateId != ''){
-            loc.getCities(stateId);
-        }
-        else{
-            jQuery(".cities option:gt(0)").remove();
-        }
-    });
-});
-
 $(document).ready(function () {
+      jQuery(function() {
+        jQuery(".countries").on("change", function(ev) {
+            var countryId = jQuery("option:selected", this).attr('countryid');
+            if(countryId != ''){
+                loc.getStates(countryId);
+            }
+            else{
+                jQuery(".states option:gt(0)").remove();
+            }
+        });
+        jQuery(".states").on("change", function(ev) {
+            var stateId = jQuery("option:selected", this).attr('stateid');
+            if(stateId != ''){
+                loc.getCities(stateId);
+            }
+            else{
+                jQuery(".cities option:gt(0)").remove();
+            }
+        });
+    });
 
     var currentStep = 1;
 
@@ -1020,6 +1016,9 @@ $(document).ready(function () {
             $("#step-" + currentStep).removeClass("active");
             currentStep++;
             $("#step-" + currentStep).addClass("active");
+            var loc = new locationInfo();
+            loc.getCountries();
+            loc.getStates();
         }
     });
 
