@@ -859,7 +859,7 @@
     <div class="container">
         <div class="row">
 
-   <div class='sk-ww-google-reviews' data-embed-id='25389280'></div><script data-src='https://widgets.sociablekit.com/google-reviews/widget.js' async defer></script>
+   <div class='sk-ww-google-reviews' data-embed-id='25389280'></div><script data-src='https://widgets.sociablekit.com/google-reviews-old/widget.js' async defer></script>
 
         </div>
     </div>
