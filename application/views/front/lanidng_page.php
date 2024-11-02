@@ -471,19 +471,19 @@
                     <div class="form-step" id="step-2">
                         <div class="form-group">
                             <label for="country">Select Country:</label>
-                            <select class="form-control countries" id="country" name="country" required>
+                            <select class="form-control countries" id="country" name="country">
                                 <!-- Add options for countries here -->
                             </select>
                         </div>
                         <div class="form-group">
                             <label for="state">Select State:</label>
-                            <select class="form-control states" id="state" name="state" required>
+                            <select class="form-control states" id="state" name="state">
                                 <option value="" >Select your Country First</option>
                             </select>
                         </div>
                         <div class="form-group">
                             <label for="city">Select City:</label>
-                            <select class="form-control cities" id="city" name="city" required>
+                            <select class="form-control cities" id="city" name="city">
                                 <option value="" >Select your state first</option>
                             </select>
                         </div>
