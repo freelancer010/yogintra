@@ -506,6 +506,7 @@ $(document).ready(function () {
         success: function(response) { }
     });
 
+    var loc = new locationInfo();
     var currentStep = 1;
 
     jQuery(".countries").on("change", function(ev) {
@@ -532,7 +533,6 @@ $(document).ready(function () {
             $("#step-" + currentStep).removeClass("active");
             currentStep++;
             $("#step-" + currentStep).addClass("active");
-            var loc = new locationInfo();
             loc.getCountries();
         }
     });
