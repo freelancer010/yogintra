@@ -469,26 +469,26 @@
                     </div>
                     <!-- Step 2: Location -->
                     <div class="form-step" id="step-2">
-                        <div class="form-group">
-                            <label for="country">Select Country:</label>
-                            <select class="form-control countries" id="country" name="country">
-                                <!-- Add options for countries here -->
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="state">Select State:</label>
-                            <select class="form-control states" id="state" name="state">
-                                <option value="" >Select your Country First</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="city">Select City:</label>
-                            <select class="form-control cities" id="city" name="city">
-                                <option value="" >Select your state first</option>
-                            </select>
-                        </div>
-                        <button class="btn btn-primary prev" type="button">Previous</button>
-                        <button class="btn btn-primary next" type="button">Next</button>
+                      <div class="form-group">
+                          <label for="country">Select Country:</label>
+                          <select class="form-control countries" id="country" name="country" required>
+                              <!-- Add options for countries here -->
+                          </select>
+                      </div>
+                      <div class="form-group">
+                          <label for="state">Select State:</label>
+                          <select class="form-control states" id="state" name="state" required>
+                              <option value="" >Select your Country First</option>
+                          </select>
+                      </div>
+                      <div class="form-group">
+                          <label for="city">Select City:</label>
+                          <select class="form-control cities" id="city" name="city" required>
+                              <option value="" >Select your state first</option>
+                          </select>
+                      </div>
+                      <button class="btn btn-primary prev" type="button">Previous</button>
+                      <button class="btn btn-primary next" type="button">Next</button>
                     </div>
                     <!-- Step 3: Service Information -->
                     <div class="form-step" id="step-3">
@@ -987,47 +987,50 @@ function locationInfo() {
 
 }
 
-$(document).ready(function () {
+  $(document).ready(function () {
 
-var loc = new locationInfo();
-var currentStep = 1;
+  var loc = new locationInfo();
+  var currentStep = 1;
 
-$(function() {
-  $(".countries").on("change", function(ev) {
-    var countryId = $("option:selected", this).attr('countryid');
-    if(countryId != ''){
-      loc.getStates(countryId);
-    }
-    else{
-      $(".states option:gt(0)").remove();
-    }
-  });
-  $(".states").on("change", function(ev) {
-    var stateId = $("option:selected", this).attr('stateid');
-    if(stateId != ''){
-      loc.getCities(stateId);
-    }
-    else{
-      $(".cities option:gt(0)").remove();
-    }
-  });
-});
-
-    $(".next").click(function () {
-        if (validateStep(currentStep)) {
-            $("#step-" + currentStep).removeClass("active");
-            currentStep++;
-            $("#step-" + currentStep).addClass("active");
-            loc.getCountries();
-            loc.getStates();
-        }
+  $(function() {
+    $(".countries").on("change", function(ev) {
+      var countryId = $("option:selected", this).attr('countryid');
+      if(countryId != ''){
+        loc.getStates(countryId);
+      }
+      else{
+        $(".states option:gt(0)").remove();
+      }
     });
+    $(".states").on("change", function(ev) {
+      var stateId = $("option:selected", this).attr('stateid');
+      if(stateId != ''){
+        loc.getCities(stateId);
+      }
+      else{
+        $(".cities option:gt(0)").remove();
+      }
+    });
+  });
 
-    $(".prev").click(function () {
+  $(".next").click(function () {
+      if (validateStep(currentStep)) {
         $("#step-" + currentStep).removeClass("active");
-        currentStep--;
+        currentStep++;
         $("#step-" + currentStep).addClass("active");
-    });
+
+        if(currentStep == 2){
+          loc.getCountries();
+          loc.getStates();
+        }
+      }
+  });
+
+  $(".prev").click(function () {
+      $("#step-" + currentStep).removeClass("active");
+      currentStep--;
+      $("#step-" + currentStep).addClass("active");
+  });
 
     function validateStep(step) {
         var isValid = true;
