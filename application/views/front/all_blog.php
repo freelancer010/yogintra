@@ -52,7 +52,7 @@
                       </div>
                       <div class="media-body pl-15">
                         <div class="event-content pull-left flip">
-                          <h4 class="entry-title text-white text-uppercase m-0 mt-5"><a href="<?php echo base_url(); ?>blog/<?php echo $all_blog->blog_slug; ?>"><?php echo  mb_strimwidth($all_blog->blog_title, 0, 50, "..."); ?></a></h4>
+                          <h4 class="entry-title text-white text-uppercase m-0 mt-5"><a class="elipse-text" href="<?php echo base_url(); ?>blog/<?php echo $all_blog->blog_slug; ?>"><?php echo  mb_strimwidth($all_blog->blog_title, 0, 50, "..."); ?></a></h4>
                         </div>
                       </div>
                     </div>
