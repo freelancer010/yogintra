@@ -59,14 +59,8 @@ if(isset($_COOKIE["PHPSESSID"])){
  *
  * NOTE: If you change these, also change the error_reporting() code below
  */
-	// define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'development');
-	
-	if($_SERVER['HTTP_HOST'] == 'localhost'){
-		define('ENVIRONMENT', 'development');
-	} else{
-		define('ENVIRONMENT', 'production');
-	}
-	define('CDN_URL', 'https://cdn.yogintra.com/');
+	define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'development');
+	// define('ENVIRONMENT', 'production');
 
 /*
  *---------------------------------------------------------------
@@ -79,9 +73,9 @@ if(isset($_COOKIE["PHPSESSID"])){
 switch (ENVIRONMENT)
 {
 	case 'development':
-		error_reporting(-1);
-		ini_set('display_errors', 1);
-	break;
+	// 	error_reporting(-1);
+	// 	ini_set('display_errors', 1);
+	// break;
 
 	case 'testing':
 	case 'production':
