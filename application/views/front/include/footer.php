@@ -100,6 +100,35 @@
   </footer>
   <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
 </div>
+
+<script>
+  window.addEventListener('load', function() {
+    if (window.location.pathname === "/") {
+      gtag('event', 'conversion', {
+        'send_to': 'AW-11419284283/kVoECMPr76YaELvmkcUq'
+      });
+
+    }
+  });
+
+</script>
+
+<script>
+  window.addEventListener('load', function() {
+    if (window.location.pathname.includes('/thank_you')) {
+      gtag('event', 'conversion', {
+        'send_to': 'AW-11419284283/ZXcKCMDr76YaELvmkcUq'
+      });
+    }
+  });
+  document.addEventListener('click', function(e) {
+    if (e.target.closest('#wa-btn-wrapper')) {
+  gtag('event', 'conversion', {'send_to': 'AW-11419284283/TdtYCMbr76YaELvmkcUq'});
+    }
+  })
+
+</script>
+
 <!-- end wrapper -->
 <script type="text/javascript">
   $('form').submit(function() {

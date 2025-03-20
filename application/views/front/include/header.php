@@ -39,7 +39,15 @@
     <link href="<?php echo front_css(); ?>css/custom-bootstrap-margin-padding.min.css" rel="stylesheet" type="text/css" media="all">
     <link href="<?php echo front_css(); ?>css/colors/theme-skin-color-set1.min.css" rel="stylesheet" type="text/css">
     <!-- <script src="<?php //echo front_css(); ?>js/common.js"></script> -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8QW4B6YQ9G"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
+      gtag('config', 'G-8QW4B6YQ9G');
+    </script>
 
     <!-- Meta Pixel Code -->
     <script>
