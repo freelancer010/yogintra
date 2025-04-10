@@ -133,25 +133,28 @@
                            <div class="col-md-3 ">
                               <div class="form-group">
                                  <label for="title">Select Country <span class="required">*</span></label>
-                                 <select class="form-control countries" id="country" name="country" required>
+                                 <!-- <select class="form-control countries" id="country" name="country" required>
                                       <option value="">Selec A Country</option>
-                                 </select>
+                                 </select> -->
+                                 <input type="text" class="form-control countries" id="country" name="country" required placeholder="Enter your Country" />
                               </div>
                            </div>
                            <div class="col-md-3 ">
                               <div class="form-group">
                                  <label for="title">Select State <span class="required">*</span></label>
-                                 <select class="form-control states" id="state" name="state" required>
+                                 <!-- <select class="form-control states" id="state" name="state" required>
                                       <option value="" >Select your Country First</option>
-                                  </select>
+                                  </select> -->
+                                 <input type="text" class="form-control states" id="state" name="state" required placeholder="Enter your State" />
                               </div>
                            </div>
                            <div class="col-md-3 ">
                               <div class="form-group">
                                  <label for="title">Select City <span class="required">*</span></label>
-                                 <select class="form-control cities" id="city" name="city" required>
+                                 <!-- <select class="form-control cities" id="city" name="city" required>
                                       <option value="" >Select your state first</option>
-                                  </select>
+                                  </select> -->
+                                 <input type="text" class="form-control cities" id="city" name="city" required placeholder="Enter your city" />
                               </div>
                            </div>
                            <div class="col-md-3 ">

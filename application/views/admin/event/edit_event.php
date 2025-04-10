@@ -139,25 +139,19 @@
                        <div class="col-md-3 ">
                            <div class="form-group">
                               <label for="title">Select Country <span class="required">*</span></label>
-                              <select class="form-control countries" id="country" name="country" required>
-                                   <option value="<?php echo $event->country; ?>"><?php echo $event->country; ?></option>
-                              </select>
+                              <input type="text" class="form-control countries" id="country" name="country" value="<?php echo $event->country; ?>" required placeholder="Enter your Country" />
                            </div>
                         </div>
                         <div class="col-md-3 ">
                            <div class="form-group">
                               <label for="title">Select State <span class="required">*</span></label>
-                              <select class="form-control states" id="state" name="state" required>
-                                   <option value="<?php echo $event->state; ?>" ><?php echo $event->state; ?></option>
-                               </select>
+                              <input type="text" value="<?php echo $event->state; ?>" class="form-control states" id="state" name="state" required placeholder="Enter your State" />
                            </div>
                         </div>
                         <div class="col-md-3 ">
                            <div class="form-group">
                               <label for="title">Select City <span class="required">*</span></label>
-                              <select class="form-control cities" id="city" name="city" required>
-                                   <option value="<?php echo $event->city; ?>" ><?php echo $event->city; ?></option>
-                               </select>
+                              <input type="text" value="<?php echo $event->city; ?>" class="form-control cities" id="city" name="city" required placeholder="Enter your city" />
                            </div>
                         </div>
                         <div class="col-md-3 ">

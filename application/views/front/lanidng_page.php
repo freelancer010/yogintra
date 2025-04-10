@@ -471,21 +471,24 @@
                     <div class="form-step" id="step-2">
                       <div class="form-group">
                           <label for="country">Select Country:</label>
-                          <select class="form-control countries" id="country" name="country" required>
-                              <!-- Add options for countries here -->
-                          </select>
+                          <!-- <select class="form-control countries" id="country" name="country" required>
+                            
+                          </select> -->
+                          <input type="text" class="form-control countries" id="country" name="country" required placeholder="Enter your Country" />
                       </div>
                       <div class="form-group">
                           <label for="state">Select State:</label>
-                          <select class="form-control states" id="state" name="state" required>
+                          <!-- <select class="form-control states" id="state" name="state" required>
                               <option value="" >Select your Country First</option>
-                          </select>
+                          </select> -->
+                          <input type="text" class="form-control states" id="state" name="state" required placeholder="Enter your State" />
                       </div>
                       <div class="form-group">
                           <label for="city">Select City:</label>
-                          <select class="form-control cities" id="city" name="city" required>
+                          <!-- <select class="form-control cities" id="city" name="city" required>
                               <option value="" >Select your state first</option>
-                          </select>
+                          </select> -->
+                          <input type="text" class="form-control cities" id="city" name="city" required placeholder="Enter your city" />
                       </div>
                       <button class="btn btn-primary prev" type="button">Previous</button>
                       <button class="btn btn-primary next" type="button">Next</button>
